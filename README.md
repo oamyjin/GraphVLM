@@ -1,6 +1,9 @@
 <div align="center">
-<img src="https://github.com/oamyjin/Graph-MLLM/blob/main/docs/title.png" border="0" width=460px/>
+
+# [CVPR'26] GraphVLM: Benchmarking Vision Language Models for Multimodal Graph Learning
+
 </div>
+
 
 ------
 <p align="center">
