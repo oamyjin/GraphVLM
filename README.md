@@ -1,7 +1,7 @@
 ## 🔥 Updates
 
 - 🚧 Implementation of **GraphVLM** will be released soon.
-- 🎉 Accepted by **CVPR 2026**.
+- 🎉🎉🎉 Accepted by **CVPR 2026**.
 - 📄 Initial release for **Graph-MLLM (arXiv)**.
 
 
