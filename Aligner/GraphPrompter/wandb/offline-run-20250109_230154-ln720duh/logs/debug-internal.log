@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:01:54.406833129+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:01:54.406874177+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_230154-ln720duh/logs/debug-core.log"}
+{"time":"2025-01-09T23:01:54.516853397+08:00","level":"INFO","msg":"created new stream","id":"ln720duh"}
+{"time":"2025-01-09T23:01:54.516882567+08:00","level":"INFO","msg":"stream: started","id":"ln720duh"}
+{"time":"2025-01-09T23:01:54.517060801+08:00","level":"INFO","msg":"handler: started","stream_id":"ln720duh"}
+{"time":"2025-01-09T23:01:54.517102457+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ln720duh"}
+{"time":"2025-01-09T23:01:54.517380467+08:00","level":"INFO","msg":"sender: started","stream_id":"ln720duh"}
+{"time":"2025-01-09T23:01:54.521138905+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:02:16.455830531+08:00","level":"INFO","msg":"stream: closing","id":"ln720duh"}
+{"time":"2025-01-09T23:02:16.455872092+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:02:16.456496837+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:02:16.456630169+08:00","level":"INFO","msg":"handler: closed","stream_id":"ln720duh"}
+{"time":"2025-01-09T23:02:16.456641307+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ln720duh"}
+{"time":"2025-01-09T23:02:16.456654356+08:00","level":"INFO","msg":"sender: closed","stream_id":"ln720duh"}
+{"time":"2025-01-09T23:02:16.458620228+08:00","level":"INFO","msg":"stream: closed","id":"ln720duh"}

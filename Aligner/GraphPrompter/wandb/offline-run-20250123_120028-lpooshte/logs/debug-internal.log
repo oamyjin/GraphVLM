@@ -1,0 +1,15 @@
+{"time":"2025-01-23T12:00:28.601352339+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T12:00:28.601409787+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250123_120028-lpooshte/logs/debug-core.log"}
+{"time":"2025-01-23T12:00:28.858715158+08:00","level":"INFO","msg":"created new stream","id":"lpooshte"}
+{"time":"2025-01-23T12:00:28.858750838+08:00","level":"INFO","msg":"stream: started","id":"lpooshte"}
+{"time":"2025-01-23T12:00:28.85877969+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"lpooshte"}
+{"time":"2025-01-23T12:00:28.858835319+08:00","level":"INFO","msg":"handler: started","stream_id":"lpooshte"}
+{"time":"2025-01-23T12:00:28.858859209+08:00","level":"INFO","msg":"sender: started","stream_id":"lpooshte"}
+{"time":"2025-01-23T12:00:28.866191557+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T12:00:29.958777089+08:00","level":"INFO","msg":"stream: closing","id":"lpooshte"}
+{"time":"2025-01-23T12:00:29.960973031+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T12:00:29.962390146+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T12:00:29.967564927+08:00","level":"INFO","msg":"handler: closed","stream_id":"lpooshte"}
+{"time":"2025-01-23T12:00:29.967578164+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lpooshte"}
+{"time":"2025-01-23T12:00:29.967672739+08:00","level":"INFO","msg":"sender: closed","stream_id":"lpooshte"}
+{"time":"2025-01-23T12:00:29.967683263+08:00","level":"INFO","msg":"stream: closed","id":"lpooshte"}

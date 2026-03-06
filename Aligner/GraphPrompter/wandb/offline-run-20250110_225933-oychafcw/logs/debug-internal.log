@@ -1,0 +1,15 @@
+{"time":"2025-01-10T22:59:33.444279785+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T22:59:33.444401796+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_225933-oychafcw/logs/debug-core.log"}
+{"time":"2025-01-10T22:59:33.556210857+08:00","level":"INFO","msg":"created new stream","id":"oychafcw"}
+{"time":"2025-01-10T22:59:33.556246413+08:00","level":"INFO","msg":"stream: started","id":"oychafcw"}
+{"time":"2025-01-10T22:59:33.556262072+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"oychafcw"}
+{"time":"2025-01-10T22:59:33.556348053+08:00","level":"INFO","msg":"sender: started","stream_id":"oychafcw"}
+{"time":"2025-01-10T22:59:33.556364203+08:00","level":"INFO","msg":"handler: started","stream_id":"oychafcw"}
+{"time":"2025-01-10T22:59:33.560403711+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T22:59:33.898179921+08:00","level":"INFO","msg":"stream: closing","id":"oychafcw"}
+{"time":"2025-01-10T22:59:33.898234875+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T22:59:33.89871006+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T22:59:33.898872308+08:00","level":"INFO","msg":"handler: closed","stream_id":"oychafcw"}
+{"time":"2025-01-10T22:59:33.898885823+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oychafcw"}
+{"time":"2025-01-10T22:59:33.89889485+08:00","level":"INFO","msg":"sender: closed","stream_id":"oychafcw"}
+{"time":"2025-01-10T22:59:33.899093198+08:00","level":"INFO","msg":"stream: closed","id":"oychafcw"}

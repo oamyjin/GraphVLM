@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:35:05.5838057+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:35:05.583943161+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_193505-r2lgvyop/logs/debug-core.log"}
+{"time":"2025-01-09T19:35:05.691880449+08:00","level":"INFO","msg":"created new stream","id":"r2lgvyop"}
+{"time":"2025-01-09T19:35:05.691920347+08:00","level":"INFO","msg":"stream: started","id":"r2lgvyop"}
+{"time":"2025-01-09T19:35:05.691932494+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"r2lgvyop"}
+{"time":"2025-01-09T19:35:05.691946428+08:00","level":"INFO","msg":"handler: started","stream_id":"r2lgvyop"}
+{"time":"2025-01-09T19:35:05.691992227+08:00","level":"INFO","msg":"sender: started","stream_id":"r2lgvyop"}
+{"time":"2025-01-09T19:35:05.695614436+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:35:33.54138337+08:00","level":"INFO","msg":"stream: closing","id":"r2lgvyop"}
+{"time":"2025-01-09T19:35:33.541433854+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:35:33.542313538+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:35:33.542470715+08:00","level":"INFO","msg":"handler: closed","stream_id":"r2lgvyop"}
+{"time":"2025-01-09T19:35:33.542484501+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"r2lgvyop"}
+{"time":"2025-01-09T19:35:33.542498924+08:00","level":"INFO","msg":"sender: closed","stream_id":"r2lgvyop"}
+{"time":"2025-01-09T19:35:33.542744052+08:00","level":"INFO","msg":"stream: closed","id":"r2lgvyop"}

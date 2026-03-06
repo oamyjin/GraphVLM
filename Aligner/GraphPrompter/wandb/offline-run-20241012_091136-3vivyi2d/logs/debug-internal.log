@@ -1,0 +1,9 @@
+{"time":"2024-10-12T09:11:36.604123592+08:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T09:11:36.604176307+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/jl11523/graphprompter/wandb/offline-run-20241012_091136-3vivyi2d/logs/debug-core.log"}
+{"time":"2024-10-12T09:11:36.644090169+08:00","level":"INFO","msg":"created new stream","id":"3vivyi2d"}
+{"time":"2024-10-12T09:11:36.644123244+08:00","level":"INFO","msg":"stream: started","id":"3vivyi2d"}
+{"time":"2024-10-12T09:11:36.644136025+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"3vivyi2d"}}
+{"time":"2024-10-12T09:11:36.644139293+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"3vivyi2d"}}
+{"time":"2024-10-12T09:11:36.644154488+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"3vivyi2d"}}
+{"time":"2024-10-12T09:11:36.649062686+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T09:11:36.649739415+08:00","level":"INFO","msg":"Starting system monitor"}

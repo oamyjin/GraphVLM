@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:49:40.152400913+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:49:40.152453082+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_194940-ui6vatnp/logs/debug-core.log"}
+{"time":"2025-01-09T19:49:40.259955059+08:00","level":"INFO","msg":"created new stream","id":"ui6vatnp"}
+{"time":"2025-01-09T19:49:40.25998778+08:00","level":"INFO","msg":"stream: started","id":"ui6vatnp"}
+{"time":"2025-01-09T19:49:40.260111466+08:00","level":"INFO","msg":"handler: started","stream_id":"ui6vatnp"}
+{"time":"2025-01-09T19:49:40.26013798+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ui6vatnp"}
+{"time":"2025-01-09T19:49:40.260132248+08:00","level":"INFO","msg":"sender: started","stream_id":"ui6vatnp"}
+{"time":"2025-01-09T19:49:40.268103899+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:49:47.596055422+08:00","level":"INFO","msg":"stream: closing","id":"ui6vatnp"}
+{"time":"2025-01-09T19:49:47.596104936+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:49:47.597395258+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:49:47.597550118+08:00","level":"INFO","msg":"handler: closed","stream_id":"ui6vatnp"}
+{"time":"2025-01-09T19:49:47.597561074+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ui6vatnp"}
+{"time":"2025-01-09T19:49:47.597569362+08:00","level":"INFO","msg":"sender: closed","stream_id":"ui6vatnp"}
+{"time":"2025-01-09T19:49:47.609877371+08:00","level":"INFO","msg":"stream: closed","id":"ui6vatnp"}

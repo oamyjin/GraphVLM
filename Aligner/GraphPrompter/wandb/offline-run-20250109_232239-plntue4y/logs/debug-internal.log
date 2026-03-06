@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:22:39.88253293+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:22:39.882582635+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_232239-plntue4y/logs/debug-core.log"}
+{"time":"2025-01-09T23:22:39.989328288+08:00","level":"INFO","msg":"created new stream","id":"plntue4y"}
+{"time":"2025-01-09T23:22:39.989365701+08:00","level":"INFO","msg":"stream: started","id":"plntue4y"}
+{"time":"2025-01-09T23:22:39.989461125+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"plntue4y"}
+{"time":"2025-01-09T23:22:39.98949178+08:00","level":"INFO","msg":"sender: started","stream_id":"plntue4y"}
+{"time":"2025-01-09T23:22:39.989520715+08:00","level":"INFO","msg":"handler: started","stream_id":"plntue4y"}
+{"time":"2025-01-09T23:22:39.994574382+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:22:40.361968309+08:00","level":"INFO","msg":"stream: closing","id":"plntue4y"}
+{"time":"2025-01-09T23:22:40.362012488+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:22:40.362638+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:22:40.362802939+08:00","level":"INFO","msg":"handler: closed","stream_id":"plntue4y"}
+{"time":"2025-01-09T23:22:40.362815869+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"plntue4y"}
+{"time":"2025-01-09T23:22:40.362830997+08:00","level":"INFO","msg":"sender: closed","stream_id":"plntue4y"}
+{"time":"2025-01-09T23:22:40.365071206+08:00","level":"INFO","msg":"stream: closed","id":"plntue4y"}

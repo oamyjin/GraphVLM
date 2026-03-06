@@ -1,0 +1,15 @@
+{"time":"2025-01-20T23:11:04.893469121+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-20T23:11:04.89353045+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250120_231104-rfavkn5d/logs/debug-core.log"}
+{"time":"2025-01-20T23:11:05.014279838+08:00","level":"INFO","msg":"created new stream","id":"rfavkn5d"}
+{"time":"2025-01-20T23:11:05.014319134+08:00","level":"INFO","msg":"stream: started","id":"rfavkn5d"}
+{"time":"2025-01-20T23:11:05.01444507+08:00","level":"INFO","msg":"handler: started","stream_id":"rfavkn5d"}
+{"time":"2025-01-20T23:11:05.014479268+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rfavkn5d"}
+{"time":"2025-01-20T23:11:05.014993075+08:00","level":"INFO","msg":"sender: started","stream_id":"rfavkn5d"}
+{"time":"2025-01-20T23:11:05.021403832+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-20T23:11:05.384704254+08:00","level":"INFO","msg":"stream: closing","id":"rfavkn5d"}
+{"time":"2025-01-20T23:11:05.38474291+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-20T23:11:05.385247312+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-20T23:11:05.385431517+08:00","level":"INFO","msg":"handler: closed","stream_id":"rfavkn5d"}
+{"time":"2025-01-20T23:11:05.385447925+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rfavkn5d"}
+{"time":"2025-01-20T23:11:05.3854502+08:00","level":"INFO","msg":"sender: closed","stream_id":"rfavkn5d"}
+{"time":"2025-01-20T23:11:05.385554116+08:00","level":"INFO","msg":"stream: closed","id":"rfavkn5d"}

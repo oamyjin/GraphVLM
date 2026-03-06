@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:30:15.801833985+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:30:15.801895192+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203015-rfa56ess/logs/debug-core.log"}
+{"time":"2025-01-09T20:30:15.921711215+08:00","level":"INFO","msg":"created new stream","id":"rfa56ess"}
+{"time":"2025-01-09T20:30:15.921756761+08:00","level":"INFO","msg":"stream: started","id":"rfa56ess"}
+{"time":"2025-01-09T20:30:15.921773441+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rfa56ess"}
+{"time":"2025-01-09T20:30:15.921879005+08:00","level":"INFO","msg":"handler: started","stream_id":"rfa56ess"}
+{"time":"2025-01-09T20:30:15.921893199+08:00","level":"INFO","msg":"sender: started","stream_id":"rfa56ess"}
+{"time":"2025-01-09T20:30:15.926208907+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:30:44.541603994+08:00","level":"INFO","msg":"stream: closing","id":"rfa56ess"}
+{"time":"2025-01-09T20:30:44.541660183+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:30:44.542585726+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:30:44.542748062+08:00","level":"INFO","msg":"handler: closed","stream_id":"rfa56ess"}
+{"time":"2025-01-09T20:30:44.54276249+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rfa56ess"}
+{"time":"2025-01-09T20:30:44.542778004+08:00","level":"INFO","msg":"sender: closed","stream_id":"rfa56ess"}
+{"time":"2025-01-09T20:30:44.553347558+08:00","level":"INFO","msg":"stream: closed","id":"rfa56ess"}

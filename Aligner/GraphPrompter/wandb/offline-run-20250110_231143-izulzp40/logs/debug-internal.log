@@ -1,0 +1,15 @@
+{"time":"2025-01-10T23:11:43.766394776+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T23:11:43.76644658+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_231143-izulzp40/logs/debug-core.log"}
+{"time":"2025-01-10T23:11:43.876394016+08:00","level":"INFO","msg":"created new stream","id":"izulzp40"}
+{"time":"2025-01-10T23:11:43.876445768+08:00","level":"INFO","msg":"stream: started","id":"izulzp40"}
+{"time":"2025-01-10T23:11:43.87646521+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"izulzp40"}
+{"time":"2025-01-10T23:11:43.87654777+08:00","level":"INFO","msg":"handler: started","stream_id":"izulzp40"}
+{"time":"2025-01-10T23:11:43.876573836+08:00","level":"INFO","msg":"sender: started","stream_id":"izulzp40"}
+{"time":"2025-01-10T23:11:43.882509167+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T23:11:46.343885809+08:00","level":"INFO","msg":"stream: closing","id":"izulzp40"}
+{"time":"2025-01-10T23:11:46.343923904+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T23:11:46.34462276+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T23:11:46.344773738+08:00","level":"INFO","msg":"handler: closed","stream_id":"izulzp40"}
+{"time":"2025-01-10T23:11:46.344786028+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"izulzp40"}
+{"time":"2025-01-10T23:11:46.344819216+08:00","level":"INFO","msg":"sender: closed","stream_id":"izulzp40"}
+{"time":"2025-01-10T23:11:46.344945111+08:00","level":"INFO","msg":"stream: closed","id":"izulzp40"}

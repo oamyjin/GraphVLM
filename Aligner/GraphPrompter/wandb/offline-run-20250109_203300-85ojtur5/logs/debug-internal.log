@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:33:00.124142363+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:33:00.124199202+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203300-85ojtur5/logs/debug-core.log"}
+{"time":"2025-01-09T20:33:00.234377811+08:00","level":"INFO","msg":"created new stream","id":"85ojtur5"}
+{"time":"2025-01-09T20:33:00.234411821+08:00","level":"INFO","msg":"stream: started","id":"85ojtur5"}
+{"time":"2025-01-09T20:33:00.234423939+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"85ojtur5"}
+{"time":"2025-01-09T20:33:00.234527381+08:00","level":"INFO","msg":"sender: started","stream_id":"85ojtur5"}
+{"time":"2025-01-09T20:33:00.23455726+08:00","level":"INFO","msg":"handler: started","stream_id":"85ojtur5"}
+{"time":"2025-01-09T20:33:00.240458283+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:33:29.158549979+08:00","level":"INFO","msg":"stream: closing","id":"85ojtur5"}
+{"time":"2025-01-09T20:33:29.158602145+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:33:29.159181336+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:33:29.159341418+08:00","level":"INFO","msg":"handler: closed","stream_id":"85ojtur5"}
+{"time":"2025-01-09T20:33:29.159355008+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"85ojtur5"}
+{"time":"2025-01-09T20:33:29.159363703+08:00","level":"INFO","msg":"sender: closed","stream_id":"85ojtur5"}
+{"time":"2025-01-09T20:33:29.159583828+08:00","level":"INFO","msg":"stream: closed","id":"85ojtur5"}

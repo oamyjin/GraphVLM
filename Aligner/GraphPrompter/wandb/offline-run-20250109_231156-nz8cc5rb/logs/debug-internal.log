@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:11:56.690040364+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:11:56.690089448+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter/wandb/offline-run-20250109_231156-nz8cc5rb/logs/debug-core.log"}
+{"time":"2025-01-09T23:11:56.806992883+08:00","level":"INFO","msg":"created new stream","id":"nz8cc5rb"}
+{"time":"2025-01-09T23:11:56.807027736+08:00","level":"INFO","msg":"stream: started","id":"nz8cc5rb"}
+{"time":"2025-01-09T23:11:56.807047177+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"nz8cc5rb"}
+{"time":"2025-01-09T23:11:56.807153001+08:00","level":"INFO","msg":"sender: started","stream_id":"nz8cc5rb"}
+{"time":"2025-01-09T23:11:56.807181155+08:00","level":"INFO","msg":"handler: started","stream_id":"nz8cc5rb"}
+{"time":"2025-01-09T23:11:56.816115533+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:11:57.133124263+08:00","level":"INFO","msg":"stream: closing","id":"nz8cc5rb"}
+{"time":"2025-01-09T23:11:57.133198614+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:11:57.133752328+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:11:57.133891784+08:00","level":"INFO","msg":"handler: closed","stream_id":"nz8cc5rb"}
+{"time":"2025-01-09T23:11:57.133903403+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nz8cc5rb"}
+{"time":"2025-01-09T23:11:57.133917031+08:00","level":"INFO","msg":"sender: closed","stream_id":"nz8cc5rb"}
+{"time":"2025-01-09T23:11:57.13409402+08:00","level":"INFO","msg":"stream: closed","id":"nz8cc5rb"}

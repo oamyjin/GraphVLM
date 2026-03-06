@@ -1,0 +1,15 @@
+{"time":"2025-01-10T10:06:23.919903943+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T10:06:23.919971674+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_100623-vzpp2csl/logs/debug-core.log"}
+{"time":"2025-01-10T10:06:24.082680846+08:00","level":"INFO","msg":"created new stream","id":"vzpp2csl"}
+{"time":"2025-01-10T10:06:24.082721216+08:00","level":"INFO","msg":"stream: started","id":"vzpp2csl"}
+{"time":"2025-01-10T10:06:24.082740368+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vzpp2csl"}
+{"time":"2025-01-10T10:06:24.082815908+08:00","level":"INFO","msg":"handler: started","stream_id":"vzpp2csl"}
+{"time":"2025-01-10T10:06:24.082825951+08:00","level":"INFO","msg":"sender: started","stream_id":"vzpp2csl"}
+{"time":"2025-01-10T10:06:24.086658821+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T10:06:24.637654205+08:00","level":"INFO","msg":"stream: closing","id":"vzpp2csl"}
+{"time":"2025-01-10T10:06:24.637694471+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T10:06:24.638758403+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T10:06:24.638909125+08:00","level":"INFO","msg":"handler: closed","stream_id":"vzpp2csl"}
+{"time":"2025-01-10T10:06:24.638921951+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vzpp2csl"}
+{"time":"2025-01-10T10:06:24.638935866+08:00","level":"INFO","msg":"sender: closed","stream_id":"vzpp2csl"}
+{"time":"2025-01-10T10:06:24.639135258+08:00","level":"INFO","msg":"stream: closed","id":"vzpp2csl"}

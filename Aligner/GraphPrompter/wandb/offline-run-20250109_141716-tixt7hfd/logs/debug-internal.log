@@ -1,0 +1,15 @@
+{"time":"2025-01-09T14:17:16.189402142+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T14:17:16.189456701+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_141716-tixt7hfd/logs/debug-core.log"}
+{"time":"2025-01-09T14:17:16.295619985+08:00","level":"INFO","msg":"created new stream","id":"tixt7hfd"}
+{"time":"2025-01-09T14:17:16.295652747+08:00","level":"INFO","msg":"stream: started","id":"tixt7hfd"}
+{"time":"2025-01-09T14:17:16.29566948+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"tixt7hfd"}
+{"time":"2025-01-09T14:17:16.295683331+08:00","level":"INFO","msg":"handler: started","stream_id":"tixt7hfd"}
+{"time":"2025-01-09T14:17:16.295754271+08:00","level":"INFO","msg":"sender: started","stream_id":"tixt7hfd"}
+{"time":"2025-01-09T14:17:16.303078468+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T14:17:16.583577225+08:00","level":"INFO","msg":"stream: closing","id":"tixt7hfd"}
+{"time":"2025-01-09T14:17:16.58361789+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T14:17:16.584083139+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T14:17:16.584200934+08:00","level":"INFO","msg":"handler: closed","stream_id":"tixt7hfd"}
+{"time":"2025-01-09T14:17:16.584209451+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tixt7hfd"}
+{"time":"2025-01-09T14:17:16.584222944+08:00","level":"INFO","msg":"sender: closed","stream_id":"tixt7hfd"}
+{"time":"2025-01-09T14:17:16.584440643+08:00","level":"INFO","msg":"stream: closed","id":"tixt7hfd"}

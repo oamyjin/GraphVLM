@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:15:19.792583761+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:15:19.792657531+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_231519-hx6k40av/logs/debug-core.log"}
+{"time":"2025-01-09T23:15:19.898061575+08:00","level":"INFO","msg":"created new stream","id":"hx6k40av"}
+{"time":"2025-01-09T23:15:19.898100337+08:00","level":"INFO","msg":"stream: started","id":"hx6k40av"}
+{"time":"2025-01-09T23:15:19.898117004+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"hx6k40av"}
+{"time":"2025-01-09T23:15:19.898201822+08:00","level":"INFO","msg":"sender: started","stream_id":"hx6k40av"}
+{"time":"2025-01-09T23:15:19.898216874+08:00","level":"INFO","msg":"handler: started","stream_id":"hx6k40av"}
+{"time":"2025-01-09T23:15:19.907674992+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:15:47.798606484+08:00","level":"INFO","msg":"stream: closing","id":"hx6k40av"}
+{"time":"2025-01-09T23:15:47.798661563+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:15:47.807739935+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:15:47.807948229+08:00","level":"INFO","msg":"handler: closed","stream_id":"hx6k40av"}
+{"time":"2025-01-09T23:15:47.807964745+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hx6k40av"}
+{"time":"2025-01-09T23:15:47.807982175+08:00","level":"INFO","msg":"sender: closed","stream_id":"hx6k40av"}
+{"time":"2025-01-09T23:15:47.810809689+08:00","level":"INFO","msg":"stream: closed","id":"hx6k40av"}

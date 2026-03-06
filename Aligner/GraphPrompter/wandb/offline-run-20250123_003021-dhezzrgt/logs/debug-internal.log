@@ -1,0 +1,15 @@
+{"time":"2025-01-23T00:30:21.438562859+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T00:30:21.438609107+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250123_003021-dhezzrgt/logs/debug-core.log"}
+{"time":"2025-01-23T00:30:21.545940156+08:00","level":"INFO","msg":"created new stream","id":"dhezzrgt"}
+{"time":"2025-01-23T00:30:21.545988137+08:00","level":"INFO","msg":"stream: started","id":"dhezzrgt"}
+{"time":"2025-01-23T00:30:21.546015278+08:00","level":"INFO","msg":"sender: started","stream_id":"dhezzrgt"}
+{"time":"2025-01-23T00:30:21.54604603+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"dhezzrgt"}
+{"time":"2025-01-23T00:30:21.546010576+08:00","level":"INFO","msg":"handler: started","stream_id":"dhezzrgt"}
+{"time":"2025-01-23T00:30:21.550829802+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T00:30:21.865102816+08:00","level":"INFO","msg":"stream: closing","id":"dhezzrgt"}
+{"time":"2025-01-23T00:30:21.865150033+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T00:30:21.865632333+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T00:30:21.865797214+08:00","level":"INFO","msg":"handler: closed","stream_id":"dhezzrgt"}
+{"time":"2025-01-23T00:30:21.865808513+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dhezzrgt"}
+{"time":"2025-01-23T00:30:21.865830066+08:00","level":"INFO","msg":"sender: closed","stream_id":"dhezzrgt"}
+{"time":"2025-01-23T00:30:21.865893342+08:00","level":"INFO","msg":"stream: closed","id":"dhezzrgt"}

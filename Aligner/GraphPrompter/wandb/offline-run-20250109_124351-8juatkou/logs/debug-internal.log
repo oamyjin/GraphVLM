@@ -1,0 +1,15 @@
+{"time":"2025-01-09T12:43:51.133012257+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T12:43:51.133072808+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_124351-8juatkou/logs/debug-core.log"}
+{"time":"2025-01-09T12:43:51.2394881+08:00","level":"INFO","msg":"created new stream","id":"8juatkou"}
+{"time":"2025-01-09T12:43:51.239514722+08:00","level":"INFO","msg":"stream: started","id":"8juatkou"}
+{"time":"2025-01-09T12:43:51.239625251+08:00","level":"INFO","msg":"handler: started","stream_id":"8juatkou"}
+{"time":"2025-01-09T12:43:51.239654972+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"8juatkou"}
+{"time":"2025-01-09T12:43:51.239687929+08:00","level":"INFO","msg":"sender: started","stream_id":"8juatkou"}
+{"time":"2025-01-09T12:43:51.242784253+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T12:43:51.562839779+08:00","level":"INFO","msg":"stream: closing","id":"8juatkou"}
+{"time":"2025-01-09T12:43:51.562890857+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T12:43:51.563598501+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T12:43:51.563748597+08:00","level":"INFO","msg":"handler: closed","stream_id":"8juatkou"}
+{"time":"2025-01-09T12:43:51.563759399+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8juatkou"}
+{"time":"2025-01-09T12:43:51.563767238+08:00","level":"INFO","msg":"sender: closed","stream_id":"8juatkou"}
+{"time":"2025-01-09T12:43:51.564028901+08:00","level":"INFO","msg":"stream: closed","id":"8juatkou"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:22:39.91606955+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:22:39.91613488+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_232239-tvq32ybv/logs/debug-core.log"}
+{"time":"2025-01-09T23:22:40.024278581+08:00","level":"INFO","msg":"created new stream","id":"tvq32ybv"}
+{"time":"2025-01-09T23:22:40.024352854+08:00","level":"INFO","msg":"stream: started","id":"tvq32ybv"}
+{"time":"2025-01-09T23:22:40.027254338+08:00","level":"INFO","msg":"handler: started","stream_id":"tvq32ybv"}
+{"time":"2025-01-09T23:22:40.027308469+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"tvq32ybv"}
+{"time":"2025-01-09T23:22:40.027515183+08:00","level":"INFO","msg":"sender: started","stream_id":"tvq32ybv"}
+{"time":"2025-01-09T23:22:40.031565135+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:24:07.069818198+08:00","level":"INFO","msg":"stream: closing","id":"tvq32ybv"}
+{"time":"2025-01-09T23:24:07.069867684+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:24:07.070358844+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:24:07.070538752+08:00","level":"INFO","msg":"handler: closed","stream_id":"tvq32ybv"}
+{"time":"2025-01-09T23:24:07.070554855+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tvq32ybv"}
+{"time":"2025-01-09T23:24:07.070568022+08:00","level":"INFO","msg":"sender: closed","stream_id":"tvq32ybv"}
+{"time":"2025-01-09T23:24:07.070739918+08:00","level":"INFO","msg":"stream: closed","id":"tvq32ybv"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:19:03.554582715+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:19:03.554639913+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_231903-rz40ws5h/logs/debug-core.log"}
+{"time":"2025-01-09T23:19:03.668672861+08:00","level":"INFO","msg":"created new stream","id":"rz40ws5h"}
+{"time":"2025-01-09T23:19:03.668705781+08:00","level":"INFO","msg":"stream: started","id":"rz40ws5h"}
+{"time":"2025-01-09T23:19:03.66882609+08:00","level":"INFO","msg":"handler: started","stream_id":"rz40ws5h"}
+{"time":"2025-01-09T23:19:03.668852993+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rz40ws5h"}
+{"time":"2025-01-09T23:19:03.668899282+08:00","level":"INFO","msg":"sender: started","stream_id":"rz40ws5h"}
+{"time":"2025-01-09T23:19:03.674773653+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:19:31.655189779+08:00","level":"INFO","msg":"stream: closing","id":"rz40ws5h"}
+{"time":"2025-01-09T23:19:31.655230192+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:19:31.655772565+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:19:31.655914882+08:00","level":"INFO","msg":"handler: closed","stream_id":"rz40ws5h"}
+{"time":"2025-01-09T23:19:31.655927566+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rz40ws5h"}
+{"time":"2025-01-09T23:19:31.655940868+08:00","level":"INFO","msg":"sender: closed","stream_id":"rz40ws5h"}
+{"time":"2025-01-09T23:19:31.657014478+08:00","level":"INFO","msg":"stream: closed","id":"rz40ws5h"}

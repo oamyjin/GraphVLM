@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:21:28.812114194+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:21:28.812172004+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_232128-e80m205j/logs/debug-core.log"}
+{"time":"2025-01-09T23:21:28.927848165+08:00","level":"INFO","msg":"created new stream","id":"e80m205j"}
+{"time":"2025-01-09T23:21:28.927887985+08:00","level":"INFO","msg":"stream: started","id":"e80m205j"}
+{"time":"2025-01-09T23:21:28.928005847+08:00","level":"INFO","msg":"handler: started","stream_id":"e80m205j"}
+{"time":"2025-01-09T23:21:28.928035191+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"e80m205j"}
+{"time":"2025-01-09T23:21:28.928088141+08:00","level":"INFO","msg":"sender: started","stream_id":"e80m205j"}
+{"time":"2025-01-09T23:21:28.931933659+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:22:20.803120338+08:00","level":"INFO","msg":"stream: closing","id":"e80m205j"}
+{"time":"2025-01-09T23:22:20.803166781+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:22:20.803514585+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:22:20.8036892+08:00","level":"INFO","msg":"handler: closed","stream_id":"e80m205j"}
+{"time":"2025-01-09T23:22:20.803704639+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"e80m205j"}
+{"time":"2025-01-09T23:22:20.803742389+08:00","level":"INFO","msg":"sender: closed","stream_id":"e80m205j"}
+{"time":"2025-01-09T23:22:20.804758712+08:00","level":"INFO","msg":"stream: closed","id":"e80m205j"}

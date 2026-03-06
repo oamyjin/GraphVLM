@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:27:11.470959163+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:27:11.471690379+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_202711-ltm1636w/logs/debug-core.log"}
+{"time":"2025-01-09T20:27:11.629104248+08:00","level":"INFO","msg":"created new stream","id":"ltm1636w"}
+{"time":"2025-01-09T20:27:11.62915402+08:00","level":"INFO","msg":"stream: started","id":"ltm1636w"}
+{"time":"2025-01-09T20:27:11.629165904+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ltm1636w"}
+{"time":"2025-01-09T20:27:11.629182389+08:00","level":"INFO","msg":"sender: started","stream_id":"ltm1636w"}
+{"time":"2025-01-09T20:27:11.629229925+08:00","level":"INFO","msg":"handler: started","stream_id":"ltm1636w"}
+{"time":"2025-01-09T20:27:11.632834408+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:27:44.384852874+08:00","level":"INFO","msg":"stream: closing","id":"ltm1636w"}
+{"time":"2025-01-09T20:27:44.384906758+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:27:44.38551091+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:27:44.385662849+08:00","level":"INFO","msg":"handler: closed","stream_id":"ltm1636w"}
+{"time":"2025-01-09T20:27:44.385676541+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ltm1636w"}
+{"time":"2025-01-09T20:27:44.38568506+08:00","level":"INFO","msg":"sender: closed","stream_id":"ltm1636w"}
+{"time":"2025-01-09T20:27:44.38617009+08:00","level":"INFO","msg":"stream: closed","id":"ltm1636w"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:01:54.405514209+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:01:54.405574808+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_230154-y4h2y9q8/logs/debug-core.log"}
+{"time":"2025-01-09T23:01:54.516562743+08:00","level":"INFO","msg":"created new stream","id":"y4h2y9q8"}
+{"time":"2025-01-09T23:01:54.516600224+08:00","level":"INFO","msg":"stream: started","id":"y4h2y9q8"}
+{"time":"2025-01-09T23:01:54.516613292+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"y4h2y9q8"}
+{"time":"2025-01-09T23:01:54.51662731+08:00","level":"INFO","msg":"handler: started","stream_id":"y4h2y9q8"}
+{"time":"2025-01-09T23:01:54.516673348+08:00","level":"INFO","msg":"sender: started","stream_id":"y4h2y9q8"}
+{"time":"2025-01-09T23:01:54.52348562+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:02:16.448816611+08:00","level":"INFO","msg":"stream: closing","id":"y4h2y9q8"}
+{"time":"2025-01-09T23:02:16.448864648+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:02:16.450271078+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:02:16.450423071+08:00","level":"INFO","msg":"handler: closed","stream_id":"y4h2y9q8"}
+{"time":"2025-01-09T23:02:16.450436733+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"y4h2y9q8"}
+{"time":"2025-01-09T23:02:16.450444697+08:00","level":"INFO","msg":"sender: closed","stream_id":"y4h2y9q8"}
+{"time":"2025-01-09T23:02:16.452555613+08:00","level":"INFO","msg":"stream: closed","id":"y4h2y9q8"}

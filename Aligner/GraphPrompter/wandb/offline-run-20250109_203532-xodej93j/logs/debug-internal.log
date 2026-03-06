@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:35:32.272429584+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:35:32.272489152+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203532-xodej93j/logs/debug-core.log"}
+{"time":"2025-01-09T20:35:32.383087645+08:00","level":"INFO","msg":"created new stream","id":"xodej93j"}
+{"time":"2025-01-09T20:35:32.383130966+08:00","level":"INFO","msg":"stream: started","id":"xodej93j"}
+{"time":"2025-01-09T20:35:32.383274454+08:00","level":"INFO","msg":"handler: started","stream_id":"xodej93j"}
+{"time":"2025-01-09T20:35:32.383311073+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xodej93j"}
+{"time":"2025-01-09T20:35:32.38361361+08:00","level":"INFO","msg":"sender: started","stream_id":"xodej93j"}
+{"time":"2025-01-09T20:35:32.400807487+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:36:00.195776689+08:00","level":"INFO","msg":"stream: closing","id":"xodej93j"}
+{"time":"2025-01-09T20:36:00.19581828+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:36:00.196673327+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:36:00.196818163+08:00","level":"INFO","msg":"handler: closed","stream_id":"xodej93j"}
+{"time":"2025-01-09T20:36:00.196830697+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xodej93j"}
+{"time":"2025-01-09T20:36:00.196839431+08:00","level":"INFO","msg":"sender: closed","stream_id":"xodej93j"}
+{"time":"2025-01-09T20:36:00.199254012+08:00","level":"INFO","msg":"stream: closed","id":"xodej93j"}

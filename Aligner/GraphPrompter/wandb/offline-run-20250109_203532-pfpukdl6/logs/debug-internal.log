@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:35:32.164013925+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:35:32.164069168+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203532-pfpukdl6/logs/debug-core.log"}
+{"time":"2025-01-09T20:35:32.281073681+08:00","level":"INFO","msg":"created new stream","id":"pfpukdl6"}
+{"time":"2025-01-09T20:35:32.281106988+08:00","level":"INFO","msg":"stream: started","id":"pfpukdl6"}
+{"time":"2025-01-09T20:35:32.281197295+08:00","level":"INFO","msg":"handler: started","stream_id":"pfpukdl6"}
+{"time":"2025-01-09T20:35:32.281220733+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"pfpukdl6"}
+{"time":"2025-01-09T20:35:32.281602627+08:00","level":"INFO","msg":"sender: started","stream_id":"pfpukdl6"}
+{"time":"2025-01-09T20:35:32.293565038+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:36:00.431664051+08:00","level":"INFO","msg":"stream: closing","id":"pfpukdl6"}
+{"time":"2025-01-09T20:36:00.431717021+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:36:00.440772968+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:36:00.440962737+08:00","level":"INFO","msg":"handler: closed","stream_id":"pfpukdl6"}
+{"time":"2025-01-09T20:36:00.440978013+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pfpukdl6"}
+{"time":"2025-01-09T20:36:00.440990185+08:00","level":"INFO","msg":"sender: closed","stream_id":"pfpukdl6"}
+{"time":"2025-01-09T20:36:00.450190673+08:00","level":"INFO","msg":"stream: closed","id":"pfpukdl6"}

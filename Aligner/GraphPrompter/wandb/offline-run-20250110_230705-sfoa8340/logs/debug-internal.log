@@ -1,0 +1,15 @@
+{"time":"2025-01-10T23:07:05.842960136+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T23:07:05.843161294+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_230705-sfoa8340/logs/debug-core.log"}
+{"time":"2025-01-10T23:07:05.972372014+08:00","level":"INFO","msg":"created new stream","id":"sfoa8340"}
+{"time":"2025-01-10T23:07:05.972413656+08:00","level":"INFO","msg":"stream: started","id":"sfoa8340"}
+{"time":"2025-01-10T23:07:05.972433775+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"sfoa8340"}
+{"time":"2025-01-10T23:07:05.972522497+08:00","level":"INFO","msg":"sender: started","stream_id":"sfoa8340"}
+{"time":"2025-01-10T23:07:05.972540178+08:00","level":"INFO","msg":"handler: started","stream_id":"sfoa8340"}
+{"time":"2025-01-10T23:07:06.008609955+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T23:07:06.41500579+08:00","level":"INFO","msg":"stream: closing","id":"sfoa8340"}
+{"time":"2025-01-10T23:07:06.415055329+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T23:07:06.415981521+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T23:07:06.416150096+08:00","level":"INFO","msg":"handler: closed","stream_id":"sfoa8340"}
+{"time":"2025-01-10T23:07:06.416165317+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sfoa8340"}
+{"time":"2025-01-10T23:07:06.416181976+08:00","level":"INFO","msg":"sender: closed","stream_id":"sfoa8340"}
+{"time":"2025-01-10T23:07:06.416403742+08:00","level":"INFO","msg":"stream: closed","id":"sfoa8340"}

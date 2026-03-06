@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:11:56.687275184+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:11:56.687360241+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter/wandb/offline-run-20250109_231156-x5mb10ta/logs/debug-core.log"}
+{"time":"2025-01-09T23:11:56.799194645+08:00","level":"INFO","msg":"created new stream","id":"x5mb10ta"}
+{"time":"2025-01-09T23:11:56.799224891+08:00","level":"INFO","msg":"stream: started","id":"x5mb10ta"}
+{"time":"2025-01-09T23:11:56.79923707+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"x5mb10ta"}
+{"time":"2025-01-09T23:11:56.79926404+08:00","level":"INFO","msg":"sender: started","stream_id":"x5mb10ta"}
+{"time":"2025-01-09T23:11:56.799248163+08:00","level":"INFO","msg":"handler: started","stream_id":"x5mb10ta"}
+{"time":"2025-01-09T23:11:56.804352303+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:11:57.117122906+08:00","level":"INFO","msg":"stream: closing","id":"x5mb10ta"}
+{"time":"2025-01-09T23:11:57.117167192+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:11:57.117719042+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:11:57.117876306+08:00","level":"INFO","msg":"handler: closed","stream_id":"x5mb10ta"}
+{"time":"2025-01-09T23:11:57.117890474+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"x5mb10ta"}
+{"time":"2025-01-09T23:11:57.117905602+08:00","level":"INFO","msg":"sender: closed","stream_id":"x5mb10ta"}
+{"time":"2025-01-09T23:11:57.118290083+08:00","level":"INFO","msg":"stream: closed","id":"x5mb10ta"}

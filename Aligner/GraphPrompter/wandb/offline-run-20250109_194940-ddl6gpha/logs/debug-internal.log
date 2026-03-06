@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:49:40.140133838+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:49:40.140200588+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_194940-ddl6gpha/logs/debug-core.log"}
+{"time":"2025-01-09T19:49:40.253241773+08:00","level":"INFO","msg":"created new stream","id":"ddl6gpha"}
+{"time":"2025-01-09T19:49:40.253283099+08:00","level":"INFO","msg":"stream: started","id":"ddl6gpha"}
+{"time":"2025-01-09T19:49:40.253300094+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ddl6gpha"}
+{"time":"2025-01-09T19:49:40.253398557+08:00","level":"INFO","msg":"handler: started","stream_id":"ddl6gpha"}
+{"time":"2025-01-09T19:49:40.253421031+08:00","level":"INFO","msg":"sender: started","stream_id":"ddl6gpha"}
+{"time":"2025-01-09T19:49:40.262639201+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:49:47.606226822+08:00","level":"INFO","msg":"stream: closing","id":"ddl6gpha"}
+{"time":"2025-01-09T19:49:47.606274364+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:49:47.612259487+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:49:47.612424718+08:00","level":"INFO","msg":"handler: closed","stream_id":"ddl6gpha"}
+{"time":"2025-01-09T19:49:47.612435999+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ddl6gpha"}
+{"time":"2025-01-09T19:49:47.612450865+08:00","level":"INFO","msg":"sender: closed","stream_id":"ddl6gpha"}
+{"time":"2025-01-09T19:49:47.618569571+08:00","level":"INFO","msg":"stream: closed","id":"ddl6gpha"}

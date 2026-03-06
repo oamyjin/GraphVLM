@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:23:49.323325986+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:23:49.323398387+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_192349-jp0ivoir/logs/debug-core.log"}
+{"time":"2025-01-09T19:23:49.432300659+08:00","level":"INFO","msg":"created new stream","id":"jp0ivoir"}
+{"time":"2025-01-09T19:23:49.432398742+08:00","level":"INFO","msg":"stream: started","id":"jp0ivoir"}
+{"time":"2025-01-09T19:23:49.432771055+08:00","level":"INFO","msg":"handler: started","stream_id":"jp0ivoir"}
+{"time":"2025-01-09T19:23:49.432818839+08:00","level":"INFO","msg":"sender: started","stream_id":"jp0ivoir"}
+{"time":"2025-01-09T19:23:49.432838536+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"jp0ivoir"}
+{"time":"2025-01-09T19:23:49.437278617+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:24:17.477991986+08:00","level":"INFO","msg":"stream: closing","id":"jp0ivoir"}
+{"time":"2025-01-09T19:24:17.47802632+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:24:17.490258132+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:24:17.490433691+08:00","level":"INFO","msg":"handler: closed","stream_id":"jp0ivoir"}
+{"time":"2025-01-09T19:24:17.49044278+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jp0ivoir"}
+{"time":"2025-01-09T19:24:17.490450287+08:00","level":"INFO","msg":"sender: closed","stream_id":"jp0ivoir"}
+{"time":"2025-01-09T19:24:17.490588554+08:00","level":"INFO","msg":"stream: closed","id":"jp0ivoir"}

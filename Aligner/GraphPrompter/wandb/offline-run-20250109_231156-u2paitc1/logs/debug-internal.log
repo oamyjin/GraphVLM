@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:11:56.687301957+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:11:56.687360714+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter/wandb/offline-run-20250109_231156-u2paitc1/logs/debug-core.log"}
+{"time":"2025-01-09T23:11:56.798883248+08:00","level":"INFO","msg":"created new stream","id":"u2paitc1"}
+{"time":"2025-01-09T23:11:56.798923056+08:00","level":"INFO","msg":"stream: started","id":"u2paitc1"}
+{"time":"2025-01-09T23:11:56.798942902+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"u2paitc1"}
+{"time":"2025-01-09T23:11:56.798971685+08:00","level":"INFO","msg":"handler: started","stream_id":"u2paitc1"}
+{"time":"2025-01-09T23:11:56.799052585+08:00","level":"INFO","msg":"sender: started","stream_id":"u2paitc1"}
+{"time":"2025-01-09T23:11:56.807939458+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:11:57.123268781+08:00","level":"INFO","msg":"stream: closing","id":"u2paitc1"}
+{"time":"2025-01-09T23:11:57.123311992+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:11:57.123767435+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:11:57.123920272+08:00","level":"INFO","msg":"handler: closed","stream_id":"u2paitc1"}
+{"time":"2025-01-09T23:11:57.123932235+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"u2paitc1"}
+{"time":"2025-01-09T23:11:57.123946486+08:00","level":"INFO","msg":"sender: closed","stream_id":"u2paitc1"}
+{"time":"2025-01-09T23:11:57.124152942+08:00","level":"INFO","msg":"stream: closed","id":"u2paitc1"}

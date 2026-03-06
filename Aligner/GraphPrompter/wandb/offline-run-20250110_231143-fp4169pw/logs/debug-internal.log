@@ -1,0 +1,15 @@
+{"time":"2025-01-10T23:11:43.763009737+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T23:11:43.763084412+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_231143-fp4169pw/logs/debug-core.log"}
+{"time":"2025-01-10T23:11:43.876929699+08:00","level":"INFO","msg":"created new stream","id":"fp4169pw"}
+{"time":"2025-01-10T23:11:43.876957088+08:00","level":"INFO","msg":"stream: started","id":"fp4169pw"}
+{"time":"2025-01-10T23:11:43.877068995+08:00","level":"INFO","msg":"handler: started","stream_id":"fp4169pw"}
+{"time":"2025-01-10T23:11:43.877095683+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"fp4169pw"}
+{"time":"2025-01-10T23:11:43.877146974+08:00","level":"INFO","msg":"sender: started","stream_id":"fp4169pw"}
+{"time":"2025-01-10T23:11:43.882657091+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T23:11:46.350821446+08:00","level":"INFO","msg":"stream: closing","id":"fp4169pw"}
+{"time":"2025-01-10T23:11:46.350860236+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T23:11:46.351534799+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T23:11:46.351680789+08:00","level":"INFO","msg":"handler: closed","stream_id":"fp4169pw"}
+{"time":"2025-01-10T23:11:46.351692889+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fp4169pw"}
+{"time":"2025-01-10T23:11:46.35170643+08:00","level":"INFO","msg":"sender: closed","stream_id":"fp4169pw"}
+{"time":"2025-01-10T23:11:46.351941703+08:00","level":"INFO","msg":"stream: closed","id":"fp4169pw"}

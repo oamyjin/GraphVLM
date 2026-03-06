@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:22:48.184741655+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:22:48.184796069+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_232248-tafu3mzi/logs/debug-core.log"}
+{"time":"2025-01-09T23:22:48.295854052+08:00","level":"INFO","msg":"created new stream","id":"tafu3mzi"}
+{"time":"2025-01-09T23:22:48.29590223+08:00","level":"INFO","msg":"stream: started","id":"tafu3mzi"}
+{"time":"2025-01-09T23:22:48.296044424+08:00","level":"INFO","msg":"handler: started","stream_id":"tafu3mzi"}
+{"time":"2025-01-09T23:22:48.296080746+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"tafu3mzi"}
+{"time":"2025-01-09T23:22:48.296145591+08:00","level":"INFO","msg":"sender: started","stream_id":"tafu3mzi"}
+{"time":"2025-01-09T23:22:48.300038835+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:22:48.688611173+08:00","level":"INFO","msg":"stream: closing","id":"tafu3mzi"}
+{"time":"2025-01-09T23:22:48.688666128+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:22:48.689604739+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:22:48.689774039+08:00","level":"INFO","msg":"handler: closed","stream_id":"tafu3mzi"}
+{"time":"2025-01-09T23:22:48.689787979+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tafu3mzi"}
+{"time":"2025-01-09T23:22:48.689804827+08:00","level":"INFO","msg":"sender: closed","stream_id":"tafu3mzi"}
+{"time":"2025-01-09T23:22:48.690090371+08:00","level":"INFO","msg":"stream: closed","id":"tafu3mzi"}

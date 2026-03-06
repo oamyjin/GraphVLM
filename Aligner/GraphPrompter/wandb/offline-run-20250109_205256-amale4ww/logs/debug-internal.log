@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:52:56.646793602+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:52:56.646866453+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_205256-amale4ww/logs/debug-core.log"}
+{"time":"2025-01-09T20:52:56.757239594+08:00","level":"INFO","msg":"created new stream","id":"amale4ww"}
+{"time":"2025-01-09T20:52:56.757300823+08:00","level":"INFO","msg":"stream: started","id":"amale4ww"}
+{"time":"2025-01-09T20:52:56.75732175+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"amale4ww"}
+{"time":"2025-01-09T20:52:56.757451136+08:00","level":"INFO","msg":"sender: started","stream_id":"amale4ww"}
+{"time":"2025-01-09T20:52:56.757589955+08:00","level":"INFO","msg":"handler: started","stream_id":"amale4ww"}
+{"time":"2025-01-09T20:52:56.765760409+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:53:24.930947466+08:00","level":"INFO","msg":"stream: closing","id":"amale4ww"}
+{"time":"2025-01-09T20:53:24.931005022+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:53:24.932016094+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:53:24.932176449+08:00","level":"INFO","msg":"handler: closed","stream_id":"amale4ww"}
+{"time":"2025-01-09T20:53:24.932192133+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"amale4ww"}
+{"time":"2025-01-09T20:53:24.93221027+08:00","level":"INFO","msg":"sender: closed","stream_id":"amale4ww"}
+{"time":"2025-01-09T20:53:24.953380578+08:00","level":"INFO","msg":"stream: closed","id":"amale4ww"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-10T22:48:31.165572206+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T22:48:31.165639436+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_224831-7rugpor6/logs/debug-core.log"}
+{"time":"2025-01-10T22:48:31.28221119+08:00","level":"INFO","msg":"created new stream","id":"7rugpor6"}
+{"time":"2025-01-10T22:48:31.282243963+08:00","level":"INFO","msg":"stream: started","id":"7rugpor6"}
+{"time":"2025-01-10T22:48:31.282253359+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"7rugpor6"}
+{"time":"2025-01-10T22:48:31.282262703+08:00","level":"INFO","msg":"handler: started","stream_id":"7rugpor6"}
+{"time":"2025-01-10T22:48:31.282270299+08:00","level":"INFO","msg":"sender: started","stream_id":"7rugpor6"}
+{"time":"2025-01-10T22:48:31.286805516+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T22:48:31.590542856+08:00","level":"INFO","msg":"stream: closing","id":"7rugpor6"}
+{"time":"2025-01-10T22:48:31.590739817+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T22:48:31.591403741+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T22:48:31.591575082+08:00","level":"INFO","msg":"handler: closed","stream_id":"7rugpor6"}
+{"time":"2025-01-10T22:48:31.591589577+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7rugpor6"}
+{"time":"2025-01-10T22:48:31.591604342+08:00","level":"INFO","msg":"sender: closed","stream_id":"7rugpor6"}
+{"time":"2025-01-10T22:48:31.591856119+08:00","level":"INFO","msg":"stream: closed","id":"7rugpor6"}

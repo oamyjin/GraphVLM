@@ -1,0 +1,15 @@
+{"time":"2025-01-10T23:05:45.516476724+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T23:05:45.516532018+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_230545-ypv4odww/logs/debug-core.log"}
+{"time":"2025-01-10T23:05:45.625972625+08:00","level":"INFO","msg":"created new stream","id":"ypv4odww"}
+{"time":"2025-01-10T23:05:45.626013344+08:00","level":"INFO","msg":"stream: started","id":"ypv4odww"}
+{"time":"2025-01-10T23:05:45.626051412+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ypv4odww"}
+{"time":"2025-01-10T23:05:45.626119509+08:00","level":"INFO","msg":"handler: started","stream_id":"ypv4odww"}
+{"time":"2025-01-10T23:05:45.626171672+08:00","level":"INFO","msg":"sender: started","stream_id":"ypv4odww"}
+{"time":"2025-01-10T23:05:45.630927362+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T23:05:45.949324212+08:00","level":"INFO","msg":"stream: closing","id":"ypv4odww"}
+{"time":"2025-01-10T23:05:45.949365314+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T23:05:45.949720096+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T23:05:45.949857565+08:00","level":"INFO","msg":"handler: closed","stream_id":"ypv4odww"}
+{"time":"2025-01-10T23:05:45.949868398+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ypv4odww"}
+{"time":"2025-01-10T23:05:45.949945425+08:00","level":"INFO","msg":"sender: closed","stream_id":"ypv4odww"}
+{"time":"2025-01-10T23:05:45.949962007+08:00","level":"INFO","msg":"stream: closed","id":"ypv4odww"}

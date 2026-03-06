@@ -1,0 +1,15 @@
+{"time":"2025-01-23T12:00:28.599456085+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T12:00:28.59953033+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250123_120028-milrxce7/logs/debug-core.log"}
+{"time":"2025-01-23T12:00:28.857921513+08:00","level":"INFO","msg":"created new stream","id":"milrxce7"}
+{"time":"2025-01-23T12:00:28.857951259+08:00","level":"INFO","msg":"stream: started","id":"milrxce7"}
+{"time":"2025-01-23T12:00:28.857976391+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"milrxce7"}
+{"time":"2025-01-23T12:00:28.85803142+08:00","level":"INFO","msg":"sender: started","stream_id":"milrxce7"}
+{"time":"2025-01-23T12:00:28.858058533+08:00","level":"INFO","msg":"handler: started","stream_id":"milrxce7"}
+{"time":"2025-01-23T12:00:28.862143239+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T12:00:29.957313782+08:00","level":"INFO","msg":"stream: closing","id":"milrxce7"}
+{"time":"2025-01-23T12:00:29.960964309+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T12:00:29.962509546+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T12:00:29.967670521+08:00","level":"INFO","msg":"handler: closed","stream_id":"milrxce7"}
+{"time":"2025-01-23T12:00:29.967682188+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"milrxce7"}
+{"time":"2025-01-23T12:00:29.967762561+08:00","level":"INFO","msg":"sender: closed","stream_id":"milrxce7"}
+{"time":"2025-01-23T12:00:29.967848491+08:00","level":"INFO","msg":"stream: closed","id":"milrxce7"}

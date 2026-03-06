@@ -1,0 +1,23 @@
+Data(x=[2708, 768], edge_index=[2, 10556], y=[2708], train_mask=[2708], val_mask=[2708], test_mask=[2708], num_nodes=2708, num_classes=7, train_id=[1624], val_id=[542], test_id=[542], raw_texts=[2708], keywords=[2708], label_texts=[7], title=[2708], abs=[2708])
+Please predict the most appropriate category for the paper. Choose from the following categories:
+Rule Learning
+Neural Networks
+Case Based
+Genetic Algorithms
+Theory
+Reinforcement Learning
+Probabilistic Methods
+
+Answer:
+{
+    "id": 0,
+    "label": "Neural_Networks",
+    "desc": "Title: The megaprior heuristic for discovering protein sequence patterns  \tAbstract: Several computer algorithms for discovering patterns in groups of protein sequences are in use that are based on fitting the parameters of a statistical model to a group of related sequences. These include hidden Markov model (HMM) algorithms for multiple sequence alignment, and the MEME and Gibbs sampler algorithms for discovering motifs. These algorithms are sometimes prone to producing models that are incorrect because two or more patterns have been combined. The statistical model produced in this situation is a convex combination (weighted average) of two or more different models. This paper presents a solution to the problem of convex combinations in the form of a heuristic based on using extremely low variance Dirichlet mixture priors as part of the statistical model. This heuristic, which we call the megaprior heuristic, increases the strength (i.e., decreases the variance) of the prior in proportion to the size of the sequence dataset. This causes each column in the final model to strongly resemble the mean of a single component of the prior, regardless of the size of the dataset. We describe the cause of the convex combination problem, analyze it mathematically, motivate and describe the implementation of the megaprior heuristic, and show how it can effectively eliminate the problem of convex combinations in protein sequence pattern discovery. ",
+    "question": "Please predict the most appropriate category for the paper. Choose from the following categories:\nRule Learning\nNeural Networks\nCase Based\nGenetic Algorithms\nTheory\nReinforcement Learning\nProbabilistic Methods\n\nAnswer:"
+}
+Traceback (most recent call last):
+  File "/scratch/ys6310/graphprompter/cora.py", line 59, in <module>
+    split_ids = dataset.get_idx_split()
+  File "/scratch/ys6310/graphprompter/cora.py", line 41, in get_idx_split
+    with open('dataset/tape_cora/split/train_indices.txt', 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/tape_cora/split/train_indices.txt'

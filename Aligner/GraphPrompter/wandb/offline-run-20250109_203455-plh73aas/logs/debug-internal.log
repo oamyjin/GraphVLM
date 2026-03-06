@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:34:55.179240798+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:34:55.17955634+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203455-plh73aas/logs/debug-core.log"}
+{"time":"2025-01-09T20:34:55.289285825+08:00","level":"INFO","msg":"created new stream","id":"plh73aas"}
+{"time":"2025-01-09T20:34:55.289322955+08:00","level":"INFO","msg":"stream: started","id":"plh73aas"}
+{"time":"2025-01-09T20:34:55.289335459+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"plh73aas"}
+{"time":"2025-01-09T20:34:55.289344655+08:00","level":"INFO","msg":"sender: started","stream_id":"plh73aas"}
+{"time":"2025-01-09T20:34:55.289389794+08:00","level":"INFO","msg":"handler: started","stream_id":"plh73aas"}
+{"time":"2025-01-09T20:34:55.293712057+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:35:24.405649166+08:00","level":"INFO","msg":"stream: closing","id":"plh73aas"}
+{"time":"2025-01-09T20:35:24.405700607+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:35:24.406301622+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:35:24.406466112+08:00","level":"INFO","msg":"handler: closed","stream_id":"plh73aas"}
+{"time":"2025-01-09T20:35:24.406480568+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"plh73aas"}
+{"time":"2025-01-09T20:35:24.406488919+08:00","level":"INFO","msg":"sender: closed","stream_id":"plh73aas"}
+{"time":"2025-01-09T20:35:24.417341967+08:00","level":"INFO","msg":"stream: closed","id":"plh73aas"}

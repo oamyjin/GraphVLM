@@ -1,0 +1,15 @@
+{"time":"2025-01-10T22:47:04.910314955+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T22:47:04.910386258+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_224704-vmgtkond/logs/debug-core.log"}
+{"time":"2025-01-10T22:47:05.024114763+08:00","level":"INFO","msg":"created new stream","id":"vmgtkond"}
+{"time":"2025-01-10T22:47:05.024169501+08:00","level":"INFO","msg":"stream: started","id":"vmgtkond"}
+{"time":"2025-01-10T22:47:05.024189197+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vmgtkond"}
+{"time":"2025-01-10T22:47:05.024279648+08:00","level":"INFO","msg":"handler: started","stream_id":"vmgtkond"}
+{"time":"2025-01-10T22:47:05.024325856+08:00","level":"INFO","msg":"sender: started","stream_id":"vmgtkond"}
+{"time":"2025-01-10T22:47:05.029810668+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T22:47:05.359769705+08:00","level":"INFO","msg":"stream: closing","id":"vmgtkond"}
+{"time":"2025-01-10T22:47:05.359815955+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T22:47:05.360506345+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T22:47:05.360671159+08:00","level":"INFO","msg":"handler: closed","stream_id":"vmgtkond"}
+{"time":"2025-01-10T22:47:05.360684843+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vmgtkond"}
+{"time":"2025-01-10T22:47:05.36069987+08:00","level":"INFO","msg":"sender: closed","stream_id":"vmgtkond"}
+{"time":"2025-01-10T22:47:05.360817481+08:00","level":"INFO","msg":"stream: closed","id":"vmgtkond"}

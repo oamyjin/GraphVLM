@@ -1,0 +1,15 @@
+{"time":"2025-01-10T23:05:45.015819624+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T23:05:45.01588836+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_230544-44rbia7w/logs/debug-core.log"}
+{"time":"2025-01-10T23:05:45.12206974+08:00","level":"INFO","msg":"created new stream","id":"44rbia7w"}
+{"time":"2025-01-10T23:05:45.122106983+08:00","level":"INFO","msg":"stream: started","id":"44rbia7w"}
+{"time":"2025-01-10T23:05:45.12222728+08:00","level":"INFO","msg":"handler: started","stream_id":"44rbia7w"}
+{"time":"2025-01-10T23:05:45.122258119+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"44rbia7w"}
+{"time":"2025-01-10T23:05:45.122322633+08:00","level":"INFO","msg":"sender: started","stream_id":"44rbia7w"}
+{"time":"2025-01-10T23:05:45.126188917+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T23:05:45.54319107+08:00","level":"INFO","msg":"stream: closing","id":"44rbia7w"}
+{"time":"2025-01-10T23:05:45.54322705+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T23:05:45.54383684+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T23:05:45.54400099+08:00","level":"INFO","msg":"handler: closed","stream_id":"44rbia7w"}
+{"time":"2025-01-10T23:05:45.544027567+08:00","level":"INFO","msg":"sender: closed","stream_id":"44rbia7w"}
+{"time":"2025-01-10T23:05:45.544025974+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"44rbia7w"}
+{"time":"2025-01-10T23:05:45.544131102+08:00","level":"INFO","msg":"stream: closed","id":"44rbia7w"}

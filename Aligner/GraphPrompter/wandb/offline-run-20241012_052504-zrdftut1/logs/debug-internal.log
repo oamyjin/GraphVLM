@@ -1,0 +1,9 @@
+{"time":"2024-10-12T05:25:04.672795944+08:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T05:25:04.672849715+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/jl11523/graphprompter/wandb/offline-run-20241012_052504-zrdftut1/logs/debug-core.log"}
+{"time":"2024-10-12T05:25:04.684284745+08:00","level":"INFO","msg":"created new stream","id":"zrdftut1"}
+{"time":"2024-10-12T05:25:04.684316258+08:00","level":"INFO","msg":"stream: started","id":"zrdftut1"}
+{"time":"2024-10-12T05:25:04.684332752+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"zrdftut1"}}
+{"time":"2024-10-12T05:25:04.684333239+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zrdftut1"}}
+{"time":"2024-10-12T05:25:04.684348426+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"zrdftut1"}}
+{"time":"2024-10-12T05:25:04.689496298+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T05:25:04.73140143+08:00","level":"INFO","msg":"Starting system monitor"}

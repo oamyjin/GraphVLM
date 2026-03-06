@@ -1,0 +1,15 @@
+{"time":"2025-01-24T16:48:33.420469167+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-24T16:48:33.420520672+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250124_164833-m7huiggy/logs/debug-core.log"}
+{"time":"2025-01-24T16:48:33.529898+08:00","level":"INFO","msg":"created new stream","id":"m7huiggy"}
+{"time":"2025-01-24T16:48:33.529946457+08:00","level":"INFO","msg":"stream: started","id":"m7huiggy"}
+{"time":"2025-01-24T16:48:33.529961279+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"m7huiggy"}
+{"time":"2025-01-24T16:48:33.530051026+08:00","level":"INFO","msg":"sender: started","stream_id":"m7huiggy"}
+{"time":"2025-01-24T16:48:33.530070308+08:00","level":"INFO","msg":"handler: started","stream_id":"m7huiggy"}
+{"time":"2025-01-24T16:48:33.534017201+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T16:48:33.885768809+08:00","level":"INFO","msg":"stream: closing","id":"m7huiggy"}
+{"time":"2025-01-24T16:48:33.885828589+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T16:48:33.886578944+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T16:48:33.886770175+08:00","level":"INFO","msg":"handler: closed","stream_id":"m7huiggy"}
+{"time":"2025-01-24T16:48:33.886785088+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m7huiggy"}
+{"time":"2025-01-24T16:48:33.88684152+08:00","level":"INFO","msg":"sender: closed","stream_id":"m7huiggy"}
+{"time":"2025-01-24T16:48:33.886893842+08:00","level":"INFO","msg":"stream: closed","id":"m7huiggy"}

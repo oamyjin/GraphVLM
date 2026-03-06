@@ -1,0 +1,15 @@
+{"time":"2025-01-22T23:37:30.727011321+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-22T23:37:30.72706563+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250122_233730-5dwkgzsa/logs/debug-core.log"}
+{"time":"2025-01-22T23:37:31.019737002+08:00","level":"INFO","msg":"created new stream","id":"5dwkgzsa"}
+{"time":"2025-01-22T23:37:31.020732165+08:00","level":"INFO","msg":"stream: started","id":"5dwkgzsa"}
+{"time":"2025-01-22T23:37:31.02078123+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"5dwkgzsa"}
+{"time":"2025-01-22T23:37:31.020805319+08:00","level":"INFO","msg":"handler: started","stream_id":"5dwkgzsa"}
+{"time":"2025-01-22T23:37:31.020858771+08:00","level":"INFO","msg":"sender: started","stream_id":"5dwkgzsa"}
+{"time":"2025-01-22T23:37:31.0268983+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-22T23:37:32.252244439+08:00","level":"INFO","msg":"stream: closing","id":"5dwkgzsa"}
+{"time":"2025-01-22T23:37:32.252297317+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-22T23:37:32.252685338+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-22T23:37:32.252814567+08:00","level":"INFO","msg":"handler: closed","stream_id":"5dwkgzsa"}
+{"time":"2025-01-22T23:37:32.252824945+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5dwkgzsa"}
+{"time":"2025-01-22T23:37:32.252833105+08:00","level":"INFO","msg":"sender: closed","stream_id":"5dwkgzsa"}
+{"time":"2025-01-22T23:37:32.253084769+08:00","level":"INFO","msg":"stream: closed","id":"5dwkgzsa"}

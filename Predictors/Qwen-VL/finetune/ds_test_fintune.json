@@ -1,0 +1,36 @@
+[
+    {
+      "id": "identity_0",
+      "conversations": [
+        {
+          "from": "user",
+          "value": "你好"
+        },
+        {
+          "from": "assistant",
+          "value": "我是Qwen-VL,一个支持视觉输入的大模型。"
+        }
+      ]
+    },
+    {
+      "id": "identity_1",
+      "conversations": [
+        {
+          "from": "user",
+          "value": "Picture 1: <img>https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg</img>\n图中的狗是什么品种？"
+        },
+        {
+          "from": "assistant",
+          "value": "图中是一只拉布拉多犬。"
+        },
+        {
+          "from": "user",
+          "value": "框出图中的格子衬衫"
+        },
+        {
+          "from": "assistant",
+          "value": "<ref>格子衬衫</ref><box>(588,499),(725,789)</box>"
+        }
+      ]
+    }
+  ]

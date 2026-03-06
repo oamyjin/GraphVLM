@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:24:25.40247759+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:24:25.402537273+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_192425-weepdl85/logs/debug-core.log"}
+{"time":"2025-01-09T19:24:25.508875894+08:00","level":"INFO","msg":"created new stream","id":"weepdl85"}
+{"time":"2025-01-09T19:24:25.508911488+08:00","level":"INFO","msg":"stream: started","id":"weepdl85"}
+{"time":"2025-01-09T19:24:25.508929631+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"weepdl85"}
+{"time":"2025-01-09T19:24:25.50901926+08:00","level":"INFO","msg":"sender: started","stream_id":"weepdl85"}
+{"time":"2025-01-09T19:24:25.50903902+08:00","level":"INFO","msg":"handler: started","stream_id":"weepdl85"}
+{"time":"2025-01-09T19:24:25.513804249+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:24:52.396737699+08:00","level":"INFO","msg":"stream: closing","id":"weepdl85"}
+{"time":"2025-01-09T19:24:52.396782028+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:24:52.397708569+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:24:52.397862028+08:00","level":"INFO","msg":"handler: closed","stream_id":"weepdl85"}
+{"time":"2025-01-09T19:24:52.397875271+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"weepdl85"}
+{"time":"2025-01-09T19:24:52.397889137+08:00","level":"INFO","msg":"sender: closed","stream_id":"weepdl85"}
+{"time":"2025-01-09T19:24:52.40834733+08:00","level":"INFO","msg":"stream: closed","id":"weepdl85"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-10T10:46:30.776313474+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T10:46:30.776398612+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_104630-z6sn572h/logs/debug-core.log"}
+{"time":"2025-01-10T10:46:30.931667543+08:00","level":"INFO","msg":"created new stream","id":"z6sn572h"}
+{"time":"2025-01-10T10:46:30.931704788+08:00","level":"INFO","msg":"stream: started","id":"z6sn572h"}
+{"time":"2025-01-10T10:46:30.931851538+08:00","level":"INFO","msg":"handler: started","stream_id":"z6sn572h"}
+{"time":"2025-01-10T10:46:30.931882391+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"z6sn572h"}
+{"time":"2025-01-10T10:46:30.932121549+08:00","level":"INFO","msg":"sender: started","stream_id":"z6sn572h"}
+{"time":"2025-01-10T10:46:30.943905096+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T10:46:31.739329544+08:00","level":"INFO","msg":"stream: closing","id":"z6sn572h"}
+{"time":"2025-01-10T10:46:31.739391387+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T10:46:31.739801479+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T10:46:31.739971487+08:00","level":"INFO","msg":"handler: closed","stream_id":"z6sn572h"}
+{"time":"2025-01-10T10:46:31.739985868+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"z6sn572h"}
+{"time":"2025-01-10T10:46:31.739993096+08:00","level":"INFO","msg":"sender: closed","stream_id":"z6sn572h"}
+{"time":"2025-01-10T10:46:31.740221015+08:00","level":"INFO","msg":"stream: closed","id":"z6sn572h"}

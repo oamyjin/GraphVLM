@@ -1,0 +1,15 @@
+{"time":"2025-01-23T00:33:10.284522835+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T00:33:10.284579909+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250123_003310-xefs77w4/logs/debug-core.log"}
+{"time":"2025-01-23T00:33:10.392771591+08:00","level":"INFO","msg":"created new stream","id":"xefs77w4"}
+{"time":"2025-01-23T00:33:10.392806881+08:00","level":"INFO","msg":"stream: started","id":"xefs77w4"}
+{"time":"2025-01-23T00:33:10.392837014+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xefs77w4"}
+{"time":"2025-01-23T00:33:10.392888948+08:00","level":"INFO","msg":"handler: started","stream_id":"xefs77w4"}
+{"time":"2025-01-23T00:33:10.392903154+08:00","level":"INFO","msg":"sender: started","stream_id":"xefs77w4"}
+{"time":"2025-01-23T00:33:10.397732709+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T00:33:10.991495118+08:00","level":"INFO","msg":"stream: closing","id":"xefs77w4"}
+{"time":"2025-01-23T00:33:10.991539021+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T00:33:10.992008165+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T00:33:10.992169656+08:00","level":"INFO","msg":"handler: closed","stream_id":"xefs77w4"}
+{"time":"2025-01-23T00:33:10.992184183+08:00","level":"INFO","msg":"sender: closed","stream_id":"xefs77w4"}
+{"time":"2025-01-23T00:33:10.992187768+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xefs77w4"}
+{"time":"2025-01-23T00:33:10.992285311+08:00","level":"INFO","msg":"stream: closed","id":"xefs77w4"}

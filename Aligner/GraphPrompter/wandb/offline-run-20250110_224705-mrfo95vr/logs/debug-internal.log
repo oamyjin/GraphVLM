@@ -1,0 +1,15 @@
+{"time":"2025-01-10T22:47:05.343160917+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T22:47:05.343218883+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_224705-mrfo95vr/logs/debug-core.log"}
+{"time":"2025-01-10T22:47:05.450314556+08:00","level":"INFO","msg":"created new stream","id":"mrfo95vr"}
+{"time":"2025-01-10T22:47:05.450364779+08:00","level":"INFO","msg":"stream: started","id":"mrfo95vr"}
+{"time":"2025-01-10T22:47:05.450383269+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"mrfo95vr"}
+{"time":"2025-01-10T22:47:05.450482528+08:00","level":"INFO","msg":"handler: started","stream_id":"mrfo95vr"}
+{"time":"2025-01-10T22:47:05.450504609+08:00","level":"INFO","msg":"sender: started","stream_id":"mrfo95vr"}
+{"time":"2025-01-10T22:47:05.45482414+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T22:47:05.778851407+08:00","level":"INFO","msg":"stream: closing","id":"mrfo95vr"}
+{"time":"2025-01-10T22:47:05.778897651+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T22:47:05.779510179+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T22:47:05.779678505+08:00","level":"INFO","msg":"handler: closed","stream_id":"mrfo95vr"}
+{"time":"2025-01-10T22:47:05.779693007+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mrfo95vr"}
+{"time":"2025-01-10T22:47:05.779709489+08:00","level":"INFO","msg":"sender: closed","stream_id":"mrfo95vr"}
+{"time":"2025-01-10T22:47:05.77988621+08:00","level":"INFO","msg":"stream: closed","id":"mrfo95vr"}

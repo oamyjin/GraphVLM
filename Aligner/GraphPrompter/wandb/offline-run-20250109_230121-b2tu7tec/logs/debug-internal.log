@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:01:21.531065234+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:01:21.531267645+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_230121-b2tu7tec/logs/debug-core.log"}
+{"time":"2025-01-09T23:01:21.638243926+08:00","level":"INFO","msg":"created new stream","id":"b2tu7tec"}
+{"time":"2025-01-09T23:01:21.638279723+08:00","level":"INFO","msg":"stream: started","id":"b2tu7tec"}
+{"time":"2025-01-09T23:01:21.638298173+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"b2tu7tec"}
+{"time":"2025-01-09T23:01:21.638307601+08:00","level":"INFO","msg":"sender: started","stream_id":"b2tu7tec"}
+{"time":"2025-01-09T23:01:21.638322701+08:00","level":"INFO","msg":"handler: started","stream_id":"b2tu7tec"}
+{"time":"2025-01-09T23:01:21.641968183+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:01:44.433833935+08:00","level":"INFO","msg":"stream: closing","id":"b2tu7tec"}
+{"time":"2025-01-09T23:01:44.433878253+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:01:44.43570653+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:01:44.435859318+08:00","level":"INFO","msg":"handler: closed","stream_id":"b2tu7tec"}
+{"time":"2025-01-09T23:01:44.43587213+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b2tu7tec"}
+{"time":"2025-01-09T23:01:44.435888674+08:00","level":"INFO","msg":"sender: closed","stream_id":"b2tu7tec"}
+{"time":"2025-01-09T23:01:44.437478766+08:00","level":"INFO","msg":"stream: closed","id":"b2tu7tec"}

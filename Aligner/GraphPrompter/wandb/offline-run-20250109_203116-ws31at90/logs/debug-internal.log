@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:31:17.038108789+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:31:17.038167221+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203116-ws31at90/logs/debug-core.log"}
+{"time":"2025-01-09T20:31:17.145354372+08:00","level":"INFO","msg":"created new stream","id":"ws31at90"}
+{"time":"2025-01-09T20:31:17.145390881+08:00","level":"INFO","msg":"stream: started","id":"ws31at90"}
+{"time":"2025-01-09T20:31:17.145408175+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ws31at90"}
+{"time":"2025-01-09T20:31:17.14544981+08:00","level":"INFO","msg":"handler: started","stream_id":"ws31at90"}
+{"time":"2025-01-09T20:31:17.145418028+08:00","level":"INFO","msg":"sender: started","stream_id":"ws31at90"}
+{"time":"2025-01-09T20:31:17.149609265+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:31:47.086999337+08:00","level":"INFO","msg":"stream: closing","id":"ws31at90"}
+{"time":"2025-01-09T20:31:47.087040639+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:31:47.087870268+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:31:47.08802059+08:00","level":"INFO","msg":"handler: closed","stream_id":"ws31at90"}
+{"time":"2025-01-09T20:31:47.08803501+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ws31at90"}
+{"time":"2025-01-09T20:31:47.088049603+08:00","level":"INFO","msg":"sender: closed","stream_id":"ws31at90"}
+{"time":"2025-01-09T20:31:47.088402984+08:00","level":"INFO","msg":"stream: closed","id":"ws31at90"}

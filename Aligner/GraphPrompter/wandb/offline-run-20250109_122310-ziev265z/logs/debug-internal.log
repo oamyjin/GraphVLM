@@ -1,0 +1,15 @@
+{"time":"2025-01-09T12:23:11.059334791+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T12:23:11.05938083+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_122310-ziev265z/logs/debug-core.log"}
+{"time":"2025-01-09T12:23:11.209371911+08:00","level":"INFO","msg":"created new stream","id":"ziev265z"}
+{"time":"2025-01-09T12:23:11.209410274+08:00","level":"INFO","msg":"stream: started","id":"ziev265z"}
+{"time":"2025-01-09T12:23:11.209542418+08:00","level":"INFO","msg":"handler: started","stream_id":"ziev265z"}
+{"time":"2025-01-09T12:23:11.209574463+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ziev265z"}
+{"time":"2025-01-09T12:23:11.209631442+08:00","level":"INFO","msg":"sender: started","stream_id":"ziev265z"}
+{"time":"2025-01-09T12:23:11.216568607+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T12:23:11.990730437+08:00","level":"INFO","msg":"stream: closing","id":"ziev265z"}
+{"time":"2025-01-09T12:23:11.990772588+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T12:23:11.991089211+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T12:23:11.991220767+08:00","level":"INFO","msg":"handler: closed","stream_id":"ziev265z"}
+{"time":"2025-01-09T12:23:11.991231174+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ziev265z"}
+{"time":"2025-01-09T12:23:11.991244646+08:00","level":"INFO","msg":"sender: closed","stream_id":"ziev265z"}
+{"time":"2025-01-09T12:23:11.992294683+08:00","level":"INFO","msg":"stream: closed","id":"ziev265z"}

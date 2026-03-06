@@ -1,0 +1,16 @@
+{"time":"2024-10-12T05:27:49.46098984+08:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T05:27:49.461044558+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/jl11523/graphprompter/wandb/offline-run-20241012_052749-ohearcek/logs/debug-core.log"}
+{"time":"2024-10-12T05:27:49.472663097+08:00","level":"INFO","msg":"created new stream","id":"ohearcek"}
+{"time":"2024-10-12T05:27:49.472696721+08:00","level":"INFO","msg":"stream: started","id":"ohearcek"}
+{"time":"2024-10-12T05:27:49.472721504+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ohearcek"}}
+{"time":"2024-10-12T05:27:49.472716284+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ohearcek"}}
+{"time":"2024-10-12T05:27:49.472766083+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ohearcek"}}
+{"time":"2024-10-12T05:27:49.477272748+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T05:27:49.519423106+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T07:16:03.134134851+08:00","level":"INFO","msg":"stream: closing","id":"ohearcek"}
+{"time":"2024-10-12T07:16:03.134170734+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T07:16:03.137403567+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T07:16:03.137590024+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ohearcek"}}
+{"time":"2024-10-12T07:16:03.137610188+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ohearcek"}}
+{"time":"2024-10-12T07:16:03.137632901+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"ohearcek"}}
+{"time":"2024-10-12T07:16:03.197448068+08:00","level":"INFO","msg":"stream: closed","id":"ohearcek"}

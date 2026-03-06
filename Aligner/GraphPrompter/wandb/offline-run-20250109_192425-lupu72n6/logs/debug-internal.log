@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:24:25.285155708+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:24:25.285219847+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_192425-lupu72n6/logs/debug-core.log"}
+{"time":"2025-01-09T19:24:25.392324455+08:00","level":"INFO","msg":"created new stream","id":"lupu72n6"}
+{"time":"2025-01-09T19:24:25.392357711+08:00","level":"INFO","msg":"stream: started","id":"lupu72n6"}
+{"time":"2025-01-09T19:24:25.392372609+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"lupu72n6"}
+{"time":"2025-01-09T19:24:25.392393056+08:00","level":"INFO","msg":"handler: started","stream_id":"lupu72n6"}
+{"time":"2025-01-09T19:24:25.392383296+08:00","level":"INFO","msg":"sender: started","stream_id":"lupu72n6"}
+{"time":"2025-01-09T19:24:25.396497922+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:24:52.42178317+08:00","level":"INFO","msg":"stream: closing","id":"lupu72n6"}
+{"time":"2025-01-09T19:24:52.421827357+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:24:52.429744977+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:24:52.429923278+08:00","level":"INFO","msg":"handler: closed","stream_id":"lupu72n6"}
+{"time":"2025-01-09T19:24:52.429938233+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lupu72n6"}
+{"time":"2025-01-09T19:24:52.42995379+08:00","level":"INFO","msg":"sender: closed","stream_id":"lupu72n6"}
+{"time":"2025-01-09T19:24:52.442346086+08:00","level":"INFO","msg":"stream: closed","id":"lupu72n6"}

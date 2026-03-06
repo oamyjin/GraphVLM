@@ -1,0 +1,97 @@
+{
+  "os":  "Linux-5.14.0-284.40.1.el9_2.x86_64-x86_64-with-glibc2.35",
+  "python":  "3.9.20",
+  "startedAt":  "2024-10-08T23:56:43.401192Z",
+  "args":  [
+    "--dataset",
+    "arxiv_semi",
+    "--model_name",
+    "graph_llm",
+    "--llm_model_name",
+    "7b",
+    "--gnn_model_name",
+    "gat",
+    "--seed",
+    "0"
+  ],
+  "program":  "/scratch/ys6310/graphprompter/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/franciscoliu/graphprompter.git",
+    "commit":  "60d75b059dd8ca52a4d78eedcdcf1174de842036"
+  },
+  "root":  "/scratch/ys6310/graphprompter",
+  "host":  "gr006.hpc.nyu.edu",
+  "username":  "ys6310",
+  "executable":  "/ext3/miniconda3/envs/prompter/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  48,
+  "cpu_count_logical":  48,
+  "gpu":  "[Quadro RTX 8000]",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "56215400448",
+      "used":  "21488418816"
+    }
+  },
+  "memory":  {
+    "total":  "404866916352"
+  },
+  "cpu":  {
+    "count":  48,
+    "countLogical":  48
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Quadro RTX 8000",
+      "memoryTotal":  "48318382080",
+      "cudaCores":  4608,
+      "architecture":  "Turing"
+    }
+  ],
+  "slurm":  {
+    "cluster_name":  "(null)",
+    "conf":  "/opt/slurm/etc/slurm.conf",
+    "cpus_on_node":  "8",
+    "cpus_per_task":  "8",
+    "gpus_on_node":  "1",
+    "gtids":  "0",
+    "job_account":  "users",
+    "job_cpus_per_node":  "8",
+    "job_end_time":  "1728518171",
+    "job_gid":  "4297577",
+    "job_gpus":  "0",
+    "job_id":  "51922162",
+    "job_name":  "cite",
+    "job_nodelist":  "gr006",
+    "job_num_nodes":  "1",
+    "job_partition":  "rtx8000",
+    "job_qos":  "gpu48",
+    "job_start_time":  "1728431771",
+    "job_uid":  "4297577",
+    "job_user":  "ys6310",
+    "jobid":  "51922162",
+    "jobtmp":  "/state/partition1/job-51922162",
+    "localid":  "0",
+    "mem_per_node":  "204800",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "gr006",
+    "nprocs":  "1",
+    "ntasks":  "1",
+    "ntasks_per_node":  "1",
+    "prio_process":  "0",
+    "procid":  "0",
+    "script_context":  "prolog_task",
+    "submit_dir":  "/scratch/ys6310/graphprompter",
+    "submit_host":  "log-1",
+    "task_pid":  "2643043",
+    "tasks_per_node":  "1",
+    "tmpdir":  "/state/partition1/job-51922162",
+    "topology_addr":  "gr006",
+    "topology_addr_pattern":  "node",
+    "tres_per_task":  "cpu:8"
+  },
+  "cudaVersion":  "12.2"
+}

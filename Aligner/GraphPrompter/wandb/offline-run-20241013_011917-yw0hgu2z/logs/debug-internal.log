@@ -1,0 +1,9 @@
+{"time":"2024-10-13T01:19:17.954343506-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T01:19:17.954520696-04:00","level":"INFO","msg":"created symlink","path":"/scratch/ys6310/graphprompter/wandb/offline-run-20241013_011917-yw0hgu2z/logs/debug-core.log"}
+{"time":"2024-10-13T01:19:18.098530149-04:00","level":"INFO","msg":"created new stream","id":"yw0hgu2z"}
+{"time":"2024-10-13T01:19:18.098608852-04:00","level":"INFO","msg":"stream: started","id":"yw0hgu2z"}
+{"time":"2024-10-13T01:19:18.098668267-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"yw0hgu2z"}}
+{"time":"2024-10-13T01:19:18.098792368-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yw0hgu2z"}}
+{"time":"2024-10-13T01:19:18.098860821-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"yw0hgu2z"}}
+{"time":"2024-10-13T01:19:18.108034764-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T01:19:18.109393909-04:00","level":"INFO","msg":"Starting system monitor"}

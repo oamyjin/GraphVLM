@@ -1,0 +1,15 @@
+{"time":"2025-01-24T16:52:55.627976421+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-24T16:52:55.628034231+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250124_165255-vga5pru5/logs/debug-core.log"}
+{"time":"2025-01-24T16:52:55.737007584+08:00","level":"INFO","msg":"created new stream","id":"vga5pru5"}
+{"time":"2025-01-24T16:52:55.737060949+08:00","level":"INFO","msg":"stream: started","id":"vga5pru5"}
+{"time":"2025-01-24T16:52:55.737173983+08:00","level":"INFO","msg":"handler: started","stream_id":"vga5pru5"}
+{"time":"2025-01-24T16:52:55.737203329+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vga5pru5"}
+{"time":"2025-01-24T16:52:55.737370153+08:00","level":"INFO","msg":"sender: started","stream_id":"vga5pru5"}
+{"time":"2025-01-24T16:52:55.741672021+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T16:52:56.096725552+08:00","level":"INFO","msg":"stream: closing","id":"vga5pru5"}
+{"time":"2025-01-24T16:52:56.096765282+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T16:52:56.097600338+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T16:52:56.09777222+08:00","level":"INFO","msg":"handler: closed","stream_id":"vga5pru5"}
+{"time":"2025-01-24T16:52:56.097786368+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vga5pru5"}
+{"time":"2025-01-24T16:52:56.097805388+08:00","level":"INFO","msg":"sender: closed","stream_id":"vga5pru5"}
+{"time":"2025-01-24T16:52:56.097862041+08:00","level":"INFO","msg":"stream: closed","id":"vga5pru5"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-10T13:55:00.919820783+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T13:55:00.919878479+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_135500-tvavwwl2/logs/debug-core.log"}
+{"time":"2025-01-10T13:55:01.029919772+08:00","level":"INFO","msg":"created new stream","id":"tvavwwl2"}
+{"time":"2025-01-10T13:55:01.030523181+08:00","level":"INFO","msg":"handler: started","stream_id":"tvavwwl2"}
+{"time":"2025-01-10T13:55:01.03057317+08:00","level":"INFO","msg":"sender: started","stream_id":"tvavwwl2"}
+{"time":"2025-01-10T13:55:01.030597422+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"tvavwwl2"}
+{"time":"2025-01-10T13:55:01.031072585+08:00","level":"INFO","msg":"stream: started","id":"tvavwwl2"}
+{"time":"2025-01-10T13:55:01.035319821+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T13:55:01.412426221+08:00","level":"INFO","msg":"stream: closing","id":"tvavwwl2"}
+{"time":"2025-01-10T13:55:01.412470387+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T13:55:01.412981429+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T13:55:01.413126921+08:00","level":"INFO","msg":"handler: closed","stream_id":"tvavwwl2"}
+{"time":"2025-01-10T13:55:01.413138121+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tvavwwl2"}
+{"time":"2025-01-10T13:55:01.413145902+08:00","level":"INFO","msg":"sender: closed","stream_id":"tvavwwl2"}
+{"time":"2025-01-10T13:55:01.413462311+08:00","level":"INFO","msg":"stream: closed","id":"tvavwwl2"}

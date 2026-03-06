@@ -1,0 +1,15 @@
+{"time":"2025-01-10T10:46:30.776100376+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T10:46:30.776181492+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_104630-vkt38ega/logs/debug-core.log"}
+{"time":"2025-01-10T10:46:30.932908213+08:00","level":"INFO","msg":"created new stream","id":"vkt38ega"}
+{"time":"2025-01-10T10:46:30.932946633+08:00","level":"INFO","msg":"stream: started","id":"vkt38ega"}
+{"time":"2025-01-10T10:46:30.933054111+08:00","level":"INFO","msg":"handler: started","stream_id":"vkt38ega"}
+{"time":"2025-01-10T10:46:30.933082237+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vkt38ega"}
+{"time":"2025-01-10T10:46:30.933132759+08:00","level":"INFO","msg":"sender: started","stream_id":"vkt38ega"}
+{"time":"2025-01-10T10:46:30.937154114+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T10:46:31.739902536+08:00","level":"INFO","msg":"stream: closing","id":"vkt38ega"}
+{"time":"2025-01-10T10:46:31.739952315+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T10:46:31.741036555+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T10:46:31.741180786+08:00","level":"INFO","msg":"handler: closed","stream_id":"vkt38ega"}
+{"time":"2025-01-10T10:46:31.741193008+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vkt38ega"}
+{"time":"2025-01-10T10:46:31.741202136+08:00","level":"INFO","msg":"sender: closed","stream_id":"vkt38ega"}
+{"time":"2025-01-10T10:46:31.741409166+08:00","level":"INFO","msg":"stream: closed","id":"vkt38ega"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-10T17:09:36.66710425+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T17:09:36.668568754+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_170936-fyp5xubo/logs/debug-core.log"}
+{"time":"2025-01-10T17:09:36.77682013+08:00","level":"INFO","msg":"created new stream","id":"fyp5xubo"}
+{"time":"2025-01-10T17:09:36.776859894+08:00","level":"INFO","msg":"stream: started","id":"fyp5xubo"}
+{"time":"2025-01-10T17:09:36.776972067+08:00","level":"INFO","msg":"handler: started","stream_id":"fyp5xubo"}
+{"time":"2025-01-10T17:09:36.777000161+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"fyp5xubo"}
+{"time":"2025-01-10T17:09:36.777050069+08:00","level":"INFO","msg":"sender: started","stream_id":"fyp5xubo"}
+{"time":"2025-01-10T17:09:36.781286026+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T17:09:37.280403826+08:00","level":"INFO","msg":"stream: closing","id":"fyp5xubo"}
+{"time":"2025-01-10T17:09:37.28044726+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T17:09:37.280933786+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T17:09:37.281076353+08:00","level":"INFO","msg":"handler: closed","stream_id":"fyp5xubo"}
+{"time":"2025-01-10T17:09:37.281119199+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fyp5xubo"}
+{"time":"2025-01-10T17:09:37.281122035+08:00","level":"INFO","msg":"sender: closed","stream_id":"fyp5xubo"}
+{"time":"2025-01-10T17:09:37.281233099+08:00","level":"INFO","msg":"stream: closed","id":"fyp5xubo"}

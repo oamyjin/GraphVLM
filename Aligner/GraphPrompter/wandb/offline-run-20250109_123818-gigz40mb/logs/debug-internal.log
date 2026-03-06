@@ -1,0 +1,15 @@
+{"time":"2025-01-09T12:38:18.035997041+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T12:38:18.036046976+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_123818-gigz40mb/logs/debug-core.log"}
+{"time":"2025-01-09T12:38:18.142259592+08:00","level":"INFO","msg":"created new stream","id":"gigz40mb"}
+{"time":"2025-01-09T12:38:18.142297748+08:00","level":"INFO","msg":"stream: started","id":"gigz40mb"}
+{"time":"2025-01-09T12:38:18.142327053+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"gigz40mb"}
+{"time":"2025-01-09T12:38:18.142331975+08:00","level":"INFO","msg":"handler: started","stream_id":"gigz40mb"}
+{"time":"2025-01-09T12:38:18.142337175+08:00","level":"INFO","msg":"sender: started","stream_id":"gigz40mb"}
+{"time":"2025-01-09T12:38:18.145858326+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T12:38:18.473170846+08:00","level":"INFO","msg":"stream: closing","id":"gigz40mb"}
+{"time":"2025-01-09T12:38:18.473222602+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T12:38:18.473890983+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T12:38:18.474059636+08:00","level":"INFO","msg":"handler: closed","stream_id":"gigz40mb"}
+{"time":"2025-01-09T12:38:18.474071352+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gigz40mb"}
+{"time":"2025-01-09T12:38:18.474085357+08:00","level":"INFO","msg":"sender: closed","stream_id":"gigz40mb"}
+{"time":"2025-01-09T12:38:18.474689889+08:00","level":"INFO","msg":"stream: closed","id":"gigz40mb"}

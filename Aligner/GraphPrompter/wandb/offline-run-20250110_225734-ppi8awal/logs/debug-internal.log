@@ -1,0 +1,15 @@
+{"time":"2025-01-10T22:57:34.459607334+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T22:57:34.459666463+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_225734-ppi8awal/logs/debug-core.log"}
+{"time":"2025-01-10T22:57:34.586694919+08:00","level":"INFO","msg":"created new stream","id":"ppi8awal"}
+{"time":"2025-01-10T22:57:34.586735711+08:00","level":"INFO","msg":"stream: started","id":"ppi8awal"}
+{"time":"2025-01-10T22:57:34.586820713+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ppi8awal"}
+{"time":"2025-01-10T22:57:34.586869706+08:00","level":"INFO","msg":"sender: started","stream_id":"ppi8awal"}
+{"time":"2025-01-10T22:57:34.586900089+08:00","level":"INFO","msg":"handler: started","stream_id":"ppi8awal"}
+{"time":"2025-01-10T22:57:34.590640324+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T22:57:35.041149831+08:00","level":"INFO","msg":"stream: closing","id":"ppi8awal"}
+{"time":"2025-01-10T22:57:35.041191071+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T22:57:35.041599547+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T22:57:35.041747997+08:00","level":"INFO","msg":"handler: closed","stream_id":"ppi8awal"}
+{"time":"2025-01-10T22:57:35.041760732+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ppi8awal"}
+{"time":"2025-01-10T22:57:35.041849258+08:00","level":"INFO","msg":"sender: closed","stream_id":"ppi8awal"}
+{"time":"2025-01-10T22:57:35.042058388+08:00","level":"INFO","msg":"stream: closed","id":"ppi8awal"}

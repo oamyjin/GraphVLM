@@ -1,0 +1,9 @@
+{"time":"2024-10-13T00:58:25.532537265+08:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T00:58:25.532601471+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/jl11523/graphprompter/wandb/offline-run-20241013_005825-bxmcwcbw/logs/debug-core.log"}
+{"time":"2024-10-13T00:58:25.586181286+08:00","level":"INFO","msg":"created new stream","id":"bxmcwcbw"}
+{"time":"2024-10-13T00:58:25.586220903+08:00","level":"INFO","msg":"stream: started","id":"bxmcwcbw"}
+{"time":"2024-10-13T00:58:25.586237527+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bxmcwcbw"}}
+{"time":"2024-10-13T00:58:25.586238888+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"bxmcwcbw"}}
+{"time":"2024-10-13T00:58:25.586250701+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"bxmcwcbw"}}
+{"time":"2024-10-13T00:58:25.591660993+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T00:58:25.592651406+08:00","level":"INFO","msg":"Starting system monitor"}

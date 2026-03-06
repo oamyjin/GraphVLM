@@ -1,0 +1,15 @@
+{"time":"2025-01-09T12:43:51.150195025+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T12:43:51.150243377+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_124351-xgecnvoa/logs/debug-core.log"}
+{"time":"2025-01-09T12:43:51.255477411+08:00","level":"INFO","msg":"created new stream","id":"xgecnvoa"}
+{"time":"2025-01-09T12:43:51.255514483+08:00","level":"INFO","msg":"stream: started","id":"xgecnvoa"}
+{"time":"2025-01-09T12:43:51.255534036+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xgecnvoa"}
+{"time":"2025-01-09T12:43:51.255593723+08:00","level":"INFO","msg":"handler: started","stream_id":"xgecnvoa"}
+{"time":"2025-01-09T12:43:51.255559954+08:00","level":"INFO","msg":"sender: started","stream_id":"xgecnvoa"}
+{"time":"2025-01-09T12:43:51.261586912+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T12:43:51.571095371+08:00","level":"INFO","msg":"stream: closing","id":"xgecnvoa"}
+{"time":"2025-01-09T12:43:51.571132035+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T12:43:51.571475257+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T12:43:51.571595934+08:00","level":"INFO","msg":"handler: closed","stream_id":"xgecnvoa"}
+{"time":"2025-01-09T12:43:51.571603519+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xgecnvoa"}
+{"time":"2025-01-09T12:43:51.571649353+08:00","level":"INFO","msg":"sender: closed","stream_id":"xgecnvoa"}
+{"time":"2025-01-09T12:43:51.571723231+08:00","level":"INFO","msg":"stream: closed","id":"xgecnvoa"}

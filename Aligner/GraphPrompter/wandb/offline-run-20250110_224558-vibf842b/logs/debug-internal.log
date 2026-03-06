@@ -1,0 +1,15 @@
+{"time":"2025-01-10T22:45:59.046718817+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T22:45:59.048829835+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_224558-vibf842b/logs/debug-core.log"}
+{"time":"2025-01-10T22:45:59.169578868+08:00","level":"INFO","msg":"created new stream","id":"vibf842b"}
+{"time":"2025-01-10T22:45:59.169618544+08:00","level":"INFO","msg":"stream: started","id":"vibf842b"}
+{"time":"2025-01-10T22:45:59.169726427+08:00","level":"INFO","msg":"handler: started","stream_id":"vibf842b"}
+{"time":"2025-01-10T22:45:59.169755127+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vibf842b"}
+{"time":"2025-01-10T22:45:59.169805903+08:00","level":"INFO","msg":"sender: started","stream_id":"vibf842b"}
+{"time":"2025-01-10T22:45:59.176172337+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T22:45:59.967575596+08:00","level":"INFO","msg":"stream: closing","id":"vibf842b"}
+{"time":"2025-01-10T22:45:59.967617384+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T22:45:59.968425232+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T22:45:59.968573181+08:00","level":"INFO","msg":"handler: closed","stream_id":"vibf842b"}
+{"time":"2025-01-10T22:45:59.968587096+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vibf842b"}
+{"time":"2025-01-10T22:45:59.968596188+08:00","level":"INFO","msg":"sender: closed","stream_id":"vibf842b"}
+{"time":"2025-01-10T22:45:59.968938153+08:00","level":"INFO","msg":"stream: closed","id":"vibf842b"}

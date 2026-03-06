@@ -1,0 +1,101 @@
+{
+  "os":  "Linux-4.18.0-372.9.1.el8.x86_64-x86_64-with-glibc2.28",
+  "python":  "CPython 3.9.21",
+  "startedAt":  "2025-01-09T04:43:44.434877Z",
+  "args":  [
+    "--dataset",
+    "cora_sup",
+    "--model_name",
+    "graph_llm",
+    "--patience",
+    "2",
+    "--num_epochs",
+    "15"
+  ],
+  "program":  "/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/franciscoliu/graphprompter.git",
+    "commit":  "60d75b059dd8ca52a4d78eedcdcf1174de842036"
+  },
+  "root":  "/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose",
+  "host":  "gpu196.shanghai.nyu.edu",
+  "executable":  "/gpfsnyu/home/ny2208/.conda/envs/gpt/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  64,
+  "cpu_count_logical":  64,
+  "gpu":  "NVIDIA GeForce RTX 4090 D",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "474468007936",
+      "used":  "12470915072"
+    }
+  },
+  "memory":  {
+    "total":  "1622438092800"
+  },
+  "cpu":  {
+    "count":  64,
+    "countLogical":  64
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  14592,
+      "architecture":  "Ada"
+    }
+  ],
+  "slurm":  {
+    "cluster_name":  "nyushc",
+    "conf":  "/etc/slurm/slurm.conf",
+    "cpus_on_node":  "8",
+    "gpus_on_node":  "1",
+    "gtids":  "0,1,2,3,4,5,6,7",
+    "job_account":  "sfscai",
+    "job_cpus_per_node":  "8",
+    "job_gid":  "4139037",
+    "job_id":  "564853",
+    "job_name":  "bash",
+    "job_nodelist":  "gpu196",
+    "job_num_nodes":  "1",
+    "job_partition":  "sfscai",
+    "job_qos":  "sfscai",
+    "job_uid":  "4139037",
+    "job_user":  "ny2208",
+    "jobid":  "564853",
+    "launch_node_ipaddr":  "10.214.97.229",
+    "localid":  "1",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "gpu196",
+    "nprocs":  "8",
+    "ntasks":  "8",
+    "prio_process":  "0",
+    "procid":  "1",
+    "pty_port":  "38165",
+    "pty_win_col":  "98",
+    "pty_win_row":  "14",
+    "script_context":  "prolog_task",
+    "srun_comm_host":  "10.214.97.229",
+    "srun_comm_port":  "39961",
+    "step_gpus":  "0",
+    "step_id":  "0",
+    "step_launcher_port":  "39961",
+    "step_nodelist":  "gpu196",
+    "step_num_nodes":  "1",
+    "step_num_tasks":  "8",
+    "step_tasks_per_node":  "8",
+    "stepid":  "0",
+    "submit_dir":  "/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose",
+    "submit_host":  "hpclogin.shanghai.nyu.edu",
+    "task_pid":  "2773647",
+    "tasks_per_node":  "8",
+    "topology_addr":  "gpu196",
+    "topology_addr_pattern":  "node",
+    "umask":  "0002",
+    "working_cluster":  "nyushc:mgmt01:6817:9728:109"
+  },
+  "cudaVersion":  "12.4"
+}

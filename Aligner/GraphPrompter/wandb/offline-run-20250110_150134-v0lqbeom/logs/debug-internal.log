@@ -1,0 +1,15 @@
+{"time":"2025-01-10T15:01:35.082385661+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T15:01:35.082510398+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_150134-v0lqbeom/logs/debug-core.log"}
+{"time":"2025-01-10T15:01:35.241420361+08:00","level":"INFO","msg":"created new stream","id":"v0lqbeom"}
+{"time":"2025-01-10T15:01:35.241454484+08:00","level":"INFO","msg":"stream: started","id":"v0lqbeom"}
+{"time":"2025-01-10T15:01:35.241599942+08:00","level":"INFO","msg":"handler: started","stream_id":"v0lqbeom"}
+{"time":"2025-01-10T15:01:35.241652637+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"v0lqbeom"}
+{"time":"2025-01-10T15:01:35.241877865+08:00","level":"INFO","msg":"sender: started","stream_id":"v0lqbeom"}
+{"time":"2025-01-10T15:01:35.249547208+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T15:01:35.607237277+08:00","level":"INFO","msg":"stream: closing","id":"v0lqbeom"}
+{"time":"2025-01-10T15:01:35.607280811+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T15:01:35.609245546+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T15:01:35.609398235+08:00","level":"INFO","msg":"handler: closed","stream_id":"v0lqbeom"}
+{"time":"2025-01-10T15:01:35.609411357+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v0lqbeom"}
+{"time":"2025-01-10T15:01:35.60949947+08:00","level":"INFO","msg":"sender: closed","stream_id":"v0lqbeom"}
+{"time":"2025-01-10T15:01:35.610536694+08:00","level":"INFO","msg":"stream: closed","id":"v0lqbeom"}

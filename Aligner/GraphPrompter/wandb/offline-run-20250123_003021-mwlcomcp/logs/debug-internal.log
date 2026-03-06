@@ -1,0 +1,15 @@
+{"time":"2025-01-23T00:30:21.447157585+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T00:30:21.447209534+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250123_003021-mwlcomcp/logs/debug-core.log"}
+{"time":"2025-01-23T00:30:21.553133022+08:00","level":"INFO","msg":"created new stream","id":"mwlcomcp"}
+{"time":"2025-01-23T00:30:21.553168133+08:00","level":"INFO","msg":"stream: started","id":"mwlcomcp"}
+{"time":"2025-01-23T00:30:21.553284417+08:00","level":"INFO","msg":"handler: started","stream_id":"mwlcomcp"}
+{"time":"2025-01-23T00:30:21.55330972+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"mwlcomcp"}
+{"time":"2025-01-23T00:30:21.553351841+08:00","level":"INFO","msg":"sender: started","stream_id":"mwlcomcp"}
+{"time":"2025-01-23T00:30:21.556703335+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T00:30:21.871053429+08:00","level":"INFO","msg":"stream: closing","id":"mwlcomcp"}
+{"time":"2025-01-23T00:30:21.871123701+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T00:30:21.871630446+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T00:30:21.871761107+08:00","level":"INFO","msg":"handler: closed","stream_id":"mwlcomcp"}
+{"time":"2025-01-23T00:30:21.871770173+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mwlcomcp"}
+{"time":"2025-01-23T00:30:21.871782463+08:00","level":"INFO","msg":"sender: closed","stream_id":"mwlcomcp"}
+{"time":"2025-01-23T00:30:21.87190837+08:00","level":"INFO","msg":"stream: closed","id":"mwlcomcp"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-24T16:52:54.914580056+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-24T16:52:54.914649228+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250124_165254-z1vnrob5/logs/debug-core.log"}
+{"time":"2025-01-24T16:52:55.021623591+08:00","level":"INFO","msg":"created new stream","id":"z1vnrob5"}
+{"time":"2025-01-24T16:52:55.02166451+08:00","level":"INFO","msg":"stream: started","id":"z1vnrob5"}
+{"time":"2025-01-24T16:52:55.021689362+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"z1vnrob5"}
+{"time":"2025-01-24T16:52:55.021782238+08:00","level":"INFO","msg":"sender: started","stream_id":"z1vnrob5"}
+{"time":"2025-01-24T16:52:55.021802377+08:00","level":"INFO","msg":"handler: started","stream_id":"z1vnrob5"}
+{"time":"2025-01-24T16:52:55.026060729+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T16:52:55.377720845+08:00","level":"INFO","msg":"stream: closing","id":"z1vnrob5"}
+{"time":"2025-01-24T16:52:55.377772943+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T16:52:55.378273488+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T16:52:55.378438955+08:00","level":"INFO","msg":"handler: closed","stream_id":"z1vnrob5"}
+{"time":"2025-01-24T16:52:55.378452297+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"z1vnrob5"}
+{"time":"2025-01-24T16:52:55.378522926+08:00","level":"INFO","msg":"sender: closed","stream_id":"z1vnrob5"}
+{"time":"2025-01-24T16:52:55.378538282+08:00","level":"INFO","msg":"stream: closed","id":"z1vnrob5"}

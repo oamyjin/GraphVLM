@@ -1,0 +1,15 @@
+{"time":"2025-01-10T13:51:54.800111883+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T13:51:54.800174367+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_135154-cvigazx6/logs/debug-core.log"}
+{"time":"2025-01-10T13:51:54.985805998+08:00","level":"INFO","msg":"created new stream","id":"cvigazx6"}
+{"time":"2025-01-10T13:51:54.985842074+08:00","level":"INFO","msg":"stream: started","id":"cvigazx6"}
+{"time":"2025-01-10T13:51:54.985852059+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cvigazx6"}
+{"time":"2025-01-10T13:51:54.985862879+08:00","level":"INFO","msg":"handler: started","stream_id":"cvigazx6"}
+{"time":"2025-01-10T13:51:54.985877373+08:00","level":"INFO","msg":"sender: started","stream_id":"cvigazx6"}
+{"time":"2025-01-10T13:51:54.991224128+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T13:51:56.064311005+08:00","level":"INFO","msg":"stream: closing","id":"cvigazx6"}
+{"time":"2025-01-10T13:51:56.064353394+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T13:51:56.065677096+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T13:51:56.066771517+08:00","level":"INFO","msg":"handler: closed","stream_id":"cvigazx6"}
+{"time":"2025-01-10T13:51:56.066788532+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cvigazx6"}
+{"time":"2025-01-10T13:51:56.066984789+08:00","level":"INFO","msg":"sender: closed","stream_id":"cvigazx6"}
+{"time":"2025-01-10T13:51:56.067025211+08:00","level":"INFO","msg":"stream: closed","id":"cvigazx6"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-09T14:51:48.41339845+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T14:51:48.413459773+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_145148-xp3ua553/logs/debug-core.log"}
+{"time":"2025-01-09T14:51:48.566062543+08:00","level":"INFO","msg":"created new stream","id":"xp3ua553"}
+{"time":"2025-01-09T14:51:48.566113734+08:00","level":"INFO","msg":"stream: started","id":"xp3ua553"}
+{"time":"2025-01-09T14:51:48.566271718+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xp3ua553"}
+{"time":"2025-01-09T14:51:48.566486426+08:00","level":"INFO","msg":"sender: started","stream_id":"xp3ua553"}
+{"time":"2025-01-09T14:51:48.566912809+08:00","level":"INFO","msg":"handler: started","stream_id":"xp3ua553"}
+{"time":"2025-01-09T14:51:48.576261869+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T14:51:49.544545965+08:00","level":"INFO","msg":"stream: closing","id":"xp3ua553"}
+{"time":"2025-01-09T14:51:49.544587169+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T14:51:49.545208025+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T14:51:49.545355971+08:00","level":"INFO","msg":"handler: closed","stream_id":"xp3ua553"}
+{"time":"2025-01-09T14:51:49.545369028+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xp3ua553"}
+{"time":"2025-01-09T14:51:49.545388362+08:00","level":"INFO","msg":"sender: closed","stream_id":"xp3ua553"}
+{"time":"2025-01-09T14:51:49.545505702+08:00","level":"INFO","msg":"stream: closed","id":"xp3ua553"}

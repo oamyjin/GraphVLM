@@ -1,0 +1,15 @@
+{"time":"2025-01-09T22:59:34.253864694+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T22:59:34.253932682+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_225934-i4v882zd/logs/debug-core.log"}
+{"time":"2025-01-09T22:59:34.433380185+08:00","level":"INFO","msg":"created new stream","id":"i4v882zd"}
+{"time":"2025-01-09T22:59:34.433416277+08:00","level":"INFO","msg":"stream: started","id":"i4v882zd"}
+{"time":"2025-01-09T22:59:34.433530661+08:00","level":"INFO","msg":"handler: started","stream_id":"i4v882zd"}
+{"time":"2025-01-09T22:59:34.433558253+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"i4v882zd"}
+{"time":"2025-01-09T22:59:34.433692746+08:00","level":"INFO","msg":"sender: started","stream_id":"i4v882zd"}
+{"time":"2025-01-09T22:59:34.446817712+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:00:03.252776259+08:00","level":"INFO","msg":"stream: closing","id":"i4v882zd"}
+{"time":"2025-01-09T23:00:03.252827318+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:00:03.253770305+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:00:03.253947523+08:00","level":"INFO","msg":"handler: closed","stream_id":"i4v882zd"}
+{"time":"2025-01-09T23:00:03.253960968+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"i4v882zd"}
+{"time":"2025-01-09T23:00:03.25397684+08:00","level":"INFO","msg":"sender: closed","stream_id":"i4v882zd"}
+{"time":"2025-01-09T23:00:03.254269888+08:00","level":"INFO","msg":"stream: closed","id":"i4v882zd"}

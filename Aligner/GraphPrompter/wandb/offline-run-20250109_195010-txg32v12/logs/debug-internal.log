@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:50:10.939028895+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:50:10.939080737+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_195010-txg32v12/logs/debug-core.log"}
+{"time":"2025-01-09T19:50:11.052479657+08:00","level":"INFO","msg":"created new stream","id":"txg32v12"}
+{"time":"2025-01-09T19:50:11.052505543+08:00","level":"INFO","msg":"stream: started","id":"txg32v12"}
+{"time":"2025-01-09T19:50:11.052517181+08:00","level":"INFO","msg":"handler: started","stream_id":"txg32v12"}
+{"time":"2025-01-09T19:50:11.052530118+08:00","level":"INFO","msg":"sender: started","stream_id":"txg32v12"}
+{"time":"2025-01-09T19:50:11.052544577+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"txg32v12"}
+{"time":"2025-01-09T19:50:11.056226671+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:50:18.54497018+08:00","level":"INFO","msg":"stream: closing","id":"txg32v12"}
+{"time":"2025-01-09T19:50:18.545009128+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:50:18.545923547+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:50:18.546062508+08:00","level":"INFO","msg":"handler: closed","stream_id":"txg32v12"}
+{"time":"2025-01-09T19:50:18.546072476+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"txg32v12"}
+{"time":"2025-01-09T19:50:18.546080657+08:00","level":"INFO","msg":"sender: closed","stream_id":"txg32v12"}
+{"time":"2025-01-09T19:50:18.546272236+08:00","level":"INFO","msg":"stream: closed","id":"txg32v12"}

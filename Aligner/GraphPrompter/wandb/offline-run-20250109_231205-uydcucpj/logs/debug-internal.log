@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:12:05.18698377+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:12:05.187363078+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter/wandb/offline-run-20250109_231205-uydcucpj/logs/debug-core.log"}
+{"time":"2025-01-09T23:12:05.293318344+08:00","level":"INFO","msg":"created new stream","id":"uydcucpj"}
+{"time":"2025-01-09T23:12:05.293351846+08:00","level":"INFO","msg":"stream: started","id":"uydcucpj"}
+{"time":"2025-01-09T23:12:05.293463022+08:00","level":"INFO","msg":"handler: started","stream_id":"uydcucpj"}
+{"time":"2025-01-09T23:12:05.293491409+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"uydcucpj"}
+{"time":"2025-01-09T23:12:05.293537264+08:00","level":"INFO","msg":"sender: started","stream_id":"uydcucpj"}
+{"time":"2025-01-09T23:12:05.298212292+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:12:05.650224161+08:00","level":"INFO","msg":"stream: closing","id":"uydcucpj"}
+{"time":"2025-01-09T23:12:05.650286515+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:12:05.650980603+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:12:05.651161714+08:00","level":"INFO","msg":"handler: closed","stream_id":"uydcucpj"}
+{"time":"2025-01-09T23:12:05.651177595+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uydcucpj"}
+{"time":"2025-01-09T23:12:05.651186951+08:00","level":"INFO","msg":"sender: closed","stream_id":"uydcucpj"}
+{"time":"2025-01-09T23:12:05.651471538+08:00","level":"INFO","msg":"stream: closed","id":"uydcucpj"}

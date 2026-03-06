@@ -1,0 +1,27 @@
+2024-10-10 23:59:28,354 INFO    MainThread:3368035 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-10 23:59:28,355 INFO    MainThread:3368035 [wandb_setup.py:_flush():79] Configure stats pid to 3368035
+2024-10-10 23:59:28,355 INFO    MainThread:3368035 [wandb_setup.py:_flush():79] Loading settings from /home/ys6310/.config/wandb/settings
+2024-10-10 23:59:28,355 INFO    MainThread:3368035 [wandb_setup.py:_flush():79] Loading settings from /scratch/ys6310/graphprompter/wandb/settings
+2024-10-10 23:59:28,355 INFO    MainThread:3368035 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-10 23:59:28,355 INFO    MainThread:3368035 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-10 23:59:28,356 INFO    MainThread:3368035 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': '/scratch/ys6310/graphprompter/train.py', 'program': '/scratch/ys6310/graphprompter/train.py'}
+2024-10-10 23:59:28,356 INFO    MainThread:3368035 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-10 23:59:28,356 INFO    MainThread:3368035 [wandb_setup.py:_flush():79] Applying login settings: {'mode': 'offline'}
+2024-10-10 23:59:28,356 INFO    MainThread:3368035 [wandb_init.py:_log_setup():532] Logging user logs to /scratch/ys6310/graphprompter/wandb/offline-run-20241010_235928-jbp3s2j0/logs/debug.log
+2024-10-10 23:59:28,356 INFO    MainThread:3368035 [wandb_init.py:_log_setup():533] Logging internal logs to /scratch/ys6310/graphprompter/wandb/offline-run-20241010_235928-jbp3s2j0/logs/debug-internal.log
+2024-10-10 23:59:28,356 INFO    MainThread:3368035 [wandb_init.py:init():617] calling init triggers
+2024-10-10 23:59:28,356 INFO    MainThread:3368035 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'model_name': 'graph_llm', 'project': 'graph_prompt_tuning', 'seed': 0, 'dataset': 'arxiv_semi', 'lr': 1e-05, 'wd': 0.05, 'patience': 30, 'min_lr': 5e-06, 'resume': '', 'batch_size': 4, 'grad_steps': 2, 'num_epochs': 5, 'warmup_epochs': 1, 'eval_batch_size': 8, 'llm_model_name': '7b', 'llm_model_path': '', 'llm_frozen': 'True', 'llm_num_virtual_tokens': 10, 'output_dir': 'output', 'max_txt_len': 512, 'max_new_tokens': 32, 'adapter_len': 10, 'adapter_layer': 30, 'log_dir': 'logs/', 'device': 'cuda:0', 'world_size': 1, 'local_rank': -1, 'gpu': '0', 'rank': -1, 'dist_on_itp': True, 'dist_url': 'env://', 'num_workers': 8, 'gnn_model_name': 'gat', 'gnn_num_layers': 4, 'gnn_in_dim': 1024, 'gnn_hidden_dim': 1024, 'gnn_out_dim': 1024, 'gnn_num_heads': 4, 'gnn_dropout': 0.0}
+2024-10-10 23:59:28,357 INFO    MainThread:3368035 [wandb_init.py:init():667] starting backend
+2024-10-10 23:59:28,357 INFO    MainThread:3368035 [wandb_init.py:init():671] sending inform_init request
+2024-10-10 23:59:28,364 INFO    MainThread:3368035 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-10 23:59:28,368 INFO    MainThread:3368035 [wandb_init.py:init():684] backend started and connected
+2024-10-10 23:59:28,376 INFO    MainThread:3368035 [wandb_init.py:init():779] updated telemetry
+2024-10-10 23:59:28,467 INFO    MainThread:3368035 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-10 23:59:28,613 INFO    MainThread:3368035 [wandb_init.py:init():863] starting run threads in backend
+2024-10-10 23:59:28,727 INFO    MainThread:3368035 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-10 23:59:28,727 INFO    MainThread:3368035 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-10 23:59:28,727 INFO    MainThread:3368035 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-10 23:59:28,728 INFO    MainThread:3368035 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-10 23:59:28,733 INFO    MainThread:3368035 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-11 00:02:15,831 WARNING MsgRouterThr:3368035 [router.py:message_loop():77] message_loop has been closed

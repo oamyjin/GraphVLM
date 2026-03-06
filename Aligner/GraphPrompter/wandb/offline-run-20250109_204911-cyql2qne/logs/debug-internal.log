@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:49:11.6195277+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:49:11.619578587+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_204911-cyql2qne/logs/debug-core.log"}
+{"time":"2025-01-09T20:49:11.760306382+08:00","level":"INFO","msg":"created new stream","id":"cyql2qne"}
+{"time":"2025-01-09T20:49:11.76035366+08:00","level":"INFO","msg":"stream: started","id":"cyql2qne"}
+{"time":"2025-01-09T20:49:11.760510166+08:00","level":"INFO","msg":"handler: started","stream_id":"cyql2qne"}
+{"time":"2025-01-09T20:49:11.760544037+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cyql2qne"}
+{"time":"2025-01-09T20:49:11.760702623+08:00","level":"INFO","msg":"sender: started","stream_id":"cyql2qne"}
+{"time":"2025-01-09T20:49:11.765584009+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:49:39.461087754+08:00","level":"INFO","msg":"stream: closing","id":"cyql2qne"}
+{"time":"2025-01-09T20:49:39.461139324+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:49:39.461780832+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:49:39.461947063+08:00","level":"INFO","msg":"handler: closed","stream_id":"cyql2qne"}
+{"time":"2025-01-09T20:49:39.461960916+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cyql2qne"}
+{"time":"2025-01-09T20:49:39.461976748+08:00","level":"INFO","msg":"sender: closed","stream_id":"cyql2qne"}
+{"time":"2025-01-09T20:49:39.463190174+08:00","level":"INFO","msg":"stream: closed","id":"cyql2qne"}

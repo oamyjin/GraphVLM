@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:22:53.758860778+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:22:53.75891469+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_232253-sehxls19/logs/debug-core.log"}
+{"time":"2025-01-09T23:22:53.866911434+08:00","level":"INFO","msg":"created new stream","id":"sehxls19"}
+{"time":"2025-01-09T23:22:53.86696035+08:00","level":"INFO","msg":"stream: started","id":"sehxls19"}
+{"time":"2025-01-09T23:22:53.866976921+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"sehxls19"}
+{"time":"2025-01-09T23:22:53.866986106+08:00","level":"INFO","msg":"handler: started","stream_id":"sehxls19"}
+{"time":"2025-01-09T23:22:53.866997178+08:00","level":"INFO","msg":"sender: started","stream_id":"sehxls19"}
+{"time":"2025-01-09T23:22:53.871290858+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:22:54.22949063+08:00","level":"INFO","msg":"stream: closing","id":"sehxls19"}
+{"time":"2025-01-09T23:22:54.229532554+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:22:54.230067941+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:22:54.230235103+08:00","level":"INFO","msg":"handler: closed","stream_id":"sehxls19"}
+{"time":"2025-01-09T23:22:54.230249361+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sehxls19"}
+{"time":"2025-01-09T23:22:54.230264139+08:00","level":"INFO","msg":"sender: closed","stream_id":"sehxls19"}
+{"time":"2025-01-09T23:22:54.23110734+08:00","level":"INFO","msg":"stream: closed","id":"sehxls19"}

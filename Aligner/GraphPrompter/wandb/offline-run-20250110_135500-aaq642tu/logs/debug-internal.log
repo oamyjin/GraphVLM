@@ -1,0 +1,15 @@
+{"time":"2025-01-10T13:55:00.91747408+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T13:55:00.917538296+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_135500-aaq642tu/logs/debug-core.log"}
+{"time":"2025-01-10T13:55:01.031782038+08:00","level":"INFO","msg":"created new stream","id":"aaq642tu"}
+{"time":"2025-01-10T13:55:01.031811036+08:00","level":"INFO","msg":"stream: started","id":"aaq642tu"}
+{"time":"2025-01-10T13:55:01.031826351+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"aaq642tu"}
+{"time":"2025-01-10T13:55:01.031865111+08:00","level":"INFO","msg":"handler: started","stream_id":"aaq642tu"}
+{"time":"2025-01-10T13:55:01.031897702+08:00","level":"INFO","msg":"sender: started","stream_id":"aaq642tu"}
+{"time":"2025-01-10T13:55:01.038222359+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T13:55:01.41196732+08:00","level":"INFO","msg":"stream: closing","id":"aaq642tu"}
+{"time":"2025-01-10T13:55:01.412005542+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T13:55:01.412556533+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T13:55:01.412709852+08:00","level":"INFO","msg":"handler: closed","stream_id":"aaq642tu"}
+{"time":"2025-01-10T13:55:01.412724163+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"aaq642tu"}
+{"time":"2025-01-10T13:55:01.412733092+08:00","level":"INFO","msg":"sender: closed","stream_id":"aaq642tu"}
+{"time":"2025-01-10T13:55:01.424468169+08:00","level":"INFO","msg":"stream: closed","id":"aaq642tu"}

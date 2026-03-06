@@ -1,0 +1,15 @@
+{"time":"2025-01-21T08:51:33.905020395+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-21T08:51:33.905084212+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250121_085133-ewtwguln/logs/debug-core.log"}
+{"time":"2025-01-21T08:51:34.012496617+08:00","level":"INFO","msg":"created new stream","id":"ewtwguln"}
+{"time":"2025-01-21T08:51:34.012536297+08:00","level":"INFO","msg":"stream: started","id":"ewtwguln"}
+{"time":"2025-01-21T08:51:34.012548068+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ewtwguln"}
+{"time":"2025-01-21T08:51:34.012567905+08:00","level":"INFO","msg":"handler: started","stream_id":"ewtwguln"}
+{"time":"2025-01-21T08:51:34.012559396+08:00","level":"INFO","msg":"sender: started","stream_id":"ewtwguln"}
+{"time":"2025-01-21T08:51:34.018344287+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-21T08:51:34.34653497+08:00","level":"INFO","msg":"stream: closing","id":"ewtwguln"}
+{"time":"2025-01-21T08:51:34.346578833+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-21T08:51:34.346970486+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-21T08:51:34.347128077+08:00","level":"INFO","msg":"handler: closed","stream_id":"ewtwguln"}
+{"time":"2025-01-21T08:51:34.34714096+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ewtwguln"}
+{"time":"2025-01-21T08:51:34.347145051+08:00","level":"INFO","msg":"sender: closed","stream_id":"ewtwguln"}
+{"time":"2025-01-21T08:51:34.347235024+08:00","level":"INFO","msg":"stream: closed","id":"ewtwguln"}

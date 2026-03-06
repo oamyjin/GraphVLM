@@ -1,0 +1,15 @@
+{"time":"2025-01-21T08:58:39.393529491+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-21T08:58:39.393590315+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250121_085839-ldph904s/logs/debug-core.log"}
+{"time":"2025-01-21T08:58:39.506334221+08:00","level":"INFO","msg":"created new stream","id":"ldph904s"}
+{"time":"2025-01-21T08:58:39.506376048+08:00","level":"INFO","msg":"stream: started","id":"ldph904s"}
+{"time":"2025-01-21T08:58:39.50638826+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ldph904s"}
+{"time":"2025-01-21T08:58:39.506451723+08:00","level":"INFO","msg":"sender: started","stream_id":"ldph904s"}
+{"time":"2025-01-21T08:58:39.506490308+08:00","level":"INFO","msg":"handler: started","stream_id":"ldph904s"}
+{"time":"2025-01-21T08:58:39.513815959+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-21T08:58:39.949380075+08:00","level":"INFO","msg":"stream: closing","id":"ldph904s"}
+{"time":"2025-01-21T08:58:39.949420626+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-21T08:58:39.94999079+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-21T08:58:39.956722955+08:00","level":"INFO","msg":"handler: closed","stream_id":"ldph904s"}
+{"time":"2025-01-21T08:58:39.956740647+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ldph904s"}
+{"time":"2025-01-21T08:58:39.956772263+08:00","level":"INFO","msg":"sender: closed","stream_id":"ldph904s"}
+{"time":"2025-01-21T08:58:39.957097849+08:00","level":"INFO","msg":"stream: closed","id":"ldph904s"}

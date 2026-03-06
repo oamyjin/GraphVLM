@@ -1,0 +1,15 @@
+{"time":"2025-01-10T14:08:40.80935599+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T14:08:40.809414958+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_140840-vfg2gemx/logs/debug-core.log"}
+{"time":"2025-01-10T14:08:40.923207396+08:00","level":"INFO","msg":"created new stream","id":"vfg2gemx"}
+{"time":"2025-01-10T14:08:40.923261462+08:00","level":"INFO","msg":"stream: started","id":"vfg2gemx"}
+{"time":"2025-01-10T14:08:40.923398425+08:00","level":"INFO","msg":"handler: started","stream_id":"vfg2gemx"}
+{"time":"2025-01-10T14:08:40.92343464+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vfg2gemx"}
+{"time":"2025-01-10T14:08:40.924016685+08:00","level":"INFO","msg":"sender: started","stream_id":"vfg2gemx"}
+{"time":"2025-01-10T14:08:40.927729995+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T14:08:41.321433574+08:00","level":"INFO","msg":"stream: closing","id":"vfg2gemx"}
+{"time":"2025-01-10T14:08:41.321467846+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T14:08:41.322218841+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T14:08:41.322386007+08:00","level":"INFO","msg":"handler: closed","stream_id":"vfg2gemx"}
+{"time":"2025-01-10T14:08:41.322399308+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vfg2gemx"}
+{"time":"2025-01-10T14:08:41.322414087+08:00","level":"INFO","msg":"sender: closed","stream_id":"vfg2gemx"}
+{"time":"2025-01-10T14:08:41.322570131+08:00","level":"INFO","msg":"stream: closed","id":"vfg2gemx"}

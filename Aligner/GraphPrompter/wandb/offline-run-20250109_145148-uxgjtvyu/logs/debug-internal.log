@@ -1,0 +1,15 @@
+{"time":"2025-01-09T14:51:48.41349511+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T14:51:48.413591401+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_145148-uxgjtvyu/logs/debug-core.log"}
+{"time":"2025-01-09T14:51:48.566066783+08:00","level":"INFO","msg":"created new stream","id":"uxgjtvyu"}
+{"time":"2025-01-09T14:51:48.566112472+08:00","level":"INFO","msg":"stream: started","id":"uxgjtvyu"}
+{"time":"2025-01-09T14:51:48.566275222+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"uxgjtvyu"}
+{"time":"2025-01-09T14:51:48.566479393+08:00","level":"INFO","msg":"sender: started","stream_id":"uxgjtvyu"}
+{"time":"2025-01-09T14:51:48.56695002+08:00","level":"INFO","msg":"handler: started","stream_id":"uxgjtvyu"}
+{"time":"2025-01-09T14:51:48.576346115+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T14:51:49.543855276+08:00","level":"INFO","msg":"stream: closing","id":"uxgjtvyu"}
+{"time":"2025-01-09T14:51:49.544006108+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T14:51:49.544599755+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T14:51:49.544811779+08:00","level":"INFO","msg":"handler: closed","stream_id":"uxgjtvyu"}
+{"time":"2025-01-09T14:51:49.544826617+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uxgjtvyu"}
+{"time":"2025-01-09T14:51:49.544836621+08:00","level":"INFO","msg":"sender: closed","stream_id":"uxgjtvyu"}
+{"time":"2025-01-09T14:51:49.545303576+08:00","level":"INFO","msg":"stream: closed","id":"uxgjtvyu"}

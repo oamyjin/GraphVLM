@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:29:48.286783105+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:29:48.286839116+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_192948-rndmg020/logs/debug-core.log"}
+{"time":"2025-01-09T19:29:48.423984848+08:00","level":"INFO","msg":"created new stream","id":"rndmg020"}
+{"time":"2025-01-09T19:29:48.424017022+08:00","level":"INFO","msg":"stream: started","id":"rndmg020"}
+{"time":"2025-01-09T19:29:48.424030082+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rndmg020"}
+{"time":"2025-01-09T19:29:48.424039908+08:00","level":"INFO","msg":"handler: started","stream_id":"rndmg020"}
+{"time":"2025-01-09T19:29:48.424079994+08:00","level":"INFO","msg":"sender: started","stream_id":"rndmg020"}
+{"time":"2025-01-09T19:29:48.427947151+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:30:16.220991268+08:00","level":"INFO","msg":"stream: closing","id":"rndmg020"}
+{"time":"2025-01-09T19:30:16.221039013+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:30:16.221639579+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:30:16.22179342+08:00","level":"INFO","msg":"handler: closed","stream_id":"rndmg020"}
+{"time":"2025-01-09T19:30:16.221806057+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rndmg020"}
+{"time":"2025-01-09T19:30:16.221815084+08:00","level":"INFO","msg":"sender: closed","stream_id":"rndmg020"}
+{"time":"2025-01-09T19:30:16.232373275+08:00","level":"INFO","msg":"stream: closed","id":"rndmg020"}

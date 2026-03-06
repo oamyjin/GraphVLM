@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:00:12.763277969+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:00:12.763340984+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_230012-km85z1r4/logs/debug-core.log"}
+{"time":"2025-01-09T23:00:12.873663082+08:00","level":"INFO","msg":"created new stream","id":"km85z1r4"}
+{"time":"2025-01-09T23:00:12.87371114+08:00","level":"INFO","msg":"stream: started","id":"km85z1r4"}
+{"time":"2025-01-09T23:00:12.87400357+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"km85z1r4"}
+{"time":"2025-01-09T23:00:12.874021973+08:00","level":"INFO","msg":"sender: started","stream_id":"km85z1r4"}
+{"time":"2025-01-09T23:00:12.874051252+08:00","level":"INFO","msg":"handler: started","stream_id":"km85z1r4"}
+{"time":"2025-01-09T23:00:12.878694433+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:00:42.43682625+08:00","level":"INFO","msg":"stream: closing","id":"km85z1r4"}
+{"time":"2025-01-09T23:00:42.436881007+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:00:42.438634844+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:00:42.438810622+08:00","level":"INFO","msg":"handler: closed","stream_id":"km85z1r4"}
+{"time":"2025-01-09T23:00:42.438826837+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"km85z1r4"}
+{"time":"2025-01-09T23:00:42.43884441+08:00","level":"INFO","msg":"sender: closed","stream_id":"km85z1r4"}
+{"time":"2025-01-09T23:00:42.448359344+08:00","level":"INFO","msg":"stream: closed","id":"km85z1r4"}

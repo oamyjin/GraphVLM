@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:38:57.024132075+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:38:57.024215381+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203856-ktmibipj/logs/debug-core.log"}
+{"time":"2025-01-09T20:38:57.132146123+08:00","level":"INFO","msg":"created new stream","id":"ktmibipj"}
+{"time":"2025-01-09T20:38:57.132181757+08:00","level":"INFO","msg":"stream: started","id":"ktmibipj"}
+{"time":"2025-01-09T20:38:57.13231242+08:00","level":"INFO","msg":"handler: started","stream_id":"ktmibipj"}
+{"time":"2025-01-09T20:38:57.132343542+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ktmibipj"}
+{"time":"2025-01-09T20:38:57.132392723+08:00","level":"INFO","msg":"sender: started","stream_id":"ktmibipj"}
+{"time":"2025-01-09T20:38:57.137450591+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:39:25.865056376+08:00","level":"INFO","msg":"stream: closing","id":"ktmibipj"}
+{"time":"2025-01-09T20:39:25.865100516+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:39:25.866285578+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:39:25.866435827+08:00","level":"INFO","msg":"handler: closed","stream_id":"ktmibipj"}
+{"time":"2025-01-09T20:39:25.866447252+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ktmibipj"}
+{"time":"2025-01-09T20:39:25.866460699+08:00","level":"INFO","msg":"sender: closed","stream_id":"ktmibipj"}
+{"time":"2025-01-09T20:39:25.868898503+08:00","level":"INFO","msg":"stream: closed","id":"ktmibipj"}

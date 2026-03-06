@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:38:58.503699396+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:38:58.503751153+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203858-nit6dd2j/logs/debug-core.log"}
+{"time":"2025-01-09T20:38:58.717559587+08:00","level":"INFO","msg":"created new stream","id":"nit6dd2j"}
+{"time":"2025-01-09T20:38:58.717621873+08:00","level":"INFO","msg":"stream: started","id":"nit6dd2j"}
+{"time":"2025-01-09T20:38:58.717641032+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"nit6dd2j"}
+{"time":"2025-01-09T20:38:58.71768181+08:00","level":"INFO","msg":"handler: started","stream_id":"nit6dd2j"}
+{"time":"2025-01-09T20:38:58.717643365+08:00","level":"INFO","msg":"sender: started","stream_id":"nit6dd2j"}
+{"time":"2025-01-09T20:38:58.721620909+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:39:25.821557606+08:00","level":"INFO","msg":"stream: closing","id":"nit6dd2j"}
+{"time":"2025-01-09T20:39:25.821606329+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:39:25.82259853+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:39:25.822759853+08:00","level":"INFO","msg":"handler: closed","stream_id":"nit6dd2j"}
+{"time":"2025-01-09T20:39:25.822773191+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nit6dd2j"}
+{"time":"2025-01-09T20:39:25.822781828+08:00","level":"INFO","msg":"sender: closed","stream_id":"nit6dd2j"}
+{"time":"2025-01-09T20:39:25.823066373+08:00","level":"INFO","msg":"stream: closed","id":"nit6dd2j"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:27:11.471195162+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:27:11.471493982+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_202711-4callowj/logs/debug-core.log"}
+{"time":"2025-01-09T20:27:11.623715876+08:00","level":"INFO","msg":"created new stream","id":"4callowj"}
+{"time":"2025-01-09T20:27:11.623746044+08:00","level":"INFO","msg":"stream: started","id":"4callowj"}
+{"time":"2025-01-09T20:27:11.623861763+08:00","level":"INFO","msg":"handler: started","stream_id":"4callowj"}
+{"time":"2025-01-09T20:27:11.623890991+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"4callowj"}
+{"time":"2025-01-09T20:27:11.62396207+08:00","level":"INFO","msg":"sender: started","stream_id":"4callowj"}
+{"time":"2025-01-09T20:27:11.628196523+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:27:43.715349704+08:00","level":"INFO","msg":"stream: closing","id":"4callowj"}
+{"time":"2025-01-09T20:27:43.715389633+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:27:43.715850006+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:27:43.71599645+08:00","level":"INFO","msg":"handler: closed","stream_id":"4callowj"}
+{"time":"2025-01-09T20:27:43.716009956+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4callowj"}
+{"time":"2025-01-09T20:27:43.716210519+08:00","level":"INFO","msg":"sender: closed","stream_id":"4callowj"}
+{"time":"2025-01-09T20:27:43.716239261+08:00","level":"INFO","msg":"stream: closed","id":"4callowj"}

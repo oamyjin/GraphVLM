@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:11:56.715339801+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:11:56.715496972+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter/wandb/offline-run-20250109_231156-neagjll8/logs/debug-core.log"}
+{"time":"2025-01-09T23:11:56.821629768+08:00","level":"INFO","msg":"created new stream","id":"neagjll8"}
+{"time":"2025-01-09T23:11:56.821662545+08:00","level":"INFO","msg":"stream: started","id":"neagjll8"}
+{"time":"2025-01-09T23:11:56.821768582+08:00","level":"INFO","msg":"handler: started","stream_id":"neagjll8"}
+{"time":"2025-01-09T23:11:56.821795872+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"neagjll8"}
+{"time":"2025-01-09T23:11:56.821815708+08:00","level":"INFO","msg":"sender: started","stream_id":"neagjll8"}
+{"time":"2025-01-09T23:11:56.830311909+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:11:57.139116848+08:00","level":"INFO","msg":"stream: closing","id":"neagjll8"}
+{"time":"2025-01-09T23:11:57.139163459+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:11:57.139712335+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:11:57.139863825+08:00","level":"INFO","msg":"handler: closed","stream_id":"neagjll8"}
+{"time":"2025-01-09T23:11:57.139877366+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"neagjll8"}
+{"time":"2025-01-09T23:11:57.139891368+08:00","level":"INFO","msg":"sender: closed","stream_id":"neagjll8"}
+{"time":"2025-01-09T23:11:57.140092744+08:00","level":"INFO","msg":"stream: closed","id":"neagjll8"}

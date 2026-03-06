@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:53:43.356845344+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:53:43.356908915+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_195343-rmes90u6/logs/debug-core.log"}
+{"time":"2025-01-09T19:53:43.46316235+08:00","level":"INFO","msg":"created new stream","id":"rmes90u6"}
+{"time":"2025-01-09T19:53:43.463206764+08:00","level":"INFO","msg":"stream: started","id":"rmes90u6"}
+{"time":"2025-01-09T19:53:43.46322781+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rmes90u6"}
+{"time":"2025-01-09T19:53:43.463270142+08:00","level":"INFO","msg":"handler: started","stream_id":"rmes90u6"}
+{"time":"2025-01-09T19:53:43.463233929+08:00","level":"INFO","msg":"sender: started","stream_id":"rmes90u6"}
+{"time":"2025-01-09T19:53:43.489357713+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:54:10.691961872+08:00","level":"INFO","msg":"stream: closing","id":"rmes90u6"}
+{"time":"2025-01-09T19:54:10.692007187+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:54:10.692856287+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:54:10.693011811+08:00","level":"INFO","msg":"handler: closed","stream_id":"rmes90u6"}
+{"time":"2025-01-09T19:54:10.693024672+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rmes90u6"}
+{"time":"2025-01-09T19:54:10.693039385+08:00","level":"INFO","msg":"sender: closed","stream_id":"rmes90u6"}
+{"time":"2025-01-09T19:54:10.704345603+08:00","level":"INFO","msg":"stream: closed","id":"rmes90u6"}

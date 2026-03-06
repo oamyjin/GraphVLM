@@ -1,0 +1,15 @@
+{"time":"2025-01-10T22:59:33.42673599+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T22:59:33.426819337+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_225933-ibtwsd5p/logs/debug-core.log"}
+{"time":"2025-01-10T22:59:33.535195928+08:00","level":"INFO","msg":"created new stream","id":"ibtwsd5p"}
+{"time":"2025-01-10T22:59:33.535236649+08:00","level":"INFO","msg":"stream: started","id":"ibtwsd5p"}
+{"time":"2025-01-10T22:59:33.535372677+08:00","level":"INFO","msg":"handler: started","stream_id":"ibtwsd5p"}
+{"time":"2025-01-10T22:59:33.53540214+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ibtwsd5p"}
+{"time":"2025-01-10T22:59:33.53591054+08:00","level":"INFO","msg":"sender: started","stream_id":"ibtwsd5p"}
+{"time":"2025-01-10T22:59:33.550426773+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T23:01:17.469007787+08:00","level":"INFO","msg":"stream: closing","id":"ibtwsd5p"}
+{"time":"2025-01-10T23:01:17.469047988+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T23:01:17.469468019+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T23:01:17.469644545+08:00","level":"INFO","msg":"handler: closed","stream_id":"ibtwsd5p"}
+{"time":"2025-01-10T23:01:17.469658723+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ibtwsd5p"}
+{"time":"2025-01-10T23:01:17.469661407+08:00","level":"INFO","msg":"sender: closed","stream_id":"ibtwsd5p"}
+{"time":"2025-01-10T23:01:17.469818749+08:00","level":"INFO","msg":"stream: closed","id":"ibtwsd5p"}

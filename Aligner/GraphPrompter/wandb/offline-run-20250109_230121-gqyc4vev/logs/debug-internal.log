@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:01:21.547950349+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:01:21.548023204+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_230121-gqyc4vev/logs/debug-core.log"}
+{"time":"2025-01-09T23:01:21.656812293+08:00","level":"INFO","msg":"created new stream","id":"gqyc4vev"}
+{"time":"2025-01-09T23:01:21.656853544+08:00","level":"INFO","msg":"stream: started","id":"gqyc4vev"}
+{"time":"2025-01-09T23:01:21.656872695+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"gqyc4vev"}
+{"time":"2025-01-09T23:01:21.656958057+08:00","level":"INFO","msg":"handler: started","stream_id":"gqyc4vev"}
+{"time":"2025-01-09T23:01:21.656980495+08:00","level":"INFO","msg":"sender: started","stream_id":"gqyc4vev"}
+{"time":"2025-01-09T23:01:21.660918911+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:01:44.305617482+08:00","level":"INFO","msg":"stream: closing","id":"gqyc4vev"}
+{"time":"2025-01-09T23:01:44.305671786+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:01:44.306416685+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:01:44.306574748+08:00","level":"INFO","msg":"handler: closed","stream_id":"gqyc4vev"}
+{"time":"2025-01-09T23:01:44.306588331+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gqyc4vev"}
+{"time":"2025-01-09T23:01:44.306603487+08:00","level":"INFO","msg":"sender: closed","stream_id":"gqyc4vev"}
+{"time":"2025-01-09T23:01:44.323614038+08:00","level":"INFO","msg":"stream: closed","id":"gqyc4vev"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-10T22:59:33.435799518+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T22:59:33.435892544+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_225933-8bgmjutm/logs/debug-core.log"}
+{"time":"2025-01-10T22:59:33.553347316+08:00","level":"INFO","msg":"created new stream","id":"8bgmjutm"}
+{"time":"2025-01-10T22:59:33.553384222+08:00","level":"INFO","msg":"stream: started","id":"8bgmjutm"}
+{"time":"2025-01-10T22:59:33.553400106+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"8bgmjutm"}
+{"time":"2025-01-10T22:59:33.553511012+08:00","level":"INFO","msg":"sender: started","stream_id":"8bgmjutm"}
+{"time":"2025-01-10T22:59:33.553541376+08:00","level":"INFO","msg":"handler: started","stream_id":"8bgmjutm"}
+{"time":"2025-01-10T22:59:33.558129552+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T22:59:33.867856983+08:00","level":"INFO","msg":"stream: closing","id":"8bgmjutm"}
+{"time":"2025-01-10T22:59:33.867898298+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T22:59:33.868225491+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T22:59:33.868379613+08:00","level":"INFO","msg":"handler: closed","stream_id":"8bgmjutm"}
+{"time":"2025-01-10T22:59:33.868392491+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8bgmjutm"}
+{"time":"2025-01-10T22:59:33.86848227+08:00","level":"INFO","msg":"sender: closed","stream_id":"8bgmjutm"}
+{"time":"2025-01-10T22:59:33.868506564+08:00","level":"INFO","msg":"stream: closed","id":"8bgmjutm"}

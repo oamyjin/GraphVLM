@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:46:45.561344013+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:46:45.561592785+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_194645-bdxenhlr/logs/debug-core.log"}
+{"time":"2025-01-09T19:46:45.671495501+08:00","level":"INFO","msg":"created new stream","id":"bdxenhlr"}
+{"time":"2025-01-09T19:46:45.671544425+08:00","level":"INFO","msg":"stream: started","id":"bdxenhlr"}
+{"time":"2025-01-09T19:46:45.671675721+08:00","level":"INFO","msg":"handler: started","stream_id":"bdxenhlr"}
+{"time":"2025-01-09T19:46:45.671708453+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"bdxenhlr"}
+{"time":"2025-01-09T19:46:45.67216195+08:00","level":"INFO","msg":"sender: started","stream_id":"bdxenhlr"}
+{"time":"2025-01-09T19:46:45.678916688+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:47:13.037644212+08:00","level":"INFO","msg":"stream: closing","id":"bdxenhlr"}
+{"time":"2025-01-09T19:47:13.037695886+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:47:13.038652824+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:47:13.038796565+08:00","level":"INFO","msg":"handler: closed","stream_id":"bdxenhlr"}
+{"time":"2025-01-09T19:47:13.038809081+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bdxenhlr"}
+{"time":"2025-01-09T19:47:13.038823743+08:00","level":"INFO","msg":"sender: closed","stream_id":"bdxenhlr"}
+{"time":"2025-01-09T19:47:13.045387148+08:00","level":"INFO","msg":"stream: closed","id":"bdxenhlr"}

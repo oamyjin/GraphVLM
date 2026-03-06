@@ -1,0 +1,15 @@
+{"time":"2025-01-10T09:20:20.204418052+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T09:20:20.204738118+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_092020-fs5tc62y/logs/debug-core.log"}
+{"time":"2025-01-10T09:20:20.314757505+08:00","level":"INFO","msg":"created new stream","id":"fs5tc62y"}
+{"time":"2025-01-10T09:20:20.314791259+08:00","level":"INFO","msg":"stream: started","id":"fs5tc62y"}
+{"time":"2025-01-10T09:20:20.314805195+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"fs5tc62y"}
+{"time":"2025-01-10T09:20:20.314879868+08:00","level":"INFO","msg":"sender: started","stream_id":"fs5tc62y"}
+{"time":"2025-01-10T09:20:20.314913408+08:00","level":"INFO","msg":"handler: started","stream_id":"fs5tc62y"}
+{"time":"2025-01-10T09:20:20.320519392+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T09:20:20.745539546+08:00","level":"INFO","msg":"stream: closing","id":"fs5tc62y"}
+{"time":"2025-01-10T09:20:20.745581868+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T09:20:20.746030156+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T09:20:20.747030388+08:00","level":"INFO","msg":"handler: closed","stream_id":"fs5tc62y"}
+{"time":"2025-01-10T09:20:20.747049107+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fs5tc62y"}
+{"time":"2025-01-10T09:20:20.747089496+08:00","level":"INFO","msg":"sender: closed","stream_id":"fs5tc62y"}
+{"time":"2025-01-10T09:20:20.747896642+08:00","level":"INFO","msg":"stream: closed","id":"fs5tc62y"}

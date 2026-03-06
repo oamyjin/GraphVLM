@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:33:36.607081189+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:33:36.607147085+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203336-pe42ubgo/logs/debug-core.log"}
+{"time":"2025-01-09T20:33:36.714757057+08:00","level":"INFO","msg":"created new stream","id":"pe42ubgo"}
+{"time":"2025-01-09T20:33:36.714803009+08:00","level":"INFO","msg":"stream: started","id":"pe42ubgo"}
+{"time":"2025-01-09T20:33:36.714950321+08:00","level":"INFO","msg":"handler: started","stream_id":"pe42ubgo"}
+{"time":"2025-01-09T20:33:36.71497417+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"pe42ubgo"}
+{"time":"2025-01-09T20:33:36.715080032+08:00","level":"INFO","msg":"sender: started","stream_id":"pe42ubgo"}
+{"time":"2025-01-09T20:33:36.718830947+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:34:05.263999195+08:00","level":"INFO","msg":"stream: closing","id":"pe42ubgo"}
+{"time":"2025-01-09T20:34:05.264056072+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:34:05.264974223+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:34:05.265134653+08:00","level":"INFO","msg":"handler: closed","stream_id":"pe42ubgo"}
+{"time":"2025-01-09T20:34:05.265148181+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pe42ubgo"}
+{"time":"2025-01-09T20:34:05.265156229+08:00","level":"INFO","msg":"sender: closed","stream_id":"pe42ubgo"}
+{"time":"2025-01-09T20:34:05.276353063+08:00","level":"INFO","msg":"stream: closed","id":"pe42ubgo"}

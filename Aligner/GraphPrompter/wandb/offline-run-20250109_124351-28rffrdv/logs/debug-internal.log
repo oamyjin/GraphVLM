@@ -1,0 +1,15 @@
+{"time":"2025-01-09T12:43:51.131686385+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T12:43:51.131736589+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_124351-28rffrdv/logs/debug-core.log"}
+{"time":"2025-01-09T12:43:51.246352099+08:00","level":"INFO","msg":"created new stream","id":"28rffrdv"}
+{"time":"2025-01-09T12:43:51.246389454+08:00","level":"INFO","msg":"stream: started","id":"28rffrdv"}
+{"time":"2025-01-09T12:43:51.246452621+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"28rffrdv"}
+{"time":"2025-01-09T12:43:51.246500535+08:00","level":"INFO","msg":"sender: started","stream_id":"28rffrdv"}
+{"time":"2025-01-09T12:43:51.246531926+08:00","level":"INFO","msg":"handler: started","stream_id":"28rffrdv"}
+{"time":"2025-01-09T12:43:51.2506154+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T12:43:51.56323046+08:00","level":"INFO","msg":"stream: closing","id":"28rffrdv"}
+{"time":"2025-01-09T12:43:51.563275998+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T12:43:51.56388484+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T12:43:51.564002041+08:00","level":"INFO","msg":"handler: closed","stream_id":"28rffrdv"}
+{"time":"2025-01-09T12:43:51.564009704+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"28rffrdv"}
+{"time":"2025-01-09T12:43:51.564018729+08:00","level":"INFO","msg":"sender: closed","stream_id":"28rffrdv"}
+{"time":"2025-01-09T12:43:51.564249068+08:00","level":"INFO","msg":"stream: closed","id":"28rffrdv"}

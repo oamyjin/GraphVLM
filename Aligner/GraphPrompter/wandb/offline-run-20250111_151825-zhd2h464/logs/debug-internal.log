@@ -1,0 +1,15 @@
+{"time":"2025-01-11T15:18:25.45610124+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-11T15:18:25.456178759+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250111_151825-zhd2h464/logs/debug-core.log"}
+{"time":"2025-01-11T15:18:25.711016401+08:00","level":"INFO","msg":"created new stream","id":"zhd2h464"}
+{"time":"2025-01-11T15:18:25.711073336+08:00","level":"INFO","msg":"stream: started","id":"zhd2h464"}
+{"time":"2025-01-11T15:18:25.711569854+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"zhd2h464"}
+{"time":"2025-01-11T15:18:25.713301819+08:00","level":"INFO","msg":"sender: started","stream_id":"zhd2h464"}
+{"time":"2025-01-11T15:18:25.713375732+08:00","level":"INFO","msg":"handler: started","stream_id":"zhd2h464"}
+{"time":"2025-01-11T15:18:25.717725705+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-11T15:18:26.72831819+08:00","level":"INFO","msg":"stream: closing","id":"zhd2h464"}
+{"time":"2025-01-11T15:18:26.728356061+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-11T15:18:26.732458843+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-11T15:18:26.732622485+08:00","level":"INFO","msg":"handler: closed","stream_id":"zhd2h464"}
+{"time":"2025-01-11T15:18:26.732635734+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zhd2h464"}
+{"time":"2025-01-11T15:18:26.732725522+08:00","level":"INFO","msg":"sender: closed","stream_id":"zhd2h464"}
+{"time":"2025-01-11T15:18:26.732744587+08:00","level":"INFO","msg":"stream: closed","id":"zhd2h464"}

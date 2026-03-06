@@ -1,0 +1,15 @@
+{"time":"2025-01-24T16:44:57.817202051+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-24T16:44:57.817266228+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250124_164457-yazog7a0/logs/debug-core.log"}
+{"time":"2025-01-24T16:44:57.924900428+08:00","level":"INFO","msg":"created new stream","id":"yazog7a0"}
+{"time":"2025-01-24T16:44:57.924950181+08:00","level":"INFO","msg":"stream: started","id":"yazog7a0"}
+{"time":"2025-01-24T16:44:57.924975444+08:00","level":"INFO","msg":"handler: started","stream_id":"yazog7a0"}
+{"time":"2025-01-24T16:44:57.92501049+08:00","level":"INFO","msg":"sender: started","stream_id":"yazog7a0"}
+{"time":"2025-01-24T16:44:57.924971073+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"yazog7a0"}
+{"time":"2025-01-24T16:44:57.929651347+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T16:44:58.295782131+08:00","level":"INFO","msg":"stream: closing","id":"yazog7a0"}
+{"time":"2025-01-24T16:44:58.295827633+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T16:44:58.29636758+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T16:44:58.296558141+08:00","level":"INFO","msg":"handler: closed","stream_id":"yazog7a0"}
+{"time":"2025-01-24T16:44:58.2965728+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yazog7a0"}
+{"time":"2025-01-24T16:44:58.296608266+08:00","level":"INFO","msg":"sender: closed","stream_id":"yazog7a0"}
+{"time":"2025-01-24T16:44:58.296651282+08:00","level":"INFO","msg":"stream: closed","id":"yazog7a0"}

@@ -1,0 +1,16 @@
+{"time":"2024-10-08T21:01:26.247100325-04:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-08T21:01:26.247153037-04:00","level":"INFO","msg":"created symlink","path":"/scratch/ys6310/graphprompter/wandb/offline-run-20241008_210126-90p5rg7b/logs/debug-core.log"}
+{"time":"2024-10-08T21:01:26.259170915-04:00","level":"INFO","msg":"created new stream","id":"90p5rg7b"}
+{"time":"2024-10-08T21:01:26.259194926-04:00","level":"INFO","msg":"stream: started","id":"90p5rg7b"}
+{"time":"2024-10-08T21:01:26.259207586-04:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"90p5rg7b"}}
+{"time":"2024-10-08T21:01:26.259237327-04:00","level":"INFO","msg":"handler: started","stream_id":{"value":"90p5rg7b"}}
+{"time":"2024-10-08T21:01:26.259237427-04:00","level":"INFO","msg":"sender: started","stream_id":{"value":"90p5rg7b"}}
+{"time":"2024-10-08T21:01:26.263646817-04:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-08T21:01:26.306347814-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-08T21:14:24.836818629-04:00","level":"INFO","msg":"stream: closing","id":"90p5rg7b"}
+{"time":"2024-10-08T21:14:24.83684759-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-08T21:14:24.843220363-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-08T21:14:24.843339908-04:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"90p5rg7b"}}
+{"time":"2024-10-08T21:14:24.843356689-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"90p5rg7b"}}
+{"time":"2024-10-08T21:14:24.843373739-04:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"90p5rg7b"}}
+{"time":"2024-10-08T21:14:24.84364962-04:00","level":"INFO","msg":"stream: closed","id":"90p5rg7b"}

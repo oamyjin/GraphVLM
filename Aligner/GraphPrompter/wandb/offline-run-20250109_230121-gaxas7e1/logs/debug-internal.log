@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:01:21.55033761+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:01:21.550527623+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_230121-gaxas7e1/logs/debug-core.log"}
+{"time":"2025-01-09T23:01:21.661732946+08:00","level":"INFO","msg":"created new stream","id":"gaxas7e1"}
+{"time":"2025-01-09T23:01:21.661771553+08:00","level":"INFO","msg":"stream: started","id":"gaxas7e1"}
+{"time":"2025-01-09T23:01:21.661799752+08:00","level":"INFO","msg":"sender: started","stream_id":"gaxas7e1"}
+{"time":"2025-01-09T23:01:21.662090509+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"gaxas7e1"}
+{"time":"2025-01-09T23:01:21.662109288+08:00","level":"INFO","msg":"handler: started","stream_id":"gaxas7e1"}
+{"time":"2025-01-09T23:01:21.666020767+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:01:44.403936772+08:00","level":"INFO","msg":"stream: closing","id":"gaxas7e1"}
+{"time":"2025-01-09T23:01:44.403981185+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:01:44.40472923+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:01:44.404918259+08:00","level":"INFO","msg":"handler: closed","stream_id":"gaxas7e1"}
+{"time":"2025-01-09T23:01:44.404933626+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gaxas7e1"}
+{"time":"2025-01-09T23:01:44.404972895+08:00","level":"INFO","msg":"sender: closed","stream_id":"gaxas7e1"}
+{"time":"2025-01-09T23:01:44.40510207+08:00","level":"INFO","msg":"stream: closed","id":"gaxas7e1"}

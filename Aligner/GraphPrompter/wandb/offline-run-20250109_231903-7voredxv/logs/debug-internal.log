@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:19:03.548433319+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:19:03.548498459+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_231903-7voredxv/logs/debug-core.log"}
+{"time":"2025-01-09T23:19:03.660706668+08:00","level":"INFO","msg":"created new stream","id":"7voredxv"}
+{"time":"2025-01-09T23:19:03.660740978+08:00","level":"INFO","msg":"stream: started","id":"7voredxv"}
+{"time":"2025-01-09T23:19:03.660760407+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"7voredxv"}
+{"time":"2025-01-09T23:19:03.660790717+08:00","level":"INFO","msg":"handler: started","stream_id":"7voredxv"}
+{"time":"2025-01-09T23:19:03.661112096+08:00","level":"INFO","msg":"sender: started","stream_id":"7voredxv"}
+{"time":"2025-01-09T23:19:03.6660243+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:19:31.659843597+08:00","level":"INFO","msg":"stream: closing","id":"7voredxv"}
+{"time":"2025-01-09T23:19:31.659883499+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:19:31.660682355+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:19:31.66082709+08:00","level":"INFO","msg":"handler: closed","stream_id":"7voredxv"}
+{"time":"2025-01-09T23:19:31.660839344+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7voredxv"}
+{"time":"2025-01-09T23:19:31.660853085+08:00","level":"INFO","msg":"sender: closed","stream_id":"7voredxv"}
+{"time":"2025-01-09T23:19:31.663136018+08:00","level":"INFO","msg":"stream: closed","id":"7voredxv"}

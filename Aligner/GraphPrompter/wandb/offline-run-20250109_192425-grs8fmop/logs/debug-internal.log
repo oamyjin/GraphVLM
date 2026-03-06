@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:24:25.462727714+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:24:25.462786955+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_192425-grs8fmop/logs/debug-core.log"}
+{"time":"2025-01-09T19:24:25.569828399+08:00","level":"INFO","msg":"created new stream","id":"grs8fmop"}
+{"time":"2025-01-09T19:24:25.569865986+08:00","level":"INFO","msg":"stream: started","id":"grs8fmop"}
+{"time":"2025-01-09T19:24:25.569882798+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"grs8fmop"}
+{"time":"2025-01-09T19:24:25.569894229+08:00","level":"INFO","msg":"sender: started","stream_id":"grs8fmop"}
+{"time":"2025-01-09T19:24:25.569906122+08:00","level":"INFO","msg":"handler: started","stream_id":"grs8fmop"}
+{"time":"2025-01-09T19:24:25.574564392+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:24:52.599800561+08:00","level":"INFO","msg":"stream: closing","id":"grs8fmop"}
+{"time":"2025-01-09T19:24:52.599848184+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:24:52.600794436+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:24:52.600949106+08:00","level":"INFO","msg":"handler: closed","stream_id":"grs8fmop"}
+{"time":"2025-01-09T19:24:52.600962384+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"grs8fmop"}
+{"time":"2025-01-09T19:24:52.600976616+08:00","level":"INFO","msg":"sender: closed","stream_id":"grs8fmop"}
+{"time":"2025-01-09T19:24:52.608231481+08:00","level":"INFO","msg":"stream: closed","id":"grs8fmop"}

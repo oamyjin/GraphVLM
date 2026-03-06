@@ -1,0 +1,15 @@
+{"time":"2025-01-10T23:03:54.822779598+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T23:03:54.822828596+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_230354-d2yabt4y/logs/debug-core.log"}
+{"time":"2025-01-10T23:03:54.933588625+08:00","level":"INFO","msg":"created new stream","id":"d2yabt4y"}
+{"time":"2025-01-10T23:03:54.933633891+08:00","level":"INFO","msg":"stream: started","id":"d2yabt4y"}
+{"time":"2025-01-10T23:03:54.933656015+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"d2yabt4y"}
+{"time":"2025-01-10T23:03:54.933672041+08:00","level":"INFO","msg":"handler: started","stream_id":"d2yabt4y"}
+{"time":"2025-01-10T23:03:54.933731467+08:00","level":"INFO","msg":"sender: started","stream_id":"d2yabt4y"}
+{"time":"2025-01-10T23:03:54.938399101+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T23:03:58.740447177+08:00","level":"INFO","msg":"stream: closing","id":"d2yabt4y"}
+{"time":"2025-01-10T23:03:58.740500919+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T23:03:58.740985188+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T23:03:58.741167842+08:00","level":"INFO","msg":"handler: closed","stream_id":"d2yabt4y"}
+{"time":"2025-01-10T23:03:58.741182865+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"d2yabt4y"}
+{"time":"2025-01-10T23:03:58.741187026+08:00","level":"INFO","msg":"sender: closed","stream_id":"d2yabt4y"}
+{"time":"2025-01-10T23:03:58.741361952+08:00","level":"INFO","msg":"stream: closed","id":"d2yabt4y"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-10T22:48:31.181150353+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T22:48:31.181250182+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_224831-l2i2653v/logs/debug-core.log"}
+{"time":"2025-01-10T22:48:31.288793054+08:00","level":"INFO","msg":"created new stream","id":"l2i2653v"}
+{"time":"2025-01-10T22:48:31.288832087+08:00","level":"INFO","msg":"stream: started","id":"l2i2653v"}
+{"time":"2025-01-10T22:48:31.288848939+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"l2i2653v"}
+{"time":"2025-01-10T22:48:31.288947503+08:00","level":"INFO","msg":"sender: started","stream_id":"l2i2653v"}
+{"time":"2025-01-10T22:48:31.288977407+08:00","level":"INFO","msg":"handler: started","stream_id":"l2i2653v"}
+{"time":"2025-01-10T22:48:31.29522936+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T22:48:31.61049575+08:00","level":"INFO","msg":"stream: closing","id":"l2i2653v"}
+{"time":"2025-01-10T22:48:31.610540097+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T22:48:31.611058581+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T22:48:31.611211487+08:00","level":"INFO","msg":"handler: closed","stream_id":"l2i2653v"}
+{"time":"2025-01-10T22:48:31.611224754+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"l2i2653v"}
+{"time":"2025-01-10T22:48:31.611238984+08:00","level":"INFO","msg":"sender: closed","stream_id":"l2i2653v"}
+{"time":"2025-01-10T22:48:31.611562648+08:00","level":"INFO","msg":"stream: closed","id":"l2i2653v"}

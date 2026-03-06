@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:46:47.110878743+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:46:47.110935392+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_194646-rcs14vt0/logs/debug-core.log"}
+{"time":"2025-01-09T19:46:47.228451459+08:00","level":"INFO","msg":"created new stream","id":"rcs14vt0"}
+{"time":"2025-01-09T19:46:47.228489892+08:00","level":"INFO","msg":"stream: started","id":"rcs14vt0"}
+{"time":"2025-01-09T19:46:47.228609735+08:00","level":"INFO","msg":"handler: started","stream_id":"rcs14vt0"}
+{"time":"2025-01-09T19:46:47.228640689+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rcs14vt0"}
+{"time":"2025-01-09T19:46:47.228697364+08:00","level":"INFO","msg":"sender: started","stream_id":"rcs14vt0"}
+{"time":"2025-01-09T19:46:47.24488551+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:47:13.040929649+08:00","level":"INFO","msg":"stream: closing","id":"rcs14vt0"}
+{"time":"2025-01-09T19:47:13.040966192+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:47:13.041497882+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:47:13.041640447+08:00","level":"INFO","msg":"handler: closed","stream_id":"rcs14vt0"}
+{"time":"2025-01-09T19:47:13.041652427+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rcs14vt0"}
+{"time":"2025-01-09T19:47:13.041665337+08:00","level":"INFO","msg":"sender: closed","stream_id":"rcs14vt0"}
+{"time":"2025-01-09T19:47:13.047595646+08:00","level":"INFO","msg":"stream: closed","id":"rcs14vt0"}

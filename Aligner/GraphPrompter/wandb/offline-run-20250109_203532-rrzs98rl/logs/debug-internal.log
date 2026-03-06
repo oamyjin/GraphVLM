@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:35:32.264590089+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:35:32.264665708+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203532-rrzs98rl/logs/debug-core.log"}
+{"time":"2025-01-09T20:35:32.377061224+08:00","level":"INFO","msg":"created new stream","id":"rrzs98rl"}
+{"time":"2025-01-09T20:35:32.377117975+08:00","level":"INFO","msg":"stream: started","id":"rrzs98rl"}
+{"time":"2025-01-09T20:35:32.377138941+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rrzs98rl"}
+{"time":"2025-01-09T20:35:32.377247675+08:00","level":"INFO","msg":"sender: started","stream_id":"rrzs98rl"}
+{"time":"2025-01-09T20:35:32.377281083+08:00","level":"INFO","msg":"handler: started","stream_id":"rrzs98rl"}
+{"time":"2025-01-09T20:35:32.381551795+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:36:00.560026653+08:00","level":"INFO","msg":"stream: closing","id":"rrzs98rl"}
+{"time":"2025-01-09T20:36:00.560076041+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:36:00.560671228+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:36:00.560831237+08:00","level":"INFO","msg":"handler: closed","stream_id":"rrzs98rl"}
+{"time":"2025-01-09T20:36:00.560844465+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rrzs98rl"}
+{"time":"2025-01-09T20:36:00.56085266+08:00","level":"INFO","msg":"sender: closed","stream_id":"rrzs98rl"}
+{"time":"2025-01-09T20:36:00.561076999+08:00","level":"INFO","msg":"stream: closed","id":"rrzs98rl"}

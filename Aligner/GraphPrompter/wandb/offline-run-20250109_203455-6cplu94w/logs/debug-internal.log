@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:34:55.17174744+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:34:55.171806842+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203455-6cplu94w/logs/debug-core.log"}
+{"time":"2025-01-09T20:34:55.28500873+08:00","level":"INFO","msg":"created new stream","id":"6cplu94w"}
+{"time":"2025-01-09T20:34:55.285044178+08:00","level":"INFO","msg":"stream: started","id":"6cplu94w"}
+{"time":"2025-01-09T20:34:55.285063336+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"6cplu94w"}
+{"time":"2025-01-09T20:34:55.285073902+08:00","level":"INFO","msg":"sender: started","stream_id":"6cplu94w"}
+{"time":"2025-01-09T20:34:55.285127544+08:00","level":"INFO","msg":"handler: started","stream_id":"6cplu94w"}
+{"time":"2025-01-09T20:34:55.294275643+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:35:24.188572773+08:00","level":"INFO","msg":"stream: closing","id":"6cplu94w"}
+{"time":"2025-01-09T20:35:24.188623292+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:35:24.189296555+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:35:24.189455454+08:00","level":"INFO","msg":"handler: closed","stream_id":"6cplu94w"}
+{"time":"2025-01-09T20:35:24.189469465+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6cplu94w"}
+{"time":"2025-01-09T20:35:24.189484143+08:00","level":"INFO","msg":"sender: closed","stream_id":"6cplu94w"}
+{"time":"2025-01-09T20:35:24.189766454+08:00","level":"INFO","msg":"stream: closed","id":"6cplu94w"}

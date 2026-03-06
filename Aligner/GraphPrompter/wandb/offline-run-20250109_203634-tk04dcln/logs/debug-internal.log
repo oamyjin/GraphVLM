@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:36:34.911729328+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:36:34.911805926+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_203634-tk04dcln/logs/debug-core.log"}
+{"time":"2025-01-09T20:36:35.024160614+08:00","level":"INFO","msg":"created new stream","id":"tk04dcln"}
+{"time":"2025-01-09T20:36:35.024189402+08:00","level":"INFO","msg":"stream: started","id":"tk04dcln"}
+{"time":"2025-01-09T20:36:35.024199379+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"tk04dcln"}
+{"time":"2025-01-09T20:36:35.024212706+08:00","level":"INFO","msg":"sender: started","stream_id":"tk04dcln"}
+{"time":"2025-01-09T20:36:35.024223961+08:00","level":"INFO","msg":"handler: started","stream_id":"tk04dcln"}
+{"time":"2025-01-09T20:36:35.028055997+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:37:06.721556098+08:00","level":"INFO","msg":"stream: closing","id":"tk04dcln"}
+{"time":"2025-01-09T20:37:06.721615848+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:37:06.722203782+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:37:06.722376857+08:00","level":"INFO","msg":"handler: closed","stream_id":"tk04dcln"}
+{"time":"2025-01-09T20:37:06.722391308+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tk04dcln"}
+{"time":"2025-01-09T20:37:06.722399522+08:00","level":"INFO","msg":"sender: closed","stream_id":"tk04dcln"}
+{"time":"2025-01-09T20:37:06.722641494+08:00","level":"INFO","msg":"stream: closed","id":"tk04dcln"}

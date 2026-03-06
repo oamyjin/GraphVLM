@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:01:54.403229153+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:01:54.403280382+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_230154-sl60dyyx/logs/debug-core.log"}
+{"time":"2025-01-09T23:01:54.512752071+08:00","level":"INFO","msg":"created new stream","id":"sl60dyyx"}
+{"time":"2025-01-09T23:01:54.512781953+08:00","level":"INFO","msg":"stream: started","id":"sl60dyyx"}
+{"time":"2025-01-09T23:01:54.512807149+08:00","level":"INFO","msg":"handler: started","stream_id":"sl60dyyx"}
+{"time":"2025-01-09T23:01:54.512838833+08:00","level":"INFO","msg":"sender: started","stream_id":"sl60dyyx"}
+{"time":"2025-01-09T23:01:54.512800709+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"sl60dyyx"}
+{"time":"2025-01-09T23:01:54.517327833+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:02:16.549668993+08:00","level":"INFO","msg":"stream: closing","id":"sl60dyyx"}
+{"time":"2025-01-09T23:02:16.549725982+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:02:16.553980172+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:02:16.554224378+08:00","level":"INFO","msg":"handler: closed","stream_id":"sl60dyyx"}
+{"time":"2025-01-09T23:02:16.554239494+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sl60dyyx"}
+{"time":"2025-01-09T23:02:16.554514805+08:00","level":"INFO","msg":"sender: closed","stream_id":"sl60dyyx"}
+{"time":"2025-01-09T23:02:16.554549224+08:00","level":"INFO","msg":"stream: closed","id":"sl60dyyx"}

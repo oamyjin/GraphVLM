@@ -1,0 +1,15 @@
+{"time":"2025-01-10T15:13:02.040572586+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T15:13:02.040632867+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_151301-iefw843l/logs/debug-core.log"}
+{"time":"2025-01-10T15:13:02.148577718+08:00","level":"INFO","msg":"created new stream","id":"iefw843l"}
+{"time":"2025-01-10T15:13:02.148611086+08:00","level":"INFO","msg":"stream: started","id":"iefw843l"}
+{"time":"2025-01-10T15:13:02.148715751+08:00","level":"INFO","msg":"handler: started","stream_id":"iefw843l"}
+{"time":"2025-01-10T15:13:02.148742064+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"iefw843l"}
+{"time":"2025-01-10T15:13:02.148792465+08:00","level":"INFO","msg":"sender: started","stream_id":"iefw843l"}
+{"time":"2025-01-10T15:13:02.152864931+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T15:13:02.488525404+08:00","level":"INFO","msg":"stream: closing","id":"iefw843l"}
+{"time":"2025-01-10T15:13:02.488572475+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T15:13:02.489204748+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T15:13:02.489355711+08:00","level":"INFO","msg":"handler: closed","stream_id":"iefw843l"}
+{"time":"2025-01-10T15:13:02.489367526+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"iefw843l"}
+{"time":"2025-01-10T15:13:02.489375675+08:00","level":"INFO","msg":"sender: closed","stream_id":"iefw843l"}
+{"time":"2025-01-10T15:13:02.48948519+08:00","level":"INFO","msg":"stream: closed","id":"iefw843l"}

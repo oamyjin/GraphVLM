@@ -1,0 +1,15 @@
+{"time":"2025-01-10T10:00:01.469757484+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T10:00:01.47043469+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250110_100001-lxraysbr/logs/debug-core.log"}
+{"time":"2025-01-10T10:00:01.57660375+08:00","level":"INFO","msg":"created new stream","id":"lxraysbr"}
+{"time":"2025-01-10T10:00:01.576643512+08:00","level":"INFO","msg":"stream: started","id":"lxraysbr"}
+{"time":"2025-01-10T10:00:01.57677231+08:00","level":"INFO","msg":"handler: started","stream_id":"lxraysbr"}
+{"time":"2025-01-10T10:00:01.576802137+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"lxraysbr"}
+{"time":"2025-01-10T10:00:01.576859538+08:00","level":"INFO","msg":"sender: started","stream_id":"lxraysbr"}
+{"time":"2025-01-10T10:00:01.580773498+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T10:00:02.785171462+08:00","level":"INFO","msg":"stream: closing","id":"lxraysbr"}
+{"time":"2025-01-10T10:00:02.785206867+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T10:00:02.786509621+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T10:00:02.786648661+08:00","level":"INFO","msg":"handler: closed","stream_id":"lxraysbr"}
+{"time":"2025-01-10T10:00:02.78666119+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lxraysbr"}
+{"time":"2025-01-10T10:00:02.786676871+08:00","level":"INFO","msg":"sender: closed","stream_id":"lxraysbr"}
+{"time":"2025-01-10T10:00:02.799004295+08:00","level":"INFO","msg":"stream: closed","id":"lxraysbr"}

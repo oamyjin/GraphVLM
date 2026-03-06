@@ -1,0 +1,15 @@
+{"time":"2025-01-09T14:51:59.141846463+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T14:51:59.14191296+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_145159-h8ddhm5w/logs/debug-core.log"}
+{"time":"2025-01-09T14:51:59.249044662+08:00","level":"INFO","msg":"created new stream","id":"h8ddhm5w"}
+{"time":"2025-01-09T14:51:59.249088501+08:00","level":"INFO","msg":"stream: started","id":"h8ddhm5w"}
+{"time":"2025-01-09T14:51:59.249103829+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"h8ddhm5w"}
+{"time":"2025-01-09T14:51:59.249122771+08:00","level":"INFO","msg":"sender: started","stream_id":"h8ddhm5w"}
+{"time":"2025-01-09T14:51:59.249114388+08:00","level":"INFO","msg":"handler: started","stream_id":"h8ddhm5w"}
+{"time":"2025-01-09T14:51:59.253013998+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T14:51:59.597391733+08:00","level":"INFO","msg":"stream: closing","id":"h8ddhm5w"}
+{"time":"2025-01-09T14:51:59.597431812+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T14:51:59.598260508+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T14:51:59.598408209+08:00","level":"INFO","msg":"handler: closed","stream_id":"h8ddhm5w"}
+{"time":"2025-01-09T14:51:59.598517574+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"h8ddhm5w"}
+{"time":"2025-01-09T14:51:59.598527592+08:00","level":"INFO","msg":"sender: closed","stream_id":"h8ddhm5w"}
+{"time":"2025-01-09T14:51:59.600840853+08:00","level":"INFO","msg":"stream: closed","id":"h8ddhm5w"}

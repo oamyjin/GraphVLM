@@ -1,0 +1,15 @@
+{"time":"2025-01-09T20:49:48.106135587+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T20:49:48.10620739+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_204948-ntaabfty/logs/debug-core.log"}
+{"time":"2025-01-09T20:49:48.229722902+08:00","level":"INFO","msg":"created new stream","id":"ntaabfty"}
+{"time":"2025-01-09T20:49:48.229775478+08:00","level":"INFO","msg":"stream: started","id":"ntaabfty"}
+{"time":"2025-01-09T20:49:48.229913165+08:00","level":"INFO","msg":"handler: started","stream_id":"ntaabfty"}
+{"time":"2025-01-09T20:49:48.229947927+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ntaabfty"}
+{"time":"2025-01-09T20:49:48.230005864+08:00","level":"INFO","msg":"sender: started","stream_id":"ntaabfty"}
+{"time":"2025-01-09T20:49:48.294741113+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T20:50:16.195593243+08:00","level":"INFO","msg":"stream: closing","id":"ntaabfty"}
+{"time":"2025-01-09T20:50:16.195650339+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T20:50:16.19654232+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T20:50:16.196703661+08:00","level":"INFO","msg":"handler: closed","stream_id":"ntaabfty"}
+{"time":"2025-01-09T20:50:16.196716984+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ntaabfty"}
+{"time":"2025-01-09T20:50:16.196731773+08:00","level":"INFO","msg":"sender: closed","stream_id":"ntaabfty"}
+{"time":"2025-01-09T20:50:16.197000222+08:00","level":"INFO","msg":"stream: closed","id":"ntaabfty"}

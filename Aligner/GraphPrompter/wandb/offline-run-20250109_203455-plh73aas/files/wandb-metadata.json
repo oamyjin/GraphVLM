@@ -1,0 +1,101 @@
+{
+  "os":  "Linux-4.18.0-372.9.1.el8.x86_64-x86_64-with-glibc2.28",
+  "python":  "CPython 3.9.21",
+  "startedAt":  "2025-01-09T12:34:55.132942Z",
+  "args":  [
+    "--dataset",
+    "cora_sup",
+    "--model_name",
+    "graph_llm",
+    "--patience",
+    "2",
+    "--num_epochs",
+    "15"
+  ],
+  "program":  "/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/franciscoliu/graphprompter.git",
+    "commit":  "60d75b059dd8ca52a4d78eedcdcf1174de842036"
+  },
+  "root":  "/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose",
+  "host":  "gpu187.shanghai.nyu.edu",
+  "executable":  "/gpfsnyu/home/ny2208/.conda/envs/gpt/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  64,
+  "cpu_count_logical":  64,
+  "gpu":  "NVIDIA A800 80GB PCIe",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "474898759680",
+      "used":  "17565298688"
+    }
+  },
+  "memory":  {
+    "total":  "540407328768"
+  },
+  "cpu":  {
+    "count":  64,
+    "countLogical":  64
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A800 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    }
+  ],
+  "slurm":  {
+    "cluster_name":  "nyushc",
+    "conf":  "/etc/slurm/slurm.conf",
+    "cpus_on_node":  "8",
+    "gpus_on_node":  "1",
+    "gtids":  "0,1,2,3,4,5,6,7",
+    "job_account":  "sfscai",
+    "job_cpus_per_node":  "8",
+    "job_gid":  "4139037",
+    "job_id":  "566344",
+    "job_name":  "bash",
+    "job_nodelist":  "gpu187",
+    "job_num_nodes":  "1",
+    "job_partition":  "sfscai",
+    "job_qos":  "sfscai",
+    "job_uid":  "4139037",
+    "job_user":  "ny2208",
+    "jobid":  "566344",
+    "launch_node_ipaddr":  "10.214.97.229",
+    "localid":  "6",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "gpu187",
+    "nprocs":  "8",
+    "ntasks":  "8",
+    "prio_process":  "0",
+    "procid":  "6",
+    "pty_port":  "46503",
+    "pty_win_col":  "227",
+    "pty_win_row":  "21",
+    "script_context":  "prolog_task",
+    "srun_comm_host":  "10.214.97.229",
+    "srun_comm_port":  "40321",
+    "step_gpus":  "0",
+    "step_id":  "0",
+    "step_launcher_port":  "40321",
+    "step_nodelist":  "gpu187",
+    "step_num_nodes":  "1",
+    "step_num_tasks":  "8",
+    "step_tasks_per_node":  "8",
+    "stepid":  "0",
+    "submit_dir":  "/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose",
+    "submit_host":  "hpclogin.shanghai.nyu.edu",
+    "task_pid":  "4193992",
+    "tasks_per_node":  "8",
+    "topology_addr":  "gpu187",
+    "topology_addr_pattern":  "node",
+    "umask":  "0002",
+    "working_cluster":  "nyushc:mgmt01:6817:9728:109"
+  },
+  "cudaVersion":  "12.2"
+}

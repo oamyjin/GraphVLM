@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:19:40.017514792+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:19:40.017608502+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_231939-ivt7kvtu/logs/debug-core.log"}
+{"time":"2025-01-09T23:19:40.141276921+08:00","level":"INFO","msg":"created new stream","id":"ivt7kvtu"}
+{"time":"2025-01-09T23:19:40.141316114+08:00","level":"INFO","msg":"stream: started","id":"ivt7kvtu"}
+{"time":"2025-01-09T23:19:40.141457715+08:00","level":"INFO","msg":"handler: started","stream_id":"ivt7kvtu"}
+{"time":"2025-01-09T23:19:40.141590956+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ivt7kvtu"}
+{"time":"2025-01-09T23:19:40.141810815+08:00","level":"INFO","msg":"sender: started","stream_id":"ivt7kvtu"}
+{"time":"2025-01-09T23:19:40.146138894+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:20:08.188562218+08:00","level":"INFO","msg":"stream: closing","id":"ivt7kvtu"}
+{"time":"2025-01-09T23:20:08.188613983+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:20:08.189260789+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:20:08.189430113+08:00","level":"INFO","msg":"handler: closed","stream_id":"ivt7kvtu"}
+{"time":"2025-01-09T23:20:08.189443499+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ivt7kvtu"}
+{"time":"2025-01-09T23:20:08.18945262+08:00","level":"INFO","msg":"sender: closed","stream_id":"ivt7kvtu"}
+{"time":"2025-01-09T23:20:08.209573034+08:00","level":"INFO","msg":"stream: closed","id":"ivt7kvtu"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:01:21.542006223+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:01:21.542054573+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_230121-cui1sile/logs/debug-core.log"}
+{"time":"2025-01-09T23:01:21.649800011+08:00","level":"INFO","msg":"created new stream","id":"cui1sile"}
+{"time":"2025-01-09T23:01:21.64983706+08:00","level":"INFO","msg":"stream: started","id":"cui1sile"}
+{"time":"2025-01-09T23:01:21.64984889+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cui1sile"}
+{"time":"2025-01-09T23:01:21.649861966+08:00","level":"INFO","msg":"sender: started","stream_id":"cui1sile"}
+{"time":"2025-01-09T23:01:21.649872668+08:00","level":"INFO","msg":"handler: started","stream_id":"cui1sile"}
+{"time":"2025-01-09T23:01:21.653955017+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:01:44.314487171+08:00","level":"INFO","msg":"stream: closing","id":"cui1sile"}
+{"time":"2025-01-09T23:01:44.314529904+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:01:44.316841171+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:01:44.316993494+08:00","level":"INFO","msg":"handler: closed","stream_id":"cui1sile"}
+{"time":"2025-01-09T23:01:44.317007383+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cui1sile"}
+{"time":"2025-01-09T23:01:44.31701581+08:00","level":"INFO","msg":"sender: closed","stream_id":"cui1sile"}
+{"time":"2025-01-09T23:01:44.317345208+08:00","level":"INFO","msg":"stream: closed","id":"cui1sile"}

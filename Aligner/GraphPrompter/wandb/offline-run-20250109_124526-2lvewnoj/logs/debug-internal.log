@@ -1,0 +1,15 @@
+{"time":"2025-01-09T12:45:26.459721759+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T12:45:26.459790527+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_124526-2lvewnoj/logs/debug-core.log"}
+{"time":"2025-01-09T12:45:26.567300391+08:00","level":"INFO","msg":"created new stream","id":"2lvewnoj"}
+{"time":"2025-01-09T12:45:26.567336327+08:00","level":"INFO","msg":"stream: started","id":"2lvewnoj"}
+{"time":"2025-01-09T12:45:26.567350709+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"2lvewnoj"}
+{"time":"2025-01-09T12:45:26.567365074+08:00","level":"INFO","msg":"handler: started","stream_id":"2lvewnoj"}
+{"time":"2025-01-09T12:45:26.567401811+08:00","level":"INFO","msg":"sender: started","stream_id":"2lvewnoj"}
+{"time":"2025-01-09T12:45:26.571340486+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T12:45:26.967246707+08:00","level":"INFO","msg":"stream: closing","id":"2lvewnoj"}
+{"time":"2025-01-09T12:45:26.967288561+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T12:45:26.968235537+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T12:45:26.968384991+08:00","level":"INFO","msg":"handler: closed","stream_id":"2lvewnoj"}
+{"time":"2025-01-09T12:45:26.968396026+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2lvewnoj"}
+{"time":"2025-01-09T12:45:26.968409551+08:00","level":"INFO","msg":"sender: closed","stream_id":"2lvewnoj"}
+{"time":"2025-01-09T12:45:26.968599245+08:00","level":"INFO","msg":"stream: closed","id":"2lvewnoj"}

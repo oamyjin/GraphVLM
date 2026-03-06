@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:24:25.49852317+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:24:25.498592843+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_192425-3pvlutek/logs/debug-core.log"}
+{"time":"2025-01-09T19:24:25.611814859+08:00","level":"INFO","msg":"created new stream","id":"3pvlutek"}
+{"time":"2025-01-09T19:24:25.611856989+08:00","level":"INFO","msg":"stream: started","id":"3pvlutek"}
+{"time":"2025-01-09T19:24:25.611973428+08:00","level":"INFO","msg":"handler: started","stream_id":"3pvlutek"}
+{"time":"2025-01-09T19:24:25.612005746+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"3pvlutek"}
+{"time":"2025-01-09T19:24:25.612752357+08:00","level":"INFO","msg":"sender: started","stream_id":"3pvlutek"}
+{"time":"2025-01-09T19:24:25.618489607+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:24:52.563445222+08:00","level":"INFO","msg":"stream: closing","id":"3pvlutek"}
+{"time":"2025-01-09T19:24:52.563506646+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:24:52.564378786+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:24:52.564533444+08:00","level":"INFO","msg":"handler: closed","stream_id":"3pvlutek"}
+{"time":"2025-01-09T19:24:52.564547778+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3pvlutek"}
+{"time":"2025-01-09T19:24:52.564556265+08:00","level":"INFO","msg":"sender: closed","stream_id":"3pvlutek"}
+{"time":"2025-01-09T19:24:52.575334836+08:00","level":"INFO","msg":"stream: closed","id":"3pvlutek"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-09T23:21:28.817920646+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T23:21:28.818039155+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_232128-yf0teelu/logs/debug-core.log"}
+{"time":"2025-01-09T23:21:28.927395684+08:00","level":"INFO","msg":"created new stream","id":"yf0teelu"}
+{"time":"2025-01-09T23:21:28.927433951+08:00","level":"INFO","msg":"stream: started","id":"yf0teelu"}
+{"time":"2025-01-09T23:21:28.927544834+08:00","level":"INFO","msg":"handler: started","stream_id":"yf0teelu"}
+{"time":"2025-01-09T23:21:28.9275791+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"yf0teelu"}
+{"time":"2025-01-09T23:21:28.92799885+08:00","level":"INFO","msg":"sender: started","stream_id":"yf0teelu"}
+{"time":"2025-01-09T23:21:28.931592713+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T23:21:29.372101716+08:00","level":"INFO","msg":"stream: closing","id":"yf0teelu"}
+{"time":"2025-01-09T23:21:29.372140283+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T23:21:29.372530819+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T23:21:29.37267012+08:00","level":"INFO","msg":"handler: closed","stream_id":"yf0teelu"}
+{"time":"2025-01-09T23:21:29.372681681+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yf0teelu"}
+{"time":"2025-01-09T23:21:29.372694254+08:00","level":"INFO","msg":"sender: closed","stream_id":"yf0teelu"}
+{"time":"2025-01-09T23:21:29.373075996+08:00","level":"INFO","msg":"stream: closed","id":"yf0teelu"}

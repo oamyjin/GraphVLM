@@ -1,0 +1,15 @@
+{"time":"2025-01-09T19:35:05.58582317+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T19:35:05.585892614+08:00","level":"INFO","msg":"created symlink","path":"/gpfsnyu/scratch/ny2208/jch/graphprompter/graphprompter_recompose/wandb/offline-run-20250109_193505-rdiwfdif/logs/debug-core.log"}
+{"time":"2025-01-09T19:35:05.700478269+08:00","level":"INFO","msg":"created new stream","id":"rdiwfdif"}
+{"time":"2025-01-09T19:35:05.700515245+08:00","level":"INFO","msg":"stream: started","id":"rdiwfdif"}
+{"time":"2025-01-09T19:35:05.700637323+08:00","level":"INFO","msg":"handler: started","stream_id":"rdiwfdif"}
+{"time":"2025-01-09T19:35:05.700664569+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rdiwfdif"}
+{"time":"2025-01-09T19:35:05.700716745+08:00","level":"INFO","msg":"sender: started","stream_id":"rdiwfdif"}
+{"time":"2025-01-09T19:35:05.708962129+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T19:35:33.113572102+08:00","level":"INFO","msg":"stream: closing","id":"rdiwfdif"}
+{"time":"2025-01-09T19:35:33.113611642+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T19:35:33.11412027+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T19:35:33.114271275+08:00","level":"INFO","msg":"handler: closed","stream_id":"rdiwfdif"}
+{"time":"2025-01-09T19:35:33.114283925+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rdiwfdif"}
+{"time":"2025-01-09T19:35:33.114303461+08:00","level":"INFO","msg":"sender: closed","stream_id":"rdiwfdif"}
+{"time":"2025-01-09T19:35:33.120007147+08:00","level":"INFO","msg":"stream: closed","id":"rdiwfdif"}
