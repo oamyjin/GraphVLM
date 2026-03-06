@@ -1,10 +1,3 @@
-<div align="center">
-
-# [CVPR'26] GraphVLM: Benchmarking Vision Language Models for Multimodal Graph Learning
-
-</div>
-
-
 ------
 <p align="center">
   <a href="#Graph-MLLM">Overview</a> •
