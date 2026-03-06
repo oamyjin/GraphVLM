@@ -1,6 +1,12 @@
+## 🔥 Updates
+
+- Added implementation for **GraphVLM (CVPR 2026)**.
+- Initial release for **Graph-MLLM (arXiv)**.
+
+
 ------
 <p align="center">
-  <a href="#Graph-MLLM">Overview</a> •
+  <a href="#GraphVLM">Overview</a> •
   <a href="#installation">Installation</a> •
   <a href="#Evaluation">Evaluation</a> •
   <a href="#Reference">Reference</a>
@@ -10,28 +16,27 @@
 
 ## Overview
 
-Official code for ***Graph**-**MLLM**: Harnessing Multimodal Large Language Models for Multimodal Graph Learning*. 
+Official implementation of **GraphVLM (CVPR 2026)** and the earlier **Graph-MLLM (arXiv)** version.
 
-Graph-MLLM is a comprehensive benchmark for multimodal graph learning that extends state-of-the-art graph methods into the multimodal domain using MLLMs. Fusing multimodal data with graph-structured data shows great promise for numerous real-world applications—such as social networks, healthcare, and recommendation systems—when nodes contain both textual and visual attributes.
+GraphVLM is a comprehensive benchmark for multimodal graph learning that extends state-of-the-art graph methods into the multimodal domain using VLMs. Fusing multimodal data with graph-structured data shows great promise for numerous real-world applications—such as social networks, healthcare, and recommendation systems—when nodes contain both textual and visual attributes.
 
-![graphmllm](https://github.com/oamyjin/Graph-MLLM/blob/main/docs/graphmllm.png)
 
 
 ## Installation
 
 The implementation codes can be installed by running:
 ``` bash
-git clone https://github.com/oamyjin/Graph-MLLM.git
+git clone https://github.com/oamyjin/GraphVLM.git
 ```
 
 ## Evaluation
 Our benchmark provides a fair, systematic comparison across three categories of baseline methods.
-We propose three distinct strategies for integrating MLLMs into these baselines. 
+We propose three distinct strategies for integrating VLMs into these baselines. 
 Collectively, these efforts enable existing baselines to effectively address multimodal graph learning tasks.
 
 <hr style="border: 0.5px solid #ccc;" />
 
-### Alignment Enhancer
+### VLM-as-Encoder
 
 #### Step 1: Setup Environment
 
@@ -47,7 +52,7 @@ pip install -r requirement.txt
 
 #### Step 2:  Data Preparation
 
-Download our datasets from [huggingface](https://huggingface.co/datasets/oamyjin/Graph-MLLM/tree/main/enhancer-dataset). And move the processed data to `./dataset`
+Download our datasets from [huggingface](https://huggingface.co/datasets/oamyjin/GraphVLM/tree/main/enhancer-dataset). And move the processed data to `./dataset`
 ```
 .
 ├── configs
@@ -107,14 +112,14 @@ You can use the command to run Enhancer on datasets:
 
 <hr style="border: 0.5px solid #ccc;" />
 
-### MLLMs-as-Augmenter
+### VLM-as-Aligner
 
 #### Step 1: Setup Environment
-<!-- We apply the MLLM [Qwen-VL[(https://github.com/QwenLM/Qwen-VL) as the modality augmenter to convert visual information into text. 
+<!-- We apply the VLM [Qwen-VL[(https://github.com/QwenLM/Qwen-VL) as the modality augmenter to convert visual information into text. 
 Please refer to [here]() for Qwen-VL installation.   -->
 Since this experiment involves two distinct baseline models, please follow their respective installation guides:
-- [LLaGA](https://github.com/oamyjin/Graph-MLLM/tree/main/Augmenter/LLaGA): in `Graph-MLLM/Augmenter/LLaGA`
-- [GraphPrompter](https://github.com/oamyjin/Graph-MLLM/tree/main/Augmenter/GraphPrompter#environment-setup): in `Graph-MLLM/Augmenter/GraphPrompter`
+- [LLaGA](https://github.com/oamyjin/GraphVLM/tree/main/Augmenter/LLaGA): in `GraphVLM/Augmenter/LLaGA`
+- [GraphPrompter](https://github.com/oamyjin/GraphVLM/tree/main/Augmenter/GraphPrompter#environment-setup): in `GraphVLM/Augmenter/GraphPrompter`
 
 #### Step 2: Base Model Preparation
 Please download the following base models for baselines:
@@ -124,10 +129,10 @@ Please download the following base models for baselines:
 
 #### Step 2: Data Preparation
 The augmentation process follows the prompt mentioned in our benchmark paper.
-Here, we prepare the augmented dataset in [huggingface](https://huggingface.co/datasets/oamyjin/Graph-MLLM/tree/main/augmenter-dataset). Please download the processed dataset for evaluation and place the files into their corresponding dataset folders.
+Here, we prepare the augmented dataset in [huggingface](https://huggingface.co/datasets/oamyjin/GraphVLM/tree/main/augmenter-dataset). Please download the processed dataset for evaluation and place the files into their corresponding dataset folders.
 
-- [LLaGA](https://huggingface.co/datasets/oamyjin/Graph-MLLM/tree/main/augmenter-dataset/llaga): update dataset to folder `datasets` under `Graph-MLLM/Augmenter/LLaGA`
-- [GraphPrompter](https://huggingface.co/datasets/oamyjin/Graph-MLLM/tree/main/augmenter-dataset/graphprompter): update dataset to folder `datasets` under `Graph-MLLM/Augmenter/GraphPrompter`
+- [LLaGA](https://huggingface.co/datasets/oamyjin/GraphVLM/tree/main/augmenter-dataset/llaga): update dataset to folder `datasets` under `GraphVLM/Augmenter/LLaGA`
+- [GraphPrompter](https://huggingface.co/datasets/oamyjin/GraphVLM/tree/main/augmenter-dataset/graphprompter): update dataset to folder `datasets` under `GraphVLM/Augmenter/GraphPrompter`
 
 
 #### Step 3: Run Evaluation
@@ -142,13 +147,13 @@ Use the following command to run the augmented baselines for training, testing, 
 
 <hr style="border: 0.5px solid #ccc;" />
 
-### MLLMs-as-Predictor
+### VLM-as-Predictor
 #### Step 1: Setup Environment
-<!-- We apply the MLLM [Qwen-VL[(https://github.com/QwenLM/Qwen-VL) as the modality augmenter to convert visual information into text. 
+<!-- We apply the VLM [Qwen-VL[(https://github.com/QwenLM/Qwen-VL) as the modality augmenter to convert visual information into text. 
 Please refer to [here]() for Qwen-VL installation.   -->
 Since this experiment involves two distinct baseline models, please follow their respective installation guides:
-- [QWen-VL](https://github.com/oamyjin/Graph-MLLM/tree/main/Predictor/Qwen-VL): in `Graph-MLLM/Predictor/Qwen-VL`
-- [LLaVA](https://github.com/oamyjin/Graph-MLLM/tree/main/Predictor/LLaVA): in `Graph-MLLM/Predictor/LLaVA`
+- [QWen-VL](https://github.com/oamyjin/GraphVLM/tree/main/Predictor/Qwen-VL): in `GraphVLM/Predictor/Qwen-VL`
+- [LLaVA](https://github.com/oamyjin/GraphVLM/tree/main/Predictor/LLaVA): in `GraphVLM/Predictor/LLaVA`
 
 #### Step 2: Base Model Preparation
 Please download the following base models for baselines:
@@ -157,13 +162,13 @@ Please download the following base models for baselines:
 - LLaVA: We also apply the LLaVA-v1.5-7B version as another predictor and its model can be downloaded from [here](https://huggingface.co/liuhaotian/llava-v1.5-7b). Please update it in the path:`LLaVA/local_model`.
 
 #### Step 3: Data Preparation
-Here, we prepare the prompt files for training and testing datasets on [huggingface](https://huggingface.co/datasets/oamyjin/Graph-MLLM/tree/main/predictor-dataset). 
+Here, we prepare the prompt files for training and testing datasets on [huggingface](https://huggingface.co/datasets/oamyjin/GraphVLM/tree/main/predictor-dataset). 
 Please download the processed dataset for evaluation and place the files into their corresponding dataset folders.
 
-- LLaVA: The testing dataset can be found [here](https://huggingface.co/datasets/oamyjin/Graph-MLLM/tree/main/predictor-dataset/llava). Please download it and put it in `.Predictor/LLaVA/dataset`.
-- QWen-VL: The training dataset can be found [here](https://huggingface.co/datasets/oamyjin/Graph-MLLM/tree/main/predictor-dataset/qwen-vl/fintune_dataset).
+- LLaVA: The testing dataset can be found [here](https://huggingface.co/datasets/oamyjin/GraphVLM/tree/main/predictor-dataset/llava). Please download it and put it in `.Predictor/LLaVA/dataset`.
+- QWen-VL: The training dataset can be found [here](https://huggingface.co/datasets/oamyjin/GraphVLM/tree/main/predictor-dataset/qwen-vl/fintune_dataset).
   Please download it and put it in `./Predictor/Qwen-VL/finetune/fintune_dataset` for fine-tuning.
-  Please also download the evaluation [prompt files](https://huggingface.co/datasets/oamyjin/Graph-MLLM/tree/main/predictor-dataset/qwen-vl/eval_prompt) in `./Predictor/Qwen-VL/eval_mm/mme/eval_prompt_files`.
+  Please also download the evaluation [prompt files](https://huggingface.co/datasets/oamyjin/GraphVLM/tree/main/predictor-dataset/qwen-vl/eval_prompt) in `./Predictor/Qwen-VL/eval_mm/mme/eval_prompt_files`.
   For other data in the testing dataset, QWen-VL uses the same as LLaVA, but with a different system prompt. 
 
 
@@ -192,7 +197,7 @@ Our codes are implemented based on:
 | **ID** | **Paper** | **Method** | **Thrust** | **Conference or Source** | **Github** |
 |--------|---------|:----------:|:--------------:|:--------------:|:--------------:|
 | 1      | [Multimodal Graph Benchmark](https://arxiv.org/pdf/1609.02907.pdf%EF%BC%89)     |    MLP, GCN, GraphSAGE     | Alignment Enhancer  | Arxiv  |   [github](https://github.com/mm-graph-benchmark/mm-graph-benchmark)    |
-| 2      | [LLaGA: large language and graph assistant](https://arxiv.org/pdf/2402.08170) |    LLaGA     | MLLMs-as-Augmenter |  ICML 2024    |   [github](https://github.com/mm-graph-benchmark/mm-graph-benchmark)    |
-| 3      | [Can we Soft Prompt LLMs for Graph Learning Tasks?](https://arxiv.org/pdf/2402.10359) |    GraphPrompter     | MLLMs-as-Augmenter |  WWW 2024    |[github](https://github.com/mm-graph-benchmark/mm-graph-benchmark)    |
-| 4      | [LLaVA: Large Language and Vision Assistant](https://arxiv.org/pdf/2304.08485) |    LLaVA     | MLLMs-as-Predictor |  NeurIPS 2023    | [github](https://github.com/haotian-liu/LLaVA)    |
-| 5      | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/pdf/2308.12966) |    QWen-VL     | MLLMs-as-Predictor |  Arxiv    | [github](https://github.com/haotian-liu/LLaVA)    |
+| 2      | [LLaGA: large language and graph assistant](https://arxiv.org/pdf/2402.08170) |    LLaGA     | VLM-as-Encoder |  ICML 2024    |   [github](https://github.com/mm-graph-benchmark/mm-graph-benchmark)    |
+| 3      | [Can we Soft Prompt LLMs for Graph Learning Tasks?](https://arxiv.org/pdf/2402.10359) |    GraphPrompter     | VLM-as-Aligner |  WWW 2024    |[github](https://github.com/mm-graph-benchmark/mm-graph-benchmark)    |
+| 4      | [LLaVA: Large Language and Vision Assistant](https://arxiv.org/pdf/2304.08485) |    LLaVA     | VLM-as-Predictor |  NeurIPS 2023    | [github](https://github.com/haotian-liu/LLaVA)    |
+| 5      | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/pdf/2308.12966) |    QWen-VL     | VLM-as-Predictor |  Arxiv    | [github](https://github.com/haotian-liu/LLaVA)    |
