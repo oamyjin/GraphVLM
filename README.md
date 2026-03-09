@@ -1,6 +1,6 @@
 ## 🔥 Updates
 
-- 🚧 Code for **GraphVLM** is coming soon.
+- 🚧 Code and datasets for **GraphVLM** is coming soon. Stay tuned!
 - 🎉 The project has evolved from **Graph-MLLM (arXiv)** to **GraphVLM**, accepted at 🎉🎉**CVPR 2026**🎉🎉.
 - 📄 Initial release as **Graph-MLLM (arXiv)**.
 
