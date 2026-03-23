@@ -1,0 +1,8 @@
+# Tell GitHub Pages to ignore code folders to prevent build crashes
+exclude:
+  - Aligner
+  - Encoder
+  - Predictors
+  - .DS_Store
+  - .gitignore
+  - README.md
