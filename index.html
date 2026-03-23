@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GraphVLM: Benchmarking Vision Language Models for Multimodal Graph Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #f8fafc;
+      --bg-white:  #ffffff;
+      --border:    rgba(0,0,0,0.06);
+      --text:      #0f172a;
+      --text-dim:  #64748b;
+      --accent:    #0aaa88;
+      --accent2:   #2563eb;
+      --accent3:   #e0443a;
+      --gold:      #b45309;
+      --serif:     'DM Serif Display', Georgia, serif;
+      --sans:      'DM Sans', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 15px;
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─── SCROLLBAR ─── */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; border: 2px solid var(--bg); }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 4rem;
+      height: 64px;
+      background: rgba(248, 250, 252, 0.8);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid transparent;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    nav.scrolled {
+      height: 56px;
+      background: rgba(255, 255, 255, 0.95);
+      border-bottom-color: var(--border);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+    }
+    .nav-brand {
+      font-family: var(--serif);
+      font-size: 1.35rem;
+      color: var(--text);
+      font-weight: 400;
+    }
+    .nav-brand em { color: var(--accent); font-style: normal; }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a {
+      color: var(--text-dim); text-decoration: none;
+      font-size: .8rem; font-weight: 600; letter-spacing: .05em;
+      text-transform: uppercase;
+      transition: all .2s;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute; bottom: -4px; left: 0; width: 0; height: 2px;
+      background: var(--accent);
+      transition: width 0.3s ease;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-links a:hover::after { width: 100%; }
+
+    @media (max-width: 768px) {
+      nav { padding: 0 1.5rem; height: 60px; }
+      .nav-links { display: none; }
+    }
+
+    /* ─── HERO ─── */
+    #hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center;
+      padding: 8rem 2rem 6rem;
+      position: relative;
+      overflow: hidden;
+    }
+    #hero-canvas {
+      position: absolute; inset: 0;
+      opacity: .5;
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: .6rem;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+      border-radius: 99px;
+      padding: .4rem 1.15rem;
+      font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      color: var(--text);
+      margin-bottom: 2rem;
+      animation: fadeUp .8s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .hero-badge span { color: var(--accent); }
+    .hero-badge::before {
+      content: ''; width: 8px; height: 8px; border-radius: 50%;
+      background: var(--accent);
+      animation: pulseBadge 2s infinite;
+    }
+    @keyframes pulseBadge { 
+      0%,100%{opacity:1;transform:scale(1);box-shadow: 0 0 0 0 rgba(10,170,136,0.4)} 
+      50%{opacity:.6;transform:scale(1.2);box-shadow: 0 0 0 8px rgba(10,170,136,0)} 
+    }
+
+    h1.hero-title {
+      font-family: var(--serif);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 400;
+      line-height: 1.1;
+      max-width: 1000px;
+      margin: 0 auto 1.25rem;
+      letter-spacing: -0.015em;
+      animation: fadeUp .8s .1s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    h1.hero-title em { color: var(--accent); font-style: normal; }
+    h1.hero-title span { color: var(--accent2); }
+
+    .hero-sub {
+      font-size: 1.15rem; color: var(--text-dim);
+      max-width: 750px; margin: 0 auto 3rem;
+      font-weight: 400;
+      line-height: 1.6;
+      animation: fadeUp .8s .2s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+
+    .authors {
+      font-size: 1.05rem; color: var(--text); margin-bottom: .6rem;
+      animation: fadeUp .8s .25s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .authors strong { font-weight: 600; border-bottom: 1px solid rgba(0,0,0,0.1); transition: all 0.2s; }
+    .authors strong:hover { color: var(--accent); border-bottom-color: var(--accent); }
+    .authors a { color: inherit; text-decoration: none; }
+
+    .affiliations {
+      font-size: .9rem; color: var(--text-dim); margin-bottom: 3.5rem;
+      animation: fadeUp .8s .3s cubic-bezier(0.16, 1, 0.3, 1) both;
+      font-weight: 500;
+    }
+
+    .btn-row {
+      display: flex; gap: 1.25rem; flex-wrap: wrap; justify-content: center;
+      animation: fadeUp .8s .35s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .btn {
+      display: inline-flex; align-items: center; gap: .6rem;
+      padding: .85rem 2rem;
+      border-radius: 12px;
+      font-size: .95rem; font-weight: 600; text-decoration: none;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .btn-primary {
+      background: var(--text);
+      color: #ffffff;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    .btn-primary:hover { background: var(--accent); transform: translateY(-3px); box-shadow: 0 15px 35px rgba(10,170,136,0.25); }
+    .btn-outline {
+      background: #ffffff;
+      color: var(--text);
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-3px); box-shadow: 0 12px 25px rgba(0,0,0,0.06); }
+    .btn svg { width: 18px; height: 18px; }
+
+    .venue-tag {
+      margin-top: 3.5rem;
+      font-size: .9rem; color: var(--text-dim);
+      animation: fadeUp .8s .45s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .venue-tag strong { color: var(--gold); font-weight: 700; }
+
+    @keyframes fadeUp { 
+      from { opacity: 0; transform: translateY(30px); } 
+      to { opacity: 1; transform: translateY(0); } 
+    }
+
+    /* ─── SECTION BASE ─── */
+    section { padding: 6rem 2rem; position: relative; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .section-label {
+      font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+      color: var(--accent); margin-bottom: .75rem;
+      display: flex; align-items: center; gap: 1rem;
+    }
+    .section-label::after { content: ''; height: 1px; flex: 1; background: var(--border); }
+    
+    h2.section-title {
+      font-family: var(--serif);
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+      font-weight: 400;
+    }
+    .divider { height: 1px; background: var(--border); margin: 0 4rem; }
+
+    /* ─── ABSTRACT ─── */
+    #abstract { background: #ffffff; }
+    .abstract-box {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 3rem;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: var(--text);
+      position: relative;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.02);
+    }
+    .abstract-box::before {
+      content: '"';
+      font-family: var(--serif);
+      font-size: 12rem; line-height: 0;
+      position: absolute; top: 5rem; left: 1rem;
+      color: rgba(10,170,136,.06);
+      pointer-events: none;
+    }
+
+    @media (max-width: 768px) {
+      .abstract-box { padding: 2.5rem 2rem; font-size: 1.05rem; }
+    }
+
+    /* ─── OVERVIEW / PARADIGMS ─── */
+    #overview { background: #fdfdfe; }
+    .paradigms-grid {
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 2.5rem;
+      margin-top: 4.5rem;
+    }
+    @media(max-width:960px){ .paradigms-grid{ grid-template-columns:1fr; } }
+    .paradigm-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2.5rem;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+    }
+    .paradigm-card:hover { 
+      border-color: transparent; 
+      transform: translateY(-12px); 
+      box-shadow: 0 30px 60px rgba(0,0,0,0.08); 
+    }
+    .paradigm-card::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 5px;
+      opacity: 0.8;
+    }
+    .paradigm-card.enc::after { background: var(--accent2); }
+    .paradigm-card.align::after { background: var(--accent); }
+    .paradigm-card.pred::after { background: var(--accent3); }
+
+    .paradigm-num {
+      font-family: var(--serif);
+      font-size: 5rem; line-height: 1;
+      color: rgba(0,0,0,.02);
+      position: absolute; top: 1.5rem; right: 2rem;
+      font-weight: 700;
+    }
+    .paradigm-icon {
+      width: 64px; height: 64px; border-radius: 18px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.8rem; margin-bottom: 2rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+    }
+    .enc .paradigm-icon { background: rgba(37,99,235,.08); color: var(--accent2); }
+    .align .paradigm-icon { background: rgba(10,170,136,.08); color: var(--accent); }
+    .pred .paradigm-icon { background: rgba(224,68,58,.08); color: var(--accent3); }
+
+    .paradigm-card h3 {
+      font-family: var(--serif);
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      font-weight: 400;
+    }
+    .enc h3 { color: var(--accent2); }
+    .align h3 { color: var(--accent); }
+    .pred h3 { color: var(--accent3); }
+
+    .paradigm-card p { font-size: 0.95rem; color: var(--text-dim); line-height: 1.6; }
+
+    /* ─── DATA & TABLES ─── */
+    .table-wrap {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.04);
+      margin-top: 3.5rem;
+    }
+    .dataset-table-wrap { overflow-x: auto; }
+    table {
+      width: 100%; border-collapse: collapse;
+      font-size: 1rem;
+    }
+    th {
+      text-align: left;
+      padding: 1.5rem 2rem;
+      background: #f8fafc;
+      color: var(--text-dim);
+      font-weight: 800; letter-spacing: .1em; text-transform: uppercase; font-size: .75rem;
+      border-bottom: 1px solid var(--border);
+    }
+    td {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid rgba(0,0,0,0.03);
+      color: var(--text);
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(10,170,136,0.02); }
+    
+    .tag {
+      display: inline-block;
+      padding: .4rem 1rem;
+      border-radius: 99px;
+      font-size: .75rem; font-weight: 800;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+    }
+    .tag-ecom { background: rgba(37,99,235,.08); color: var(--accent2); }
+    .tag-social { background: rgba(10,170,136,.08); color: var(--accent); }
+
+    /* ─── RESULTS ─── */
+    #results { background: #ffffff; }
+    .results-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2.5rem; margin-top: 4.5rem; }
+    @media(max-width:960px){ .results-grid{ grid-template-columns:1fr; } }
+    .result-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 4rem 2rem;
+      text-align: center;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .result-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.06); border-color: var(--accent); }
+    .result-big {
+      font-family: var(--serif);
+      font-size: 4rem; line-height: 1;
+      color: var(--accent);
+      margin-bottom: 1.25rem;
+      font-weight: 400;
+    }
+    .result-card p { font-size: 1.05rem; color: var(--text-dim); line-height: 1.6; font-weight: 600; }
+
+    .comparison-wrap { margin-top: 6rem; max-width: 850px; margin-inline: auto; }
+    .comparison-wrap h3 {
+      font-family: var(--serif); font-size: 2rem; margin-bottom: 3.5rem; text-align: center; font-weight: 400;
+    }
+    .bar-group { margin-bottom: 2.5rem; }
+    .bar-label { font-size: 1.05rem; color: var(--text); margin-bottom: 1rem; display: flex; justify-content: space-between; font-weight: 700; }
+    .bar-track {
+      background: #e2e8f0;
+      border-radius: 99px; height: 16px;
+      overflow: hidden;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .bar-fill {
+      height: 100%; border-radius: 99px;
+      transition: width 2s cubic-bezier(.16,1,.3,1);
+      position: relative;
+    }
+    .bar-fill::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      animation: barShine 3s infinite;
+    }
+    @keyframes barShine { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+
+    /* ─── BENCHMARK TABLE ─── */
+    #benchmark { background: #fdfdfe; }
+    .benchmark-table { border-collapse: collapse; width: 100%; font-size: .85rem; margin-top: 1rem; }
+    .benchmark-table th, .benchmark-table td {
+      text-align: center;
+      padding: .75rem 0.6rem;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+    .th-benchmarks {
+      text-align: left !important;
+      font-size: .7rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase;
+      color: var(--text-dim);
+      background: #f8fafc;
+      vertical-align: middle;
+      padding: 1.25rem 1rem !important;
+      min-width: 150px;
+    }
+    .th-group {
+      font-size: .7rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase;
+      background: #f8fafc;
+      padding: .85rem;
+      color: var(--text);
+    }
+    .th-subgroup {
+      font-size: .65rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+      background: #ffffff;
+      padding: 0.65rem;
+    }
+    .th-leaf {
+      font-size: .6rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+      background: #ffffff;
+      color: var(--text-dim);
+      padding: 0.65rem 0.4rem;
+    }
+    .th-spacer {
+      background: #f8fafc;
+      border-top: none !important;
+    }
+    .check { color: var(--accent); font-size: 1.3rem; filter: drop-shadow(0 0 4px rgba(10,170,136,0.3)); }
+    .cross { color: #e2e8f0; font-size: 1.3rem; }
+    .highlight-row td { background: rgba(10,170,136,0.05) !important; }
+    .highlight-row .td-name { color: var(--accent) !important; font-weight: 900 !important; }
+    .td-name { text-align: left !important; padding-left: 1.5rem !important; font-weight: 600; color: var(--text); }
+    .td-name a { color: inherit; text-decoration: none; transition: all 0.2s; border-bottom: 1px solid transparent; }
+    .td-name a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+    
+    /* ─── CITATION ─── */
+    #citation { background: #ffffff; }
+    .bibtex-box {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2.5rem;
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: .85rem;
+      line-height: 1.6;
+      color: #334155;
+      position: relative;
+      margin-top: 2.5rem;
+      overflow: hidden;
+      box-shadow: inset 0 2px 10px rgba(0,0,0,0.02);
+    }
+    .bibtex-box pre { margin: 0; overflow-x: auto; }
+    .bibtex-box a { color: inherit; text-decoration: none; }
+    .bibtex-key { color: var(--accent2); font-weight: 600; }
+    .bibtex-field { color: var(--accent); font-weight: 600; }
+    .bibtex-val { color: #b45309; }
+
+    .copy-btn {
+      position: absolute; top: 1.5rem; right: 1.5rem;
+      background: #ffffff; border: 1px solid var(--border);
+      color: var(--text-dim); font-size: .8rem; padding: .65rem 1.25rem;
+      border-radius: 12px; cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      font-family: var(--sans);
+      font-weight: 700;
+      letter-spacing: .02em;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      display: flex; align-items: center; gap: .75rem;
+    }
+    .copy-btn:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+    .copy-btn:active { transform: translateY(0); }
+    .copy-btn.copied { background: var(--accent); border-color: var(--accent); color: #ffffff; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: var(--bg);
+      border-top: 1px solid var(--border);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .footer-content { max-width: 900px; margin: 0 auto; }
+    .footer-logo {
+      font-family: var(--serif);
+      font-size: 2rem; color: var(--text);
+      margin-bottom: 1.25rem;
+      font-weight: 400;
+    }
+    .footer-logo em { color: var(--accent); font-style: normal; }
+    .footer-links {
+      display: flex; justify-content: center; gap: 2.5rem; margin-bottom: 1.25rem;
+    }
+    .footer-links a { 
+      color: var(--text-dim); text-decoration: none; font-weight: 700; font-size: .9rem;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-credit {
+      font-size: .9rem;
+      color: var(--text-dim);
+      line-height: 1.4;
+    }
+
+    /* ─── SCROLL REVEAL ─── */
+    .reveal {
+      opacity: 1; transform: none;
+      transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .js-reveal-ready .reveal {
+      opacity: 0; transform: translateY(40px);
+    }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    .glow-blob {
+      position: absolute; border-radius: 50%;
+      filter: blur(100px); pointer-events: none; z-index: 0;
+    }
+
+    @media (max-width: 768px) {
+      section { padding: 5rem 1.5rem; }
+      .container { padding: 0; }
+      .hero-badge { margin-bottom: 1.5rem; }
+      h1.hero-title { font-size: 2.8rem; }
+      .hero-sub { font-size: 1.15rem; margin-bottom: 2.5rem; }
+      .btn-row { flex-direction: column; width: 100%; max-width: 300px; margin: 0 auto; }
+      .btn { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<nav id="main-nav">
+  <div class="nav-brand">Graph<em>VLM</em></div>
+  <div class="nav-links">
+    <a href="#abstract">Abstract</a>
+    <a href="#overview">Overview</a>
+    <a href="#citation">Cite</a>
+  </div>
+</nav>
+
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="glow-blob" style="width:600px;height:400px;background:rgba(10,170,136,.08);top:20%;left:50%;transform:translateX(-50%);"></div>
+  <div class="glow-blob" style="width:450px;height:350px;background:rgba(37,99,235,.06);top:30%;left:10%;"></div>
+
+  <div class="hero-badge"><span>CVPR 2026</span> &nbsp;·&nbsp; Main Conference</div>
+
+  <h1 class="hero-title">
+    <em>GraphVLM</em>: Benchmarking<br>
+    <span>Vision Language Models</span><br>
+    for Multimodal Graph Learning
+  </h1>
+
+  <p class="hero-sub">
+    A systematic benchmark exploring three complementary paradigms for multimodal graph learning and showing that VLMs can serve as powerful backbones.
+  </p>
+
+  <p class="authors">
+    <strong>Jiajin Liu</strong><sup>1,2</sup> &nbsp;·&nbsp;
+    <strong>Dongzhe Fan</strong><sup>1,2</sup> &nbsp;·&nbsp;
+    <strong>Chuanhao Ji</strong><sup>1,4</sup> &nbsp;·&nbsp;
+    <strong>Daochen Zha</strong><sup>3</sup> &nbsp;·&nbsp;
+    <strong><a href="https://qiaoyu-tan.github.io/" target="_blank">Qiaoyu Tan</a></strong><sup>1*</sup>
+  </p>
+  <p class="affiliations">
+    <sup>1</sup>NYU Shanghai &nbsp;·&nbsp; <sup>2</sup>New York University &nbsp;·&nbsp;
+    <sup>3</sup>Rice University &nbsp;·&nbsp; <sup>4</sup>East China Normal University
+  </p>
+
+  <div class="btn-row">
+    <a href="https://arxiv.org/abs/2603.13370" class="btn btn-primary" target="_blank">
+      <span style="font-size: 1.1rem; line-height: 1;">📄</span>
+      arXiv Paper
+    </a>
+    <a href="https://github.com/oamyjin/GraphVLM" class="btn btn-outline" target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4 11.5 11.5 0 0 1 3 .4c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12 24 5.37 18.63 0 12 0z"/></svg>
+      GitHub Code
+    </a>
+    <a href="#" class="btn btn-outline">
+      <span style="font-size: 1.2rem; line-height: 1;">🤗</span>
+      Hugging Face
+    </a>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="abstract">
+  <div class="container">
+    <div class="section-label">Abstract</div>
+    <h2 class="section-title">Harnessing VLMs for Multimodal Graphs</h2>
+    <div class="abstract-box reveal">
+      Vision-Language Models (VLMs) have demonstrated remarkable capabilities in aligning and understanding multimodal signals, yet their potential to reason over structured data, where multimodal entities are connected through explicit relational graphs, remains largely underexplored. Unlocking this capability is crucial for real-world applications such as social networks, recommendation systems, and scientific discovery, where multimodal information is inherently structured.
+      <br/><br/>
+      To bridge this gap, we present <strong style="color:var(--accent)">GraphVLM</strong>, a systematic benchmark designed to evaluate and harness the capabilities of VLMs for multimodal graph learning (MMGL). GraphVLM investigates three complementary paradigms for integrating VLMs with graph reasoning: (1) <strong>VLM-as-Encoder</strong>, which enriches graph neural networks through multimodal feature fusion; (2) <strong>VLM-as-Aligner</strong>, which bridges modalities in latent or linguistic space to facilitate LLM-based structured reasoning; and (3) <strong>VLM-as-Predictor</strong>, which directly employs VLMs as multimodal backbones for graph learning tasks.
+      <br/><br/>
+      Extensive experiments across six datasets from diverse domains demonstrate that VLMs enhance multimodal graph learning via all three roles. Among these paradigms, <strong style="color:var(--accent)">VLM-as-Predictor achieves the most substantial and consistent performance gains</strong>, revealing the untapped potential of vision–language models as a new foundation for multimodal graph learning.
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="overview">
+  <div class="container">
+    <div class="section-label">Our Framework</div>
+    <h2 class="section-title">Three Complementary VLM Paradigms</h2>
+    <p style="color:var(--text-dim);max-width:900px;font-size:1.1rem;line-height:1.6;margin-bottom:3rem;" class="reveal">
+      GraphVLM unifies <strong>GNN-</strong>, <strong>LLM-</strong>, and <strong>VLM-based</strong> methods under a consistent evaluation protocol,
+      positioning VLMs in three functional roles within the multimodal graph learning landscape.
+    </p>
+
+    <div class="paradigms-grid">
+      <div class="paradigm-card enc reveal">
+        <div class="paradigm-num">01</div>
+        <div class="paradigm-icon">🟦</div>
+        <h3>VLM-as-Encoder</h3>
+        <p>Employs pre-trained VLMs to encode multimodal node features and fine-tunes them under graph learning paradigms. Investigates how structure–modality alignment enhances <strong style="color:var(--accent2)">GNN-based methods</strong>.</p>
+      </div>
+      <div class="paradigm-card align reveal" style="transition-delay:.1s">
+        <div class="paradigm-num">02</div>
+        <div class="paradigm-icon">🔗</div>
+        <h3>VLM-as-Aligner</h3>
+        <p>Examines both latent-space alignment (embedding injection) and prompt-level alignment (visual-to-text transformation) to extend <strong style="color:var(--accent)">LLM-based methods</strong> to multimodal graphs.</p>
+      </div>
+      <div class="paradigm-card pred reveal" style="transition-delay:.2s">
+        <div class="paradigm-num">03</div>
+        <div class="paradigm-icon">🎯</div>
+        <h3>VLM-as-Predictor</h3>
+        <p>Directly applies <strong style="color:var(--accent3)">VLM-based methods</strong> as task-specific backbones, augmented with in-context learning or supervised fine-tuning using structural signals, delivering the strongest performance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="benchmark">
+  <div class="container">
+    <div class="section-label">Comparison</div>
+    <h2 class="section-title">The GraphVLM Advantage</h2>
+    <div class="table-wrap reveal">
+      <div class="dataset-table-wrap">
+        <table class="benchmark-table">
+          <thead>
+            <!-- Row 1: top-level groups -->
+            <tr class="thead-top">
+              <th rowspan="3" class="th-benchmarks">BENCHMARKS</th>
+              <th colspan="3" class="th-group">BACKBONES</th>
+              <th colspan="6" class="th-group">VLM ROLES</th>
+            </tr>
+            <!-- Row 2: sub-groups -->
+            <tr class="thead-mid">
+              <th colspan="3" class="th-spacer"></th>
+              <th colspan="2" class="th-subgroup" style="color:var(--accent2)">ENCODER</th>
+              <th colspan="2" class="th-subgroup" style="color:var(--accent)">ALIGNER</th>
+              <th colspan="2" class="th-subgroup" style="color:var(--accent3)">PREDICTOR</th>
+            </tr>
+            <!-- Row 3: leaf columns -->
+            <tr class="thead-leaf">
+              <th class="th-leaf">GNN</th>
+              <th class="th-leaf">LLM</th>
+              <th class="th-leaf">VLM</th>
+              <th class="th-leaf" style="color:var(--accent2)">PRE-TRAINED</th>
+              <th class="th-leaf" style="color:var(--accent2)">FINE-TUNED</th>
+              <th class="th-leaf" style="color:var(--accent)">PROMPT</th>
+              <th class="th-leaf" style="color:var(--accent)">LATENT</th>
+              <th class="th-leaf" style="color:var(--accent3)">ZERO-SHOT</th>
+              <th class="th-leaf" style="color:var(--accent3)">SFT</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-name"><a href="https://mm-graph-benchmark.github.io/" target="_blank">MM-Bench</a></td>
+              <td><span class="check">✓</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td>
+              <td><span class="check">✓</span></td><td><span class="cross">✗</span></td>
+              <td><span class="cross">✗</span></td><td><span class="cross">✗</span></td>
+              <td><span class="cross">✗</span></td><td><span class="cross">✗</span></td>
+            </tr>
+            <tr>
+              <td class="td-name"><a href="https://arxiv.org/abs/2410.09132" target="_blank">MAGB</a></td>
+              <td><span class="check">✓</span></td><td><span class="cross">✗</span></td><td><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td><td><span class="cross">✗</span></td>
+              <td><span class="cross">✗</span></td><td><span class="cross">✗</span></td>
+              <td><span class="check">✓</span></td><td><span class="cross">✗</span></td>
+            </tr>
+            <tr class="highlight-row">
+              <td class="td-name">GraphVLM (Ours)</td>
+              <td><span class="check">✓</span></td><td><span class="check">✓</span></td><td><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td><td><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td><td><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td><td><span class="check">✓</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="citation">
+  <div class="container">
+    <div class="section-label">Citation</div>
+    <h2 class="section-title">Support Our Work</h2>
+    <p style="color:var(--text-dim);font-size:1.1rem;" class="reveal">
+      If GraphVLM aids your research, please cite our CVPR 2026 paper.
+    </p>
+    <div class="bibtex-box reveal">
+      <button class="copy-btn" id="copy-btn" onclick="copyBib()">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        Copy BibTeX
+      </button>
+<pre id="bibtex-text"><span class="bibtex-key">@misc{</span>liu2026graphvlmbenchmarkingvisionlanguage<span class="bibtex-key">,</span>
+  <span class="bibtex-field">title</span>         = {<span class="bibtex-val">GraphVLM: Benchmarking Vision Language Models for Multimodal Graph Learning</span>},
+  <span class="bibtex-field">author</span>        = {<span class="bibtex-val">Jiajin Liu and Dongzhe Fan and Chuanhao Ji and Daochen Zha and Qiaoyu Tan</span>},
+  <span class="bibtex-field">year</span>          = {<span class="bibtex-val">2026</span>},
+  <span class="bibtex-field">eprint</span>        = {<span class="bibtex-val">2603.13370</span>},
+  <span class="bibtex-field">archivePrefix</span> = {<span class="bibtex-val">arXiv</span>},
+  <span class="bibtex-field">primaryClass</span>  = {<span class="bibtex-val">cs.CV</span>},
+  <span class="bibtex-field">url</span>           = {<span class="bibtex-val">https://arxiv.org/abs/2603.13370</span>},
+<span class="bibtex-key">}</span></pre>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo">Graph<em>VLM</em></div>
+    <div class="footer-links">
+      <a href="https://github.com/oamyjin/GraphVLM" target="_blank">GitHub</a>
+      <a href="https://arxiv.org/abs/2603.13370" target="_blank">arXiv</a>
+      <a href="mailto:jiajinliu@nyu.edu">Contact</a>
+    </div>
+    <div class="footer-credit">
+      NYU Shanghai &nbsp;·&nbsp; New York University
+      <br>
+      © 2026 GraphVLM Project [CVPR 2026]
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ─── CANVAS GRAPH ANIMATION ─── */
+(function(){
+  const canvas = document.getElementById('hero-canvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, nodes;
+
+  function resize(){
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = canvas.offsetWidth * dpr;
+    canvas.height = canvas.offsetHeight * dpr;
+    ctx.scale(dpr, dpr);
+    W = canvas.offsetWidth;
+    H = canvas.offsetHeight;
+    initNodes();
+  }
+
+  function initNodes(){
+    nodes = Array.from({length: 60}, () => ({
+      x: Math.random()*W, y: Math.random()*H,
+      vx: (Math.random()-.5)*.3, vy: (Math.random()-.5)*.3,
+      r: Math.random()*2 + 1,
+    }));
+  }
+
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    const colors = ['rgba(10,170,136,', 'rgba(37,99,235,', 'rgba(224,68,58,'];
+
+    for(let i=0;i<nodes.length;i++){
+      const n = nodes[i];
+      n.x += n.vx; n.y += n.vy;
+      if(n.x<0||n.x>W) n.vx*=-1;
+      if(n.y<0||n.y>H) n.vy*=-1;
+
+      for(let j=i+1;j<nodes.length;j++){
+        const m = nodes[j];
+        const dx=n.x-m.x, dy=n.y-m.y;
+        const dist=Math.sqrt(dx*dx+dy*dy);
+        if(dist<150){
+          const col = colors[Math.floor((i+j)%3)];
+          ctx.beginPath();
+          ctx.moveTo(n.x,n.y); ctx.lineTo(m.x,m.y);
+          ctx.strokeStyle = col + (0.15*(1-dist/150)) + ')';
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        }
+      }
+    }
+
+    nodes.forEach((n,i)=>{
+      const col = colors[i%3];
+      ctx.beginPath();
+      ctx.arc(n.x,n.y,n.r,0,Math.PI*2);
+      ctx.fillStyle = col + '0.6)';
+      ctx.fill();
+    });
+    requestAnimationFrame(draw);
+  }
+
+  window.addEventListener('resize', resize);
+  resize();
+  draw();
+})();
+
+/* ─── NAV SCROLL ─── */
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('main-nav');
+  nav.classList.toggle('scrolled', window.scrollY > 50);
+});
+
+/* ─── REVEAL ─── */
+document.documentElement.classList.add('js-reveal-ready');
+const obs = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); }
+  });
+},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+/* ─── COPY ─── */
+function copyBib(){
+  const text = document.getElementById('bibtex-text').innerText;
+  const btn = document.getElementById('copy-btn');
+  navigator.clipboard.writeText(text).then(()=>{
+    const original = btn.innerHTML;
+    btn.innerHTML = '✓ Copied';
+    btn.classList.add('copied');
+    setTimeout(()=>{ btn.innerHTML = original; btn.classList.remove('copied'); }, 2000);
+  });
+}
+</script>
+</body>
+</html>
