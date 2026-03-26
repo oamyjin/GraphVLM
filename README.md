@@ -202,3 +202,17 @@ Our codes are implemented based on:
 | 3      | [Can we Soft Prompt LLMs for Graph Learning Tasks?](https://arxiv.org/pdf/2402.10359) |    GraphPrompter     | VLM-as-Aligner |  WWW 2024    |[github](https://github.com/mm-graph-benchmark/mm-graph-benchmark)    |
 | 4      | [LLaVA: Large Language and Vision Assistant](https://arxiv.org/pdf/2304.08485) |    LLaVA     | VLM-as-Predictor |  NeurIPS 2023    | [github](https://github.com/haotian-liu/LLaVA)    |
 | 5      | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/pdf/2308.12966) |    QWen-VL     | VLM-as-Predictor |  Arxiv    | [github](https://github.com/haotian-liu/LLaVA)    |
+
+
+## Support Our Work
+```
+@misc{liu2026graphvlmbenchmarkingvisionlanguage,
+      title={GraphVLM: Benchmarking Vision Language Models for Multimodal Graph Learning}, 
+      author={Jiajin Liu and Dongzhe Fan and Chuanhao Ji and Daochen Zha and Qiaoyu Tan},
+      year={2026},
+      eprint={2603.13370},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.13370}, 
+}
+```
